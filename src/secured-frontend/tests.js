@@ -386,7 +386,7 @@ const reproduction = [
   ];
   
   // Rest of your code...
-  const generalQuestions = [
+  const generalname = [
     {
       name: "When first proposed, Darwin's theory of natural selection did not fully explain how evolution could occur. This was due to:",
       options: [
@@ -468,7 +468,7 @@ const reproduction = [
   
   // You can continue adding more questions here...
   
-  const biorandQuestions = [
+  const biorandname = [
     {
       name: "Organisms having many organelles are called",
       options: [
@@ -532,7 +532,7 @@ const reproduction = [
     // You can continue adding more questions here...
   ];
   
-  const cellQuestions = [
+  const cellname = [
     {
       name: "Mitochondria have first seen by",
       options: [
@@ -595,7 +595,7 @@ const reproduction = [
     },
     // You can continue adding more questions here...
   ];
-  const bryophyteQuestions = [
+  const bryophytename = [
     {
       name: "The unique feature of bryophytes compared to other green plant group is that",
       options: [
@@ -684,7 +684,7 @@ const reproduction = [
   ];
 
 
-  const libraryQuestions = [
+  const libraryname = [
     // ... Other library science questions ...
   
     {
@@ -773,7 +773,7 @@ const reproduction = [
     },
   ];
   
-  const libraryQuestions2 = [
+  const libraryname2 = [
     // ... Other library science questions ...
   
     {
@@ -863,7 +863,7 @@ const reproduction = [
     // ... More questions ...
   ];
   
-  const libraryQuestions3 = [
+  const libraryname3 = [
     // ... Other library science questions ...
   
     {
@@ -1002,7 +1002,7 @@ const reproduction = [
     // ... Continue adding more questions ...
   
   ];
-  const libraryQuestions4 = [
+  const libraryname4 = [
     // ... Other library science questions ...
   
     {
@@ -1168,7 +1168,7 @@ const reproduction = [
   ];
   
   
-  const libraryQuestions5 = [
+  const libraryname5 = [
     // ... Other library questions ...
   
     {
@@ -1259,7 +1259,7 @@ const reproduction = [
   
   ];
   
-  const libraryQuestions6 = [
+  const libraryname6 = [
     // ... Previous library questions ...
   
     {
@@ -1412,7 +1412,7 @@ const reproduction = [
     // ... Continue adding more questions ...
   ];
   
-  const spirogyraQuestions = [
+  const spirogyraname = [
     {
         name: "What is the filamentous structure of Spirogyra called?",
         options: [
@@ -1707,7 +1707,7 @@ const reproduction = [
     // Continue with more questions...
 ];
 
-  const agaricusQuestions = [
+  const agaricusname = [
     {
         name: "What type of organism is Agaricus?",
         options: [
@@ -2398,23 +2398,23 @@ const bio101names = [
     ...metamorphosis,
     ...cell,
     ...fruits,
-    ...generalnames,
-    ...biorandnames,
-    ...cellnames,
-    ...bryophytenames,
+    ...generalname,
+    ...biorandname,
+    ...cellname,
+    ...bryophytename,
 ]
 const bio103names = [
-  ...spirogyranames,
-  ...agaricusnames
+  ...spirogyraname,
+  ...agaricusname
 ]
 
 const gns103names = [
-    ...librarynames,
-    ...librarynames2,
-    ...librarynames3,
-    ...librarynames4,
-    ...librarynames5,
-    ...librarynames6,
+    ...libraryname,
+    ...libraryname2,
+    ...libraryname3,
+    ...libraryname4,
+    ...libraryname5,
+    ...libraryname6,
 ]
 
 const mts101names = [
