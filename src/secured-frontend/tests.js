@@ -2267,7 +2267,7 @@ const quizzes = [
             minutes: 10,
             seconds: 10
         },
-        imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRRnPbSoOkVdhS0CXEzoPdxsYSAYdwDP24Cj2nwKq99Q&s",
+        imgUrl:"https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.proprofs.com%2Fimages%2FQM%2Fuser_images%2F1826446%2F1674215518.jpg&tbnid=BXEn__c0uylvkM&vet=12ahUKEwj_p7GgsoCBAxVHVaQEHeaMCoQQMyhHegUIARDmAQ..i&imgrefurl=https%3A%2F%2Fwww.proprofs.com%2Fquiz-school%2Fstory.php%3Ftitle%3Dmjc0mdyxnweki7&docid=KQEpcvsL-CgCUM&w=525&h=258&itg=1&q=bio%20103%20image&ved=2ahUKEwj_p7GgsoCBAxVHVaQEHeaMCoQQMyhHegUIARDmAQ",
         slug: "BIO 103 Questions",
         description: "FUTA +++",
         author: "Admin",
