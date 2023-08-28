@@ -2251,7 +2251,7 @@ const quizzes = [
             minutes: 10,
             seconds: 10
         },
-        imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRRnPbSoOkVdhS0CXEzoPdxsYSAYdwDP24Cj2nwKq99Q&s",
+        imgUrl:"https://school.vssc.gov.in/assets/img/slide/slide-2_large.jpg",
         slug: "gns103 Questions",
         description: "FUTA +++",
         author: "Admin",
