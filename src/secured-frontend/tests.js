@@ -2480,7 +2480,7 @@ const quizzes = [
         description: "FUTA +++",
         author: "Admin",
         names: [
-            ...mts101names,
+            ...mts101names, 
         ]
     },
 ]
