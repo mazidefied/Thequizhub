@@ -2433,7 +2433,7 @@ const quizzes = [
         slug: "bio-101",
         description: "FUTA +++",
         author: "Admin",
-        names: [
+        questions: [
           ...bio101names,
         ]
     },
@@ -2448,7 +2448,7 @@ const quizzes = [
         slug: "gns103 names",
         description: "FUTA +++",
         author: "Admin",
-        names: [
+        questions: [
             ...gns103names,
         ]
     },
@@ -2464,7 +2464,7 @@ const quizzes = [
         slug: "BIO 103 names",
         description: "FUTA +++",
         author: "Admin",
-        names: [
+        questions: [
             ...bio103names,
         ]
     },
@@ -2479,7 +2479,7 @@ const quizzes = [
         slug: "mts101-question",
         description: "FUTA +++",
         author: "Admin",
-        names: [
+        questions: [
             ...mts101names, 
         ]
     },
