@@ -2390,8 +2390,485 @@ const setOperationsnames = [
   // ... more names
 ];
 
+const goalSettingQuestions = [
+  {
+    name: "What is the main purpose of goal setting?",
+    options: [
+      "To have a long-term vision",
+      "To achieve short-term motivation",
+      "To choose where you want to go and what you want to achieve",
+      "To use present achievement data",
+    ],
+    correctAnswer: "To choose where you want to go and what you want to achieve",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "Which of the following is a component of SMART goals?",
+    options: [
+      "Static",
+      "Simple",
+      "Significant",
+      "Specific",
+    ],
+    correctAnswer: "Specific",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  {
+    name: "What does the 'T' stand for in SMART goals?",
+    options: [
+      "Timely",
+      "Thoughtful",
+      "Tangible",
+      "Tough",
+    ],
+    correctAnswer: "Timely",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "Why is it important to write down your goals?",
+    options: [
+      "To impress others",
+      "To keep them secret",
+      "To have a physical reminder",
+      "To avoid setting goals",
+    ],
+    correctAnswer: "To have a physical reminder",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "What kind of targets should you set to achieve your goals?",
+    options: [
+      "Vague and general",
+      "Similar to what others set",
+      "Irrelevant to your interests",
+      "Clear and specific",
+    ],
+    correctAnswer: "Clear and specific",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  // ... Continue adding more questions ...
+];
 
-  
+  const timeManagementQuestions = [
+  {
+    name: "What is the main purpose of time management?",
+    options: [
+      "To have more free time",
+      "To accomplish tasks with no planning",
+      "To cram as many activities as possible into a day",
+      "To use time efficiently and achieve goals",
+    ],
+    correctAnswer: "To use time efficiently and achieve goals",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  {
+    name: "Which of the following is a time management device?",
+    options: [
+      "Mobile phone",
+      "Television",
+      "Library",
+      "Timepiece",
+    ],
+    correctAnswer: "Timepiece",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  {
+    name: "What does the prioritization principle of time management involve?",
+    options: [
+      "Completing tasks in a random order",
+      "Ranking tasks according to their importance or urgency",
+      "Ignoring tasks that are difficult",
+      "Completing tasks that are easy first",
+    ],
+    correctAnswer: "Ranking tasks according to their importance or urgency",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "What should be included in a daily time schedule?",
+    options: [
+      "All possible activities in the day",
+      "Activities that others want you to do",
+      "Only routine activities",
+      "Time, Activity, Priority (by importance or urgency)",
+    ],
+    correctAnswer: "Time, Activity, Priority (by importance or urgency)",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  {
+    name: "What is the purpose of creating a time table?",
+    options: [
+      "To allocate time for only study",
+      "To allocate time for rest and recreation",
+      "To show off to others",
+      "To impress professors",
+    ],
+    correctAnswer: "To allocate time for rest and recreation",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  // ... Continue adding more questions ...
+];
+const languageSkillsQuestions = [
+  {
+    name: "Which of the following is NOT one of the four language skills?",
+    options: [
+      "Listening",
+      "Speaking",
+      "Analyzing",
+      "Writing",
+    ],
+    correctAnswer: "Analyzing",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "Which of the following skills involve receiving and understanding language?",
+    options: [
+      "Speaking",
+      "Writing",
+      "Listening",
+      "Reading",
+    ],
+    correctAnswer: "Listening",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "Which of the following skills involves producing language?",
+    options: [
+      "Listening",
+      "Reading",
+      "Speaking",
+      "Analyzing",
+    ],
+    correctAnswer: "Speaking",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "What is the purpose of the productive skills of speaking and writing?",
+    options: [
+      "To receive and understand language",
+      "To analyze text",
+      "To produce language",
+      "To criticize others' work",
+    ],
+    correctAnswer: "To produce language",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  // ... Continue adding more questions ...
+];
+
+const listeningSkillsQuestions = [
+  {
+    name: "What is the key to all effective communication?",
+    options: [
+      "Hearing",
+      "Listening",
+      "Speaking",
+      "Writing",
+    ],
+    correctAnswer: "Listening",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "How is listening different from hearing?",
+    options: [
+      "Listening is automatic, while hearing is a conscious activity.",
+      "Listening involves receiving and interpreting messages, while hearing is an experience.",
+      "Hearing is a purposeful activity, while listening is automatic.",
+      "Listening is a passive process, while hearing requires focus.",
+    ],
+    correctAnswer: "Listening involves receiving and interpreting messages, while hearing is an experience.",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "What type of activity is listening?",
+    options: [
+      "An automatic process",
+      "A passive experience",
+      "A conscious use of one's ears",
+      "A physical process",
+    ],
+    correctAnswer: "A conscious use of one's ears",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "What is meant by 'active listening'?",
+    options: [
+      "Listening with full attention and engagement",
+      "Listening while doing other tasks",
+      "Listening without focusing on the speaker",
+      "Listening passively",
+    ],
+    correctAnswer: "Listening with full attention and engagement",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "What is critical listening?",
+    options: [
+      "Listening with the intent to memorize information",
+      "Listening for enjoyment",
+      "Listening to learn new facts",
+      "Listening to evaluate and analyze what is being said",
+    ],
+    correctAnswer: "Listening to evaluate and analyze what is being said",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  // ... Continue adding more questions ...
+];
+
+const wordFormationQuestions = [
+  {
+    name: "What is the process of creating new words called?",
+    options: [
+      "Morphology",
+      "Syntax",
+      "Semantics",
+      "Pragmatics",
+    ],
+    correctAnswer: "Morphology",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "What is the term for a word that is formed by combining parts of two different words?",
+    options: [
+      "Compound word",
+      "Derivative",
+      "Inflection",
+      "Acronym",
+    ],
+    correctAnswer: "Compound word",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "What is the process of adding prefixes or suffixes to a word to create new forms of the word called?",
+    options: [
+      "Derivation",
+      "Compounding",
+      "Inflection",
+      "Blending",
+    ],
+    correctAnswer: "Derivation",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "Which of the following is an example of a blend word?",
+    options: [
+      "Smog (smoke + fog)",
+      "Unhappiness",
+      "Quickly",
+      "Runner",
+    ],
+    correctAnswer: "Smog (smoke + fog)",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "What is the term for words that are formed by combining the initial letters of a multi-word name or phrase?",
+    options: [
+      "Blend words",
+      "Contractions",
+      "Acronyms",
+      "Derivatives",
+    ],
+    correctAnswer: "Acronyms",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  // ... Continue adding more questions ...
+];
+
+
+const capitalizationQuestions = [
+  {
+    name: "Which of the following should be capitalized?",
+    options: [
+      "river",
+      "monday",
+      "city",
+      "Mississippi",
+    ],
+    correctAnswer: "Mississippi",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  {
+    name: "In a title, which words should be capitalized?",
+    options: [
+      "prepositions, conjunctions, and articles",
+      "verbs, adjectives, and adverbs",
+      "nouns and pronouns",
+      "all major words",
+    ],
+    correctAnswer: "all major words",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  {
+    name: "Which sentence is correctly capitalized?",
+    options: [
+      "the golden gate bridge spans the san francisco bay.",
+      "The Golden Gate Bridge Spans The San Francisco Bay.",
+      "The golden gate bridge Spans the san Francisco bay.",
+      "The Golden Gate bridge Spans the San Francisco Bay.",
+    ],
+    correctAnswer: "The Golden Gate Bridge Spans The San Francisco Bay.",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "When should you use capital letters for the names of seasons?",
+    options: [
+      "Always",
+      "Only at the beginning of a sentence",
+      "Only when they are part of a title",
+      "Never",
+    ],
+    correctAnswer: "Only when they are part of a title",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "Which word should not be capitalized?",
+    options: [
+      "President",
+      "December",
+      "river",
+      "National",
+    ],
+    correctAnswer: "river",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  // ... Continue adding more questions ...
+];
+
+const alphabetismQuestions = [
+  {
+    name: "What does the term 'acronym' refer to?",
+    options: [
+      "A word that is spelled the same way forwards and backwards.",
+      "A word formed from the initial letters of a multi-word name or phrase.",
+      "A word that combines the meanings of two separate words.",
+      "A word that has the same sound as another but a different meaning.",
+    ],
+    correctAnswer: "A word formed from the initial letters of a multi-word name or phrase.",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "What is the term for a word formed from the first letters of each word in a phrase?",
+    options: [
+      "Acronym",
+      "Initialism",
+      "Abbreviation",
+      "Anagram",
+    ],
+    correctAnswer: "Initialism",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "Which of the following is an example of an acronym?",
+    options: [
+      "NASA",
+      "TV",
+      "CD",
+      "SOS",
+    ],
+    correctAnswer: "NASA",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  // ... Continue adding more questions ...
+];
+
+const morphemeQuestions = [
+  {
+    name: "What is a morpheme?",
+    options: [
+      "A type of punctuation mark",
+      "The smallest unit of meaning in a language",
+      "A type of compound word",
+      "A word formed from the initial letters of a multi-word name or phrase",
+    ],
+    correctAnswer: "The smallest unit of meaning in a language",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "How many morphemes are in the word 'unhappiness'?",
+    options: [
+      "1",
+      "2",
+      "3",
+      "4",
+    ],
+    correctAnswer: "3",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "What is a free morpheme?",
+    options: [
+      "A morpheme that cannot stand alone as a word",
+      "A morpheme that carries the main meaning of a word",
+      "A morpheme that can stand alone as a word",
+      "A morpheme that is added to the beginning of a word",
+    ],
+    correctAnswer: "A morpheme that can stand alone as a word",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "What is an affix?",
+    options: [
+      "A type of vowel sound",
+      "A type of consonant sound",
+      "A morpheme that changes the meaning of a word",
+      "A morpheme that cannot stand alone as a word",
+    ],
+    correctAnswer: "A morpheme that changes the meaning of a word",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "Which of the following is a bound morpheme?",
+    options: [
+      "Book",
+      "Un-",
+      "Read",
+      "Jumping",
+    ],
+    correctAnswer: "Un-",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  // ... Continue adding more questions ...
+];
+
+
+
+
 const bio101names = [
     ...reproduction,
     ...ecology,
@@ -2405,7 +2882,8 @@ const bio101names = [
 ]
 const bio103names = [
   ...spirogyraname,
-  ...agaricusname
+  ...agaricusname,
+    goalSettingQuestions
 ]
 
 const gns103names = [
@@ -2421,6 +2899,18 @@ const mts101names = [
     ...mathnames,
     ...setOperationsnames,
 ]
+
+const gns101Questions = [
+...goalSettingQuestions,
+...timeManagementQuestions,
+    ...languageSkillsQuestions,
+    ...listeningSkillsQuestions,
+    ...wordFormationQuestions,
+    ...capitalizationQuestions,
+    ...alphabetismQuestions,
+    ...morphemeQuestions
+]
+
 const quizzes = [
     {
         name: "BIO 101",
@@ -2435,6 +2925,7 @@ const quizzes = [
         author: "Admin",
         questions: [
           ...bio101names,
+            gns101Questions
         ]
     },
     {
@@ -2481,6 +2972,21 @@ const quizzes = [
         author: "Admin",
         questions: [
             ...mts101names, 
+        ]
+    },
+        {
+        name: "GNS 101",
+        id: 5,
+        timer: {
+            minutes: 20,
+            seconds: 10
+        },
+        imgUrl: "https://lh3.googleusercontent.com/blogger_img_proxy/AAOd8Mw7tcEx5V6S_j1xuChkX44rdXj_RCF5h6cE-ZTyB16Q4d49pFgkYc7-dxxOLRx7pwxK3IofALwAyqEJpTLcRYaIOajzwoD1qrurXPsM95jHO40VYv1dk3LxNr9lbZo9-4hq5XEm=w1200-h630-p-k-no-nu",
+        slug: "gns-101",
+        description: "FUTA +++",
+        author: "Admin",
+        questions: [
+            ...gns101Questions
         ]
     },
 ]
