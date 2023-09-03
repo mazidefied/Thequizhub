@@ -3142,7 +3142,7 @@ const reproduction = [
         "Conical flask, measuring cylinder, volumetric flask",
         "Balance, pH meter"
       ],
-      correctAnswer: "Pipette, burette, beakers, conical flask, measuring cylinder, volumetric flask",
+      correctAnswer: "Pipette, burette, beakers",
       correctOption: "A",
       answerPicked: ""
     },
