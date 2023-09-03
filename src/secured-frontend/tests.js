@@ -3194,6 +3194,31 @@ const reproduction = [
       correctOption: "B",
       answerPicked: ""
     },
+       {
+        name: "How many methods are normally used in quantitative analysis to determine the chemical composition of substances?",
+        options: [
+          "Three methods",
+          "Two methods",
+          "Four methods",
+          "No methods"
+        ],
+        correctAnswer: "Two methods",
+        correctOption: "B",
+        answerPicked: ""
+      }
+      
+    {
+        name: "What is the primary purpose of quantitative analysis?",
+        options: [
+          "To identify unknown substances",
+          "To determine the chemical composition of substances",
+          "To perform qualitative analysis",
+          "To predict future chemical reactions"
+        ],
+        correctAnswer: "To determine the chemical composition of substances",
+        correctOption: "B",
+        answerPicked: ""
+      }
 ];
   
   
