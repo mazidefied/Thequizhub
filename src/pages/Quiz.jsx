@@ -16,6 +16,7 @@ import AppContext from '../quizContext/AppContext';
 import QuizQuestion from '../components/QuizQuestion';
 import { useParams } from 'react-router';
 import { BiAlarmOff } from 'react-icons/bi';
+import Calculator from '../components/Calculator';
 
 
 const Quiz = () => {
@@ -39,6 +40,8 @@ const Quiz = () => {
   const [showPagination, setShowPagination] = useState(false)
 
   const [showPaginationContent, setShowPaginationContent] = useState(false)
+
+  const [showCalc, setShowCalc] = useState(false)
 
   function togglePaginationContent(value){
     setShowPaginationContent(value)
@@ -256,7 +259,9 @@ const Quiz = () => {
                 }}  className="open"><FaChevronDown />
                 </button>
               </div>
-              <div className="calculator">
+              <div onClick={()=>{
+                setShowCalc(true)
+              }} className="calculator">
                 <BsCalculatorFill />
               </div>
               <button className="submit-now" onClick={()=>{
@@ -310,6 +315,10 @@ const Quiz = () => {
             <div className="spacer"></div>
           </div>
         </div>
+
+        <Calculator closeCalc={()=>{
+          setShowCalc(false)
+        }} className={showCalc?'calc-container show':'calc-container'} />
 
         <div className="time-up-page">
           <h2>Time up!!</h2>

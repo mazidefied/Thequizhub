@@ -27,7 +27,7 @@ const Menu = () => {
                     appState.functions.sharePage()
                     closeMenu()
                 }}><FaShare /> <p>Share</p></button>
-                <button onClick={closeMenu} className='disabled'><BsCalculator /> <p>Calculator</p></button>
+                <button onClick={closeMenu}><BsCalculator /> <p>Calculator</p></button>
             </div> : <div className="container">
                 <NavLink onClick={closeMenu} to={"/"}><FaHome /> <p>Home</p></NavLink>
                 <NavLink onClick={closeMenu} to={"/quizzes"}><FaQuestion /> <p>Quizzes</p></NavLink>

@@ -1705,6 +1705,56 @@ body{
             }
         }
 
+        .calc-container{
+            position: fixed;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 20;
+            transition: all 0.5s ease;
+            transform: translateY(110%);
+            pointer-events: none;
+            max-width: 1100px;
+            padding: 0 5vw;
+            
+            &.show{
+                transform: translateY(0);
+                pointer-events: all;
+            }
+
+            .close{
+                position: fixed;
+                top: 100px;
+                left: 20px;
+                background-color: #222;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 10px 15px;
+                border-radius: 10px;
+                border: none;
+                font-size: 18px;
+                gap: 7px;
+                font-weight: 600;
+                
+                svg{
+                    transition: all 0.5s ease;
+                }
+
+                &:hover{
+                    svg{
+                        transform: translateX(-5px);
+                    }
+                }
+
+            }
+        }
+
         .quiz-started{
             position: fixed;
             top: 0;
