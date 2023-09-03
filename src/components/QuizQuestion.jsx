@@ -7,7 +7,7 @@ const QuizQuestion = ({question, id, answerQuestion}) => {
         setSelectedOption(option)
         answerQuestion(id, option)
     }
-    const options = question.options
+    const options = question.options?question.options:[]
     const optionsEl = options.map((option)=>{
         return(<Options selectedOption={selectedOption} handleAnswer={handleAnswer} key={option} option={option} />)
     })
