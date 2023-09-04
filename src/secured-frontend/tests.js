@@ -3256,7 +3256,7 @@ const simpleSaltaionsQuestions = [
       "Lime water changes color to pink"
     ],
     correctAnswer: "Lime water turns milky",
-    correctAnswer: "B",
+    correctOption: "B",
     answerPicked: ""
   },
   {
