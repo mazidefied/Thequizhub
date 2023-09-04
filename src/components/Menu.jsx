@@ -1,7 +1,8 @@
 import React, { useContext } from 'react'
 import { FaBolt, FaChevronDown, FaHome, FaPowerOff, FaQuestion, FaRetweet, FaShare } from 'react-icons/fa'
 import AppContext from '../quizContext/AppContext'
-import { BsCalculator, BsGearFill } from 'react-icons/bs'
+import { BsGearFill } from 'react-icons/bs'
+// import { BsCalculator, BsGearFill } from 'react-icons/bs'
 import { NavLink, useLocation } from 'react-router-dom'
 
 const Menu = () => {
@@ -27,7 +28,7 @@ const Menu = () => {
                     appState.functions.sharePage()
                     closeMenu()
                 }}><FaShare /> <p>Share</p></button>
-                <button onClick={closeMenu}><BsCalculator /> <p>Calculator</p></button>
+                {/* <button className='disabled' onClick={closeMenu}><BsCalculator /> <p>Calculator</p></button> */}
             </div> : <div className="container">
                 <NavLink onClick={closeMenu} to={"/"}><FaHome /> <p>Home</p></NavLink>
                 <NavLink onClick={closeMenu} to={"/quizzes"}><FaQuestion /> <p>Quizzes</p></NavLink>
