@@ -3224,7 +3224,7 @@ const chemistryLabQuestions = [
 ];
 const simpleSaltaionsQuestions = [
   {
-    question: "What reagent is used to test for the presence of carbonate ions in a salt solution?",
+    name: "What reagent is used to test for the presence of carbonate ions in a salt solution?",
     options: [
       "Dilute H2SO4",
       "BaCl2 solution",
@@ -3234,7 +3234,7 @@ const simpleSaltaionsQuestions = [
     correctAnswer: "Lime water",
   },
   {
-    question: "Which gas is evolved when a salt solution reacts with dilute HCl as a test for carbonate?",
+    name: "Which gas is evolved when a salt solution reacts with dilute HCl as a test for carbonate?",
     options: [
       "Oxygen",
       "Hydrogen",
@@ -3244,7 +3244,7 @@ const simpleSaltaionsQuestions = [
     correctAnswer: "Carbon dioxide",
   },
   {
-    question: "In the confirmatory test for carbonate, what is the observation when the evolved gas is passed through lime water?",
+    name: "In the confirmatory test for carbonate, what is the observation when the evolved gas is passed through lime water?",
     options: [
       "Lime water turns yellow",
       "Lime water turns milky",
@@ -3254,7 +3254,7 @@ const simpleSaltaionsQuestions = [
     correctAnswer: "Lime water turns milky",
   },
   {
-    question: "What is the confirmatory test for carbonate involving BaCl2 solution?",
+    name: "What is the confirmatory test for carbonate involving BaCl2 solution?",
     options: [
       "Formation of a white precipitate",
       "Release of a pungent odor",
@@ -3264,7 +3264,7 @@ const simpleSaltaionsQuestions = [
     correctAnswer: "Formation of a white precipitate",
   },
   {
-    question: "Which gas is evolved when a salt solution reacts with BaCl2 solution as a test for carbonate?",
+    name: "Which gas is evolved when a salt solution reacts with BaCl2 solution as a test for carbonate?",
     options: [
       "Oxygen",
       "Carbon dioxide",
@@ -3274,7 +3274,7 @@ const simpleSaltaionsQuestions = [
     correctAnswer: "Carbon dioxide",
   },
   {
-    question: "How is a salt tested for acetate ions?",
+    name: "How is a salt tested for acetate ions?",
     options: [
       "By rubbing it with dilute H2SO4",
       "By heating it with NaOH",
@@ -3284,7 +3284,7 @@ const simpleSaltaionsQuestions = [
     correctAnswer: "By heating it with NaOH",
   },
   {
-    question: "In the confirmatory test for acetate involving neutral ferric chloride solution, what color change indicates the presence of acetate ions?",
+    name: "In the confirmatory test for acetate involving neutral ferric chloride solution, what color change indicates the presence of acetate ions?",
     options: [
       "Yellow to red",
       "Green to blue",
@@ -3294,7 +3294,7 @@ const simpleSaltaionsQuestions = [
     correctAnswer: "Blue to green",
   },
   {
-    question: "What is the confirmatory test for acetate involving the reaction with concentrated H2SO4 and ethyl alcohol?",
+    name: "What is the confirmatory test for acetate involving the reaction with concentrated H2SO4 and ethyl alcohol?",
     options: [
       "Formation of a white precipitate",
       "Release of a pungent odor",
@@ -3304,7 +3304,7 @@ const simpleSaltaionsQuestions = [
     correctAnswer: "Formation of a colorless gas",
   },
   {
-    question: "Which reagent is used to test for acetate ions in a salt solution?",
+    name: "Which reagent is used to test for acetate ions in a salt solution?",
     options: [
       "Dilute HCl",
       "BaCl2 solution",
@@ -3314,7 +3314,7 @@ const simpleSaltaionsQuestions = [
     correctAnswer: "Neutral ferric chloride solution",
   },
   {
-    question: "How is a salt tested for chloride ions?",
+    name: "How is a salt tested for chloride ions?",
     options: [
       "By rubbing it with dilute H2SO4",
       "By heating it with conc. H2SO4",
@@ -3324,7 +3324,7 @@ const simpleSaltaionsQuestions = [
     correctAnswer: "By heating it with conc. H2SO4",
   },
   {
-    question: "When a salt is heated with conc. H2SO4 and evolves a colorless odorless gas, what does this indicate?",
+    name: "When a salt is heated with conc. H2SO4 and evolves a colorless odorless gas, what does this indicate?",
     options: [
       "Presence of chloride",
       "Presence of nitrate",
@@ -3334,7 +3334,7 @@ const simpleSaltaionsQuestions = [
     correctAnswer: "Presence of chloride",
   },
   {
-    question: "What is the observation when lime water turns milky in the test for chloride?",
+    name: "What is the observation when lime water turns milky in the test for chloride?",
     options: [
       "Presence of chloride",
       "Presence of nitrate",
@@ -3344,7 +3344,7 @@ const simpleSaltaionsQuestions = [
     correctAnswer: "Presence of chloride",
   },
   {
-    question: "In the confirmatory test for chloride, when a white precipitate is obtained that is soluble in dilute HCl, what does this confirm?",
+    name: "In the confirmatory test for chloride, when a white precipitate is obtained that is soluble in dilute HCl, what does this confirm?",
     options: [
       "Presence of chloride",
       "Presence of nitrate",
@@ -3354,7 +3354,7 @@ const simpleSaltaionsQuestions = [
     correctAnswer: "Presence of chloride",
   },
   {
-    question: "What is the characteristic reaction when a salt is tested for chloride?",
+    name: "What is the characteristic reaction when a salt is tested for chloride?",
     options: [
       "Smell of vinegar",
       "Brisk effervescence",
@@ -3364,7 +3364,7 @@ const simpleSaltaionsQuestions = [
     correctAnswer: "Brisk effervescence",
   },
   {
-    question: "What does the evolution of a colorless gas when a salt is heated with conc. H2SO4 indicate?",
+    name: "What does the evolution of a colorless gas when a salt is heated with conc. H2SO4 indicate?",
     options: [
       "Presence of chloride",
       "Presence of nitrate",
@@ -3374,7 +3374,7 @@ const simpleSaltaionsQuestions = [
     correctAnswer: "Presence of chloride",
   },
   {
-    question: "When a colorless gas gives dense white fumes with NH4OH in the mouth of the test tube, what does it indicate?",
+    name: "When a colorless gas gives dense white fumes with NH4OH in the mouth of the test tube, what does it indicate?",
     options: [
       "Presence of chloride",
       "Presence of nitrate",
@@ -3384,7 +3384,7 @@ const simpleSaltaionsQuestions = [
     correctAnswer: "Presence of chloride",
   },
   {
-    question: "How is a salt tested for nitrate ions?",
+    name: "How is a salt tested for nitrate ions?",
     options: [
       "By rubbing it with dilute H2SO4",
       "By heating it with conc. H2SO4 and paper balls",
@@ -3394,7 +3394,7 @@ const simpleSaltaionsQuestions = [
     correctAnswer: "By heating it with conc. H2SO4 and paper balls",
   },
   {
-    question: "In the confirmatory test for nitrate involving freshly prepared ferrous sulfate solution and conc. H2SO4, what is the observation?",
+    name: "In the confirmatory test for nitrate involving freshly prepared ferrous sulfate solution and conc. H2SO4, what is the observation?",
     options: [
       "Formation of a white precipitate",
       "Greenish yellow gas with a pungent smell",
@@ -3404,7 +3404,7 @@ const simpleSaltaionsQuestions = [
     correctAnswer: "Greenish yellow gas with a pungent smell",
   },
   {
-    question: "When a salt is heated with conc. H2SO4 and paper balls and a brown ring is formed, what does this indicate?",
+    name: "When a salt is heated with conc. H2SO4 and paper balls and a brown ring is formed, what does this indicate?",
     options: [
       "Presence of chloride",
       "Presence of nitrate",
@@ -3414,7 +3414,7 @@ const simpleSaltaionsQuestions = [
     correctAnswer: "Presence of nitrate",
   },
   {
-    question: "What is the confirmatory test for nitrate involving heating the salt solution with zinc dust and NaOH?",
+    name: "What is the confirmatory test for nitrate involving heating the salt solution with zinc dust and NaOH?",
     options: [
       "Formation of a white precipitate",
       "Release of a pungent odor",
@@ -3424,7 +3424,7 @@ const simpleSaltaionsQuestions = [
     correctAnswer: "Formation of a colorless gas",
   },
   {
-    question: "How is a salt tested for sulfate ions?",
+    name: "How is a salt tested for sulfate ions?",
     options: [
       "By rubbing it with dilute H2SO4",
       "By heating it with conc. H2SO4",
@@ -3434,7 +3434,7 @@ const simpleSaltaionsQuestions = [
     correctAnswer: "By heating it with conc. H2SO4",
   },
   {
-    question: "In the confirmatory test for sulfate involving dilute HCl and BaCl2, what is the observation?",
+    name: "In the confirmatory test for sulfate involving dilute HCl and BaCl2, what is the observation?",
     options: [
       "Formation of a white curdy precipitate",
       "Release of a pungent odor",
@@ -3444,7 +3444,7 @@ const simpleSaltaionsQuestions = [
     correctAnswer: "Formation of a white curdy precipitate",
   },
   {
-    question: "When a greenish yellow gas with a pungent smell is obtained, what does this confirm in the test for sulfate?",
+    name: "When a greenish yellow gas with a pungent smell is obtained, what does this confirm in the test for sulfate?",
     options: [
       "Presence of chloride",
       "Presence of nitrate",
@@ -3454,7 +3454,7 @@ const simpleSaltaionsQuestions = [
     correctAnswer: "Presence of sulfate",
   },
   {
-    question: "What is the observation when a white curdy precipitate is obtained in the confirmatory test for sulfate?",
+    name: "What is the observation when a white curdy precipitate is obtained in the confirmatory test for sulfate?",
     options: [
       "Presence of chloride",
       "Presence of nitrate",
@@ -3464,7 +3464,7 @@ const simpleSaltaionsQuestions = [
     correctAnswer: "Presence of sulfate",
   },
   {
-    question: "In the confirmatory test for sulfate involving acetic acid and lead acetate solution, what does the formation of a white precipitate indicate?",
+    name: "In the confirmatory test for sulfate involving acetic acid and lead acetate solution, what does the formation of a white precipitate indicate?",
     options: [
       "Presence of chloride",
       "Presence of nitrate",
@@ -3474,7 +3474,7 @@ const simpleSaltaionsQuestions = [
     correctAnswer: "Presence of sulfate",
   },
   {
-    question: "When testing for sulfate ions with acetic acid and lead acetate solution, what confirms the presence of sulfate?",
+    name: "When testing for sulfate ions with acetic acid and lead acetate solution, what confirms the presence of sulfate?",
     options: [
       "Formation of a colorless gas",
       "Formation of a brown gas",
@@ -3533,7 +3533,7 @@ const gns101Questions = [
   ...readingAndNetiquetteQuestions
 ]
 const che103Questions =[
-  ...chemistryLabQuestions,
+  ...chemistryLabQuestions
   ...simpleSaltaionsQuestions
 ]
 
