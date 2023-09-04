@@ -194,10 +194,6 @@ const Summary = (props) => {
                 </button>
               </div>
             </div>
-
-            <div className="calculator">
-              <BsCalculatorFill />
-            </div>
           </div>
             <div className={`questions-container ${showPaginationContent ? "show-pagination" : ""}`}>
             <Swiper
