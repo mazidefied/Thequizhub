@@ -3533,7 +3533,7 @@ const gns101Questions = [
   ...readingAndNetiquetteQuestions
 ]
 const che103Questions =[
-  ...chemistryLabQuestions
+  ...chemistryLabQuestions,
   ...simpleSaltaionsQuestions
 ]
 
