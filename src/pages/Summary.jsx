@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { BsCalculatorFill } from 'react-icons/bs'
+// import { BsCalculatorFill } from 'react-icons/bs'
 import { FaArrowLeft, FaChevronDown, FaTimes } from 'react-icons/fa'
 import { useNavigate } from 'react-router'
 import { Navigation, Pagination } from 'swiper/modules'

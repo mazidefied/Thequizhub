@@ -977,6 +977,7 @@ body{
                         // animation: quiz-animate 1s ease forwards;
                         
                         &:hover{
+                            z-index: 100;
                             animation: quiz-animatex 1s ease forwards infinite alternate;
                         }
 
