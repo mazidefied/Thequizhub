@@ -1,13 +1,13 @@
 // Go through the testsTemplate.js file to get acquainted with the procedures in adding quizzes. Goodluck boss man
 const reproduction = [
-    {
+  {
     name: "A male with genotype AaBb is crossed to a female of genotype AAbb. How many different phenotypes are possible for the offspring if there is complete dominance for each gene?",
     options: ["2", "1", "3", "8"],
     correctAnswer: "2",
     correctOption: "A",
     answerPicked: "",
   },
-    {
+  {
     name: "Each gamete carries:",
     options: [
       "Only recessive allele",
@@ -19,14 +19,14 @@ const reproduction = [
     correctOption: "C",
     answerPicked: "",
   },
-    {
+  {
     name: "The crossing of F1 to homozygous recessive parent is called",
     options: ["Back cross", "Test cross", "F1 cross", "All of these"],
     correctAnswer: "Test cross",
     correctOption: "B",
     answerPicked: "",
   },
-    {
+  {
     name: "Which of the following is not a property of the genetic code?",
     options: [
       "Non overlapping",
@@ -43,7 +43,7 @@ const reproduction = [
 
 // Rest of your code...
 const ecology = [
-    {
+  {
     name: "What is the term for a group of organisms of the same species living in the same area and interacting with each other?",
     options: [
       "Population",
@@ -55,7 +55,7 @@ const ecology = [
     correctOption: "A",
     answerPicked: "",
   },
-    {
+  {
     name: "Which of the following is not a type of ecological interaction?",
     options: [
       "Mutualism",
@@ -67,7 +67,7 @@ const ecology = [
     correctOption: "D",
     answerPicked: "",
   },
-    {
+  {
     name: "What term is used to describe the gradual change in species composition in an area over time?",
     options: [
       "Biodiversity",
@@ -79,7 +79,7 @@ const ecology = [
     correctOption: "C",
     answerPicked: "",
   },
-    {
+  {
     name: "Which of the following is a major biogeochemical cycle that involves the movement of carbon through different reservoirs?",
     options: [
       "Nitrogen cycle",
@@ -91,7 +91,7 @@ const ecology = [
     correctOption: "C",
     answerPicked: "",
   },
-    {
+  {
     name: "Which of the following terms describes the variety of life forms within a particular habitat or ecosystem?",
     options: [
       "Habitat diversity",
@@ -108,7 +108,7 @@ const ecology = [
 
 // Rest of your code... 
 const metamorphosis = [
-    {
+  {
     name: "What is metamorphosis?",
     options: [
       "A process of cell division",
@@ -120,7 +120,7 @@ const metamorphosis = [
     correctOption: "C",
     answerPicked: "",
   },
-    {
+  {
     name: "Which organisms typically undergo metamorphosis?",
     options: [
       "Plants",
@@ -137,7 +137,7 @@ const metamorphosis = [
 
 // Rest of your code...
 const cell = [
-    {
+  {
     name: "What is the basic structural and functional unit of all living organisms?",
     options: [
       "Cell",
@@ -149,7 +149,7 @@ const cell = [
     correctOption: "A",
     answerPicked: "",
   },
-    {
+  {
     name: "Which organelle is responsible for converting glucose into energy through cellular respiration?",
     options: [
       "Nucleus",
@@ -161,7 +161,7 @@ const cell = [
     correctOption: "C",
     answerPicked: "",
   },
-    {
+  {
     name: "Which type of cells lack a defined nucleus and other membrane-bound organelles?",
     options: [
       "Eukaryotic cells",
@@ -173,7 +173,7 @@ const cell = [
     correctOption: "B",
     answerPicked: "",
   },
-    {
+  {
     name: "What is the main function of the cell membrane?",
     options: [
       "Energy production",
@@ -185,7 +185,7 @@ const cell = [
     correctOption: "B",
     answerPicked: "",
   },
-    {
+  {
     name: "Which organelle contains enzymes that break down cellular waste and foreign materials?",
     options: [
       "Lysosome",
@@ -197,7 +197,7 @@ const cell = [
     correctOption: "A",
     answerPicked: "",
   },
-    {
+  {
     name: "Which type of cells contain a cell wall, chloroplasts, and a large central vacuole?",
     options: [
       "Bacterial cells",
@@ -209,7 +209,7 @@ const cell = [
     correctOption: "B",
     answerPicked: "",
   },
-    {
+  {
     name: "What is the term for a group of organisms of the same species living in the same area and interacting with each other?",
     options: [
       "Population",
@@ -221,7 +221,7 @@ const cell = [
     correctOption: "A",
     answerPicked: "",
   },
-    {
+  {
     name: "Which of the following is not a type of ecological interaction?",
     options: [
       "Mutualism",
@@ -233,7 +233,7 @@ const cell = [
     correctOption: "D",
     answerPicked: "",
   },
-    {
+  {
     name: "What term is used to describe the gradual change in species composition in an area over time?",
     options: [
       "Biodiversity",
@@ -245,7 +245,7 @@ const cell = [
     correctOption: "C",
     answerPicked: "",
   },
-    {
+  {
     name: "Which of the following is a major biogeochemical cycle that involves the movement of carbon through different reservoirs?",
     options: [
       "Nitrogen cycle",
@@ -263,7 +263,7 @@ const cell = [
 
 
 const fruits = [
-    {
+  {
     name: "Which of the following is not a type of fruit?",
     options: [
       "Apple",
@@ -275,7 +275,7 @@ const fruits = [
     correctOption: "B",
     answerPicked: "",
   },
-    {
+  {
     name: "Which fruit is known for its yellow color and crescent shape?",
     options: [
       "Apple",
@@ -287,7 +287,7 @@ const fruits = [
     correctOption: "C",
     answerPicked: "",
   },
-    {
+  {
     name: "What type of fruit is typically red, round, and often associated with love?",
     options: [
       "Watermelon",
@@ -299,7 +299,7 @@ const fruits = [
     correctOption: "B",
     answerPicked: "",
   },
-    {
+  {
     name: "Which fruit has a tough outer rind and is often used to make jack-o'-lanterns?",
     options: [
       "Pineapple",
@@ -311,7 +311,7 @@ const fruits = [
     correctOption: "C",
     answerPicked: "",
   },
-    {
+  {
     name: "Which fruit is known for its spiky outer skin and sweet inner flesh?",
     options: [
       "Durian",
@@ -323,7 +323,7 @@ const fruits = [
     correctOption: "D",
     answerPicked: "",
   },
-    {
+  {
     name: "What tropical fruit has a green or yellow skin with a juicy, sweet, and tangy interior?",
     options: [
       "Mango",
@@ -335,7 +335,7 @@ const fruits = [
     correctOption: "A",
     answerPicked: "",
   },
-    {
+  {
     name: "Which fruit is often called the 'king of fruits' and is known for its strong odor?",
     options: [
       "Apple",
@@ -347,7 +347,7 @@ const fruits = [
     correctOption: "D",
     answerPicked: "",
   },
-    {
+  {
     name: "What type of fruit has a hard, spiky outer shell and soft, sweet flesh inside?",
     options: [
       "Lychee",
@@ -359,7 +359,7 @@ const fruits = [
     correctOption: "C",
     answerPicked: "",
   },
-    {
+  {
     name: "Which fruit is known for its fuzzy skin and juicy, sweet-tart flesh?",
     options: [
       "Grape",
@@ -371,7 +371,7 @@ const fruits = [
     correctOption: "C",
     answerPicked: "",
   },
-    {
+  {
     name: "What small, round fruit is typically red or green and grows in clusters on vines?",
     options: [
       "Grapes",
@@ -387,7 +387,7 @@ const fruits = [
 
 // Rest of your code...
 const generalname = [
-    {
+  {
     name: "When first proposed, Darwin's theory of natural selection did not fully explain how evolution could occur. This was due to:",
     options: [
       "Darwin's failure to recognize the tendency fo organisms to over-reproduce",
@@ -399,7 +399,7 @@ const generalname = [
     correctOption: "A",
     answerPicked: "",
   },
-    {
+  {
     name: "Which of the following is not a part of Darwin's theory of natural selection?",
     options: [
       "Individuals of a population vary",
@@ -412,7 +412,7 @@ const generalname = [
     correctOption: "D",
     answerPicked: "",
   },
-    {
+  {
     name: "The evolutionary theory proposed by Charles Darwin was:",
     options: [
       "Change in populations through time as a result of mutations",
@@ -425,7 +425,7 @@ const generalname = [
     correctOption: "D",
     answerPicked: "",
   },
-    {
+  {
     name: "What is the only factor that can change allele frequencies in populations to produce adaptive evolutionary change?",
     options: [
       "mutation",
@@ -438,7 +438,7 @@ const generalname = [
     correctOption: "E",
     answerPicked: "",
   },
-    {
+  {
     name: "A species is defined as",
     options: [
       "a population of organisms similar in size, shape, and color",
@@ -451,7 +451,7 @@ const generalname = [
     correctOption: "C",
     answerPicked: "",
   },
-    {
+  {
     name: "The correct sequence from the most to the least comprehensive, of the taxonomic levels listed here is",
     options: [
       "Family, phylum, class, kingdom, order, species, and genus",
@@ -469,7 +469,7 @@ const generalname = [
 // You can continue adding more questions here...
 
 const biorandname = [
-    {
+  {
     name: "Organisms having many organelles are called",
     options: [
       "prokaryotes",
@@ -481,7 +481,7 @@ const biorandname = [
     correctOption: "B",
     answerPicked: "",
   },
-    {
+  {
     name: "Branch of biology 'paleontology' which deals with study of",
     options: [
       "Insects",
@@ -493,7 +493,7 @@ const biorandname = [
     correctOption: "B",
     answerPicked: "",
   },
-    {
+  {
     name: "Study of life in scientific manner is called",
     options: [
       "biology",
@@ -505,7 +505,7 @@ const biorandname = [
     correctOption: "A",
     answerPicked: "",
   },
-    {
+  {
     name: "Example of organism which shows colonial organization is",
     options: [
       "amoeba",
@@ -517,7 +517,7 @@ const biorandname = [
     correctOption: "D",
     answerPicked: "",
   },
-    {
+  {
     name: "Branch of biology 'embryology' deals with study of",
     options: [
       "study of tissues",
@@ -533,7 +533,7 @@ const biorandname = [
 ];
 
 const cellname = [
-    {
+  {
     name: "Mitochondria have first seen by",
     options: [
       "Robert Hooke",
@@ -545,7 +545,7 @@ const cellname = [
     correctOption: "D",
     answerPicked: "",
   },
-    {
+  {
     name: "Prokaryotic cell does not possess",
     options: [
       "Cell wall",
@@ -557,7 +557,7 @@ const cellname = [
     correctOption: "B",
     answerPicked: "",
   },
-    {
+  {
     name: "Plasma membrane is composed of",
     options: [
       "Protein",
@@ -569,7 +569,7 @@ const cellname = [
     correctOption: "D",
     answerPicked: "",
   },
-    {
+  {
     name: "Cellular organelles containing hydrolytic enzymes are called",
     options: [
       "Peroxisomes",
@@ -581,7 +581,7 @@ const cellname = [
     correctOption: "B",
     answerPicked: "",
   },
-    {
+  {
     name: "The sedimentation constant of ribosome is generally 70S. It breaks up into two subunits whose sedimentation constants are",
     options: [
       "50 S and 20 S",
@@ -596,7 +596,7 @@ const cellname = [
   // You can continue adding more questions here...
 ];
 const bryophytename = [
-    {
+  {
     name: "The unique feature of bryophytes compared to other green plant group is that",
     options: [
       "They produce spores",
@@ -608,7 +608,7 @@ const bryophytename = [
     correctOption: "D",
     answerPicked: "",
   },
-    {
+  {
     name: "Which group of plant constitute the lower bryophytes",
     options: [
       "Liverworts",
@@ -620,7 +620,7 @@ const bryophytename = [
     correctOption: "A",
     answerPicked: "",
   },
-    {
+  {
     name: "Liverworts are closely related to",
     options: [
       "Algae",
@@ -632,7 +632,7 @@ const bryophytename = [
     correctOption: "A",
     answerPicked: "",
   },
-    {
+  {
     name: "The first land inhabitant plants are",
     options: [
       "Pteridophytes",
@@ -644,7 +644,7 @@ const bryophytename = [
     correctOption: "B",
     answerPicked: "",
   },
-    {
+  {
     name: "The only positive evidence of aquatic ancestry of bryophyte is",
     options: [
       "Thread like protonema",
@@ -656,7 +656,7 @@ const bryophytename = [
     correctOption: "D",
     answerPicked: "",
   },
-    {
+  {
     name: "The branch of botany that deals with the form of the plant is known as",
     options: [
       "Physiology",
@@ -668,7 +668,7 @@ const bryophytename = [
     correctOption: "C",
     answerPicked: "",
   },
-    {
+  {
     name: "The roots which develop from any portion of the plant except the radical are known as",
     options: [
       "Tap roots",
@@ -687,7 +687,7 @@ const bryophytename = [
 const libraryname = [
   // ... Other library science questions ...
 
-    {
+  {
     name: "A newspaper is a publication that is issued",
     options: [
       "Daily or Weekly",
@@ -699,7 +699,7 @@ const libraryname = [
     correctOption: "A",
     answerPicked: "",
   },
-    {
+  {
     name: "Most serials especially journals are acquired through",
     options: [
       "Donation",
@@ -711,7 +711,7 @@ const libraryname = [
     correctOption: "B",
     answerPicked: "",
   },
-    {
+  {
     name: "One of the factors that affect the production and acquisition of serials is:",
     options: [
       "Constant change of serials title",
@@ -723,7 +723,7 @@ const libraryname = [
     correctOption: "A",
     answerPicked: "",
   },
-    {
+  {
     name: "A major advantage of Electronic Serials is that:",
     options: [
       "They can also be accessed from outside the library",
@@ -735,7 +735,7 @@ const libraryname = [
     correctOption: "A",
     answerPicked: "",
   },
-    {
+  {
     name: "The Reference unit houses reference materials that are:",
     options: [
       "Meant only for consultation",
@@ -747,7 +747,7 @@ const libraryname = [
     correctOption: "A",
     answerPicked: "",
   },
-    {
+  {
     name: "___ are reference materials that give general background information on a topic",
     options: [
       "Dictionaries",
@@ -759,7 +759,7 @@ const libraryname = [
     correctOption: "C",
     answerPicked: "",
   },
-    {
+  {
     name: "Is an example of a general encyclopedia",
     options: [
       "Encyclopedia of Biology",
@@ -776,7 +776,7 @@ const libraryname = [
 const libraryname2 = [
   // ... Other library science questions ...
 
-    {
+  {
     name: "Provide basics data and statistics on topics such as education, health etc and published annually",
     options: [
       "Abstracts",
@@ -788,7 +788,7 @@ const libraryname2 = [
     correctOption: "C",
     answerPicked: "",
   },
-    {
+  {
     name: "Bibliography refers to:",
     options: [
       "A list of works complied on some common organizing principle, such as authorship, subject etc.",
@@ -800,7 +800,7 @@ const libraryname2 = [
     correctOption: "A",
     answerPicked: "",
   },
-    {
+  {
     name: "The following are advantages of using Non-print resources except:",
     options: [
       "Aid retention",
@@ -812,7 +812,7 @@ const libraryname2 = [
     correctOption: "D",
     answerPicked: "",
   },
-    {
+  {
     name: "One of the following is not part of audio-visual resources",
     options: [
       "Television",
@@ -824,7 +824,7 @@ const libraryname2 = [
     correctOption: "D",
     answerPicked: "",
   },
-    {
+  {
     name: "Physical parts of a book consist of the following except:",
     options: [
       "Dust jacket",
@@ -836,7 +836,7 @@ const libraryname2 = [
     correctOption: "C",
     answerPicked: "",
   },
-    {
+  {
     name: "Binding is:",
     options: [
       "That part of a book which holds the printed sheets together",
@@ -848,7 +848,7 @@ const libraryname2 = [
     correctOption: "A",
     answerPicked: "",
   },
-    {
+  {
     name: "Books as the oldest forms of printed media include the following sub types except:",
     options: [
       "Monographs",
@@ -866,7 +866,7 @@ const libraryname2 = [
 const libraryname3 = [
   // ... Other library science questions ...
 
-    {
+  {
     name: "Copyright page is also known as:",
     options: [
       "Fly leaf",
@@ -879,7 +879,7 @@ const libraryname3 = [
     answerPicked: "",
   },
   
-    {
+  {
     name: "Date of copyright, name of copyright holder, book’s number, library of congress catalogue number, previous editions, printers name can all be found on the",
     options: [
       "Copyright page",
@@ -891,7 +891,7 @@ const libraryname3 = [
     correctOption: "A",
     answerPicked: "",
   },
-    {
+  {
     name: "Sources of information when listed and arranged in an alphabetical order can be referred to as",
     options: [
       "Biography",
@@ -903,7 +903,7 @@ const libraryname3 = [
     correctOption: "B",
     answerPicked: "",
   },
-    {
+  {
     name: "When a source of information is all about a person’s life history authored by self it is called",
     options: [
       "Biography",
@@ -915,7 +915,7 @@ const libraryname3 = [
     correctOption: "C",
     answerPicked: "",
   },
-    {
+  {
     name: "An additional explanation and elaboration not essential to a text is known as",
     options: [
       "Appendix",
@@ -927,7 +927,7 @@ const libraryname3 = [
     correctOption: "A",
     answerPicked: "",
   },
-    {
+  {
     name: "To have reduced photographic images of printed pages and make it possible to house much more materials, the library needs",
     options: [
       "Computers",
@@ -939,7 +939,7 @@ const libraryname3 = [
     correctOption: "D",
     answerPicked: "",
   },
-    {
+  {
     name: "In the Dewey Decimal System, 300 represents",
     options: [
       "Language",
@@ -951,7 +951,7 @@ const libraryname3 = [
     correctOption: "B",
     answerPicked: "",
   },
-    {
+  {
     name: "Cartographic materials are also known as:",
     options: [
       "Maps",
@@ -963,7 +963,7 @@ const libraryname3 = [
     correctOption: "A",
     answerPicked: "",
   },
-    {
+  {
     name: "FUTA library was opened to users on:",
     options: [
       "1983",
@@ -975,7 +975,7 @@ const libraryname3 = [
     correctOption: "A",
     answerPicked: "",
   },
-    {
+  {
     name: "National Libraries are also known as:",
     options: [
       "Virtual libraries",
@@ -987,7 +987,7 @@ const libraryname3 = [
     correctOption: "C",
     answerPicked: "",
   },
-    {
+  {
     name: "The word library is from a:",
     options: [
       "German word",
@@ -1005,7 +1005,7 @@ const libraryname3 = [
 const libraryname4 = [
   // ... Other library science questions ...
 
-    {
+  {
     name: "A place where we have a large number of historical records is called:",
     options: [
       "Public library",
@@ -1017,7 +1017,7 @@ const libraryname4 = [
     correctOption: "B",
     answerPicked: "",
   },
-    {
+  {
     name: "Which unit in the library is responsible for the processing of books?",
     options: [
       "Serial unit are issued",
@@ -1029,7 +1029,7 @@ const libraryname4 = [
     correctOption: "D",
     answerPicked: "",
   },
-    {
+  {
     name: "Users normally keep their personal belongings when entering the Library in the:",
     options: [
       "Porters unit",
@@ -1041,7 +1041,7 @@ const libraryname4 = [
     correctOption: "B",
     answerPicked: "",
   },
-    {
+  {
     name: "Works on a single subject or aspect of a subject are called:",
     options: [
       "Monographs",
@@ -1053,7 +1053,7 @@ const libraryname4 = [
     correctOption: "A",
     answerPicked: "",
   },
-    {
+  {
     name: "Constant changing of titles is one of the problems of ...",
     options: [
       "Clippings",
@@ -1065,7 +1065,7 @@ const libraryname4 = [
     correctOption: "C",
     answerPicked: "",
   },
-    {
+  {
     name: "Encyclopedia resources can be located in ... units of the library",
     options: [
       "Reference Unit",
@@ -1077,7 +1077,7 @@ const libraryname4 = [
     correctOption: "A",
     answerPicked: "",
   },
-    {
+  {
     name: "---------------- directs users to the exact location of a book on the shelf",
     options: [
       "Accession number",
@@ -1089,7 +1089,7 @@ const libraryname4 = [
     correctOption: "C",
     answerPicked: "",
   },
-    {
+  {
     name: "A basic reference collection is made up of all EXCEPT ...",
     options: [
       "Dictionaries",
@@ -1101,7 +1101,7 @@ const libraryname4 = [
     correctOption: "C",
     answerPicked: "",
   },
-    {
+  {
     name: "------------------- is a serious offence in the Library",
     options: [
       "Writing",
@@ -1113,7 +1113,7 @@ const libraryname4 = [
     correctOption: "C",
     answerPicked: "",
   },
-    {
+  {
     name: "The following are the methods used to acquire serials materials in the library EXCEPT ...",
     options: [
       "Purchase",
@@ -1125,7 +1125,7 @@ const libraryname4 = [
     correctOption: "D",
     answerPicked: "",
   },
-    {
+  {
     name: "All of these EXCEPT one is not an information source",
     options: [
       "Primary information sources",
@@ -1137,7 +1137,7 @@ const libraryname4 = [
     correctOption: "D",
     answerPicked: "",
   },
-    {
+  {
     name: "A library owned by an individual is an example of a ...",
     options: [
       "Personal library",
@@ -1149,7 +1149,7 @@ const libraryname4 = [
     correctOption: "C",
     answerPicked: "",
   },
-    {
+  {
     name: "--------------- are examples of academic libraries",
     options: [
       "University libraries, college of education libraries and polytechnics libraries",
@@ -1171,7 +1171,7 @@ const libraryname4 = [
 const libraryname5 = [
   // ... Other library questions ...
 
-    {
+  {
     name: "The maximum number of books that an undergraduate can borrow in the library is ...",
     options: [
       "Five",
@@ -1183,7 +1183,7 @@ const libraryname5 = [
     correctOption: "D",
     answerPicked: "",
   },
-    {
+  {
     name: "Charging and discharging are performed in ... unit of the library.",
     options: [
       "Reference",
@@ -1195,7 +1195,7 @@ const libraryname5 = [
     correctOption: "D",
     answerPicked: "",
   },
-    {
+  {
     name: "The skills combined in locating and retrieving information is called ...",
     options: [
       "Information literacy",
@@ -1207,7 +1207,7 @@ const libraryname5 = [
     correctOption: "A",
     answerPicked: "",
   },
-    {
+  {
     name: "A library without walls is called...",
     options: [
       "Digital library",
@@ -1219,7 +1219,7 @@ const libraryname5 = [
     correctOption: "C",
     answerPicked: "",
   },
-    {
+  {
     name: "A book borrowed by an undergraduate will be for a period of ...",
     options: [
       "Three weeks",
@@ -1231,7 +1231,7 @@ const libraryname5 = [
     correctOption: "C",
     answerPicked: "",
   },
-    {
+  {
     name: "The following are ways of acquiring materials in the library except...",
     options: [
       "Purchase",
@@ -1243,7 +1243,7 @@ const libraryname5 = [
     correctOption: "D",
     answerPicked: "",
   },
-    {
+  {
     name: "The retrieval tool used to locate books on shelves in the library is ...",
     options: [
       "Library card",
@@ -1262,7 +1262,7 @@ const libraryname5 = [
 const libraryname6 = [
   // ... Previous library questions ...
 
-    {
+  {
     name: "Call number is made of",
     options: [
       "Location number",
@@ -1274,7 +1274,7 @@ const libraryname6 = [
     correctOption: "C",
     answerPicked: "",
   },
-    {
+  {
     name: "Call number is",
     options: [
       "Numeric",
@@ -1286,7 +1286,7 @@ const libraryname6 = [
     correctOption: "B",
     answerPicked: "",
   },
-    {
+  {
     name: "The unique number assigned to any book showing when it was acquired is called",
     options: [
       "Accession number",
@@ -1298,7 +1298,7 @@ const libraryname6 = [
     correctOption: "A",
     answerPicked: "",
   },
-    {
+  {
     name: "Information on the publisher of a book, place and date of publication is known as",
     options: [
       "Collation",
@@ -1310,7 +1310,7 @@ const libraryname6 = [
     correctOption: "D",
     answerPicked: "",
   },
-    {
+  {
     name: "Information on a book’s length and size as well as notations about maps or illustrations is called",
     options: [
       "Author’s entry",
@@ -1322,7 +1322,7 @@ const libraryname6 = [
     correctOption: "C",
     answerPicked: "",
   },
-    {
+  {
     name: "The largest and most detailed of all encyclopedias is called",
     options: [
       "World Bank Encyclopedia",
@@ -2978,7 +2978,7 @@ const readingAndNetiquetteQuestions = [
 // ... Continue adding more questions ...
 ];
 const chemistryLabQuestions = [
-    {
+  {
     name: "What are melting point tubes primarily used for in chemistry laboratories?",
     options: [
       "Weighing substances",
@@ -2990,7 +2990,7 @@ const chemistryLabQuestions = [
     correctOption: "C",
     answerPicked: ""
   },
-    {
+  {
     name: "What is the significance of a balance in a chemistry laboratory?",
     options: [
       "Measuring temperature",
@@ -3002,7 +3002,7 @@ const chemistryLabQuestions = [
     correctOption: "C",
     answerPicked: ""
   },
-    {
+  {
     name: "Which apparatus is typically used for titration in chemistry experiments?",
     options: [
       "Thermometer",
@@ -3014,7 +3014,7 @@ const chemistryLabQuestions = [
     correctOption: "D",
     answerPicked: ""
   },
-    {
+  {
     name: "What is the primary purpose of a pH meter in a chemistry laboratory?",
     options: [
       "Measuring temperature",
@@ -3026,7 +3026,7 @@ const chemistryLabQuestions = [
     correctOption: "C",
     answerPicked: ""
   },
-    {
+  {
     name: "What is the main function of a barometer in a chemistry laboratory?",
     options: [
       "Determining the molecular weight of substances",
@@ -3038,7 +3038,7 @@ const chemistryLabQuestions = [
     correctOption: "B",
     answerPicked: ""
   },
-    {
+  {
     name: "What are some common types of electrochemical cells used in chemistry?",
     options: [
       "Conductance cells only",
@@ -3050,7 +3050,7 @@ const chemistryLabQuestions = [
     correctOption: "B",
     answerPicked: ""
   },
-    {
+  {
     name: "What is the purpose of a Beckman thermometer in chemistry experiments?",
     options: [
       "Measuring acidity and basicity",
@@ -3062,7 +3062,7 @@ const chemistryLabQuestions = [
     correctOption: "B",
     answerPicked: ""
   },
-    {
+  {
     name: "Which instrument is used to measure the strength of an acid or base?",
     options: [
       "Balance",
@@ -3074,7 +3074,7 @@ const chemistryLabQuestions = [
     correctOption: "B",
     answerPicked: ""
   },
-    {
+  {
     name: "What is the purpose of an electrochemical cell in chemistry experiments?",
     options: [
       "Measuring temperature",
@@ -3086,7 +3086,7 @@ const chemistryLabQuestions = [
     correctOption: "D",
     answerPicked: ""
   },
-    {
+  {
     name: "Which apparatus is essential for measuring the freezing point of a substance?",
     options: [
       "Melting point tube",
@@ -3098,7 +3098,7 @@ const chemistryLabQuestions = [
     correctOption: "D",
     answerPicked: ""
   },
-    {
+  {
     name: "What is the primary function of a thermometer in a chemistry laboratory?",
     options: [
       "Measuring acidity and basicity",
@@ -3110,7 +3110,7 @@ const chemistryLabQuestions = [
     correctOption: "D",
     answerPicked: ""
   },
-    {
+  {
     name: "What is the role of titration apparatus in chemistry experiments?",
     options: [
       "Measuring temperature",
@@ -3122,7 +3122,7 @@ const chemistryLabQuestions = [
     correctOption: "B",
     answerPicked: ""
   },
-    {
+  {
     name: "Which instrument is primarily used for weighing substances in a chemistry laboratory?",
     options: [
       "Burette",
@@ -3134,7 +3134,7 @@ const chemistryLabQuestions = [
     correctOption: "B",
     answerPicked: ""
   },
-    {
+  {
     name: "What are some common apparatus used in titration experiments in chemistry?",
     options: [
       "Pipette, burette, beakers",
@@ -3146,7 +3146,7 @@ const chemistryLabQuestions = [
     correctOption: "A",
     answerPicked: ""
   },
-    {
+  {
     name: "Which instrument is used to measure the hotness or coldness of an object?",
     options: [
       "Balance",
@@ -3158,7 +3158,7 @@ const chemistryLabQuestions = [
     correctOption: "C",
     answerPicked: ""
   },
-    {
+  {
     name: "What does a pH meter measure in a chemistry laboratory?",
     options: [
       "Weight of substances",
@@ -3170,7 +3170,7 @@ const chemistryLabQuestions = [
     correctOption: "B",
     answerPicked: ""
   },
-    {
+  {
     name: "Which type of electrochemical cell is commonly used in chemistry experiments?",
     options: [
       "Conductance cell",
@@ -3182,7 +3182,7 @@ const chemistryLabQuestions = [
     correctOption: "A",
     answerPicked: ""
   },
-    {
+  {
     name: "What is the primary function of a barometer in chemistry?",
     options: [
       "Weighing substances",
@@ -3223,7 +3223,7 @@ const chemistryLabQuestions = [
     
 ];
 const simpleSaltaionsQuestions = [
-    {
+  {
     name: "What reagent is used to test for the presence of carbonate ions in a salt solution?",
     options: [
       "Dilute H2SO4",
@@ -3235,7 +3235,7 @@ const simpleSaltaionsQuestions = [
     correctOption: "C",
     answerPicked: ""
   },
-    {
+  {
     name: "Which gas is evolved when a salt solution reacts with dilute HCl as a test for carbonate?",
     options: [
       "Oxygen",
@@ -3247,7 +3247,7 @@ const simpleSaltaionsQuestions = [
     correctOption:"C",
     answerPicked: ""
   },
-    {
+  {
     name: "In the confirmatory test for carbonate, what is the observation when the evolved gas is passed through lime water?",
     options: [
       "Lime water turns yellow",
@@ -3259,7 +3259,7 @@ const simpleSaltaionsQuestions = [
     correctAnswer: "B",
     answerPicked: ""
   },
-    {
+  {
     name: "What is the confirmatory test for carbonate involving BaCl2 solution?",
     options: [
       "Formation of a white precipitate",
@@ -3271,7 +3271,7 @@ const simpleSaltaionsQuestions = [
     correctOption: "A",
     answerPicked: ""
   },
-    {
+  {
     name: "Which gas is evolved when a salt solution reacts with BaCl2 solution as a test for carbonate?",
     options: [
       "Oxygen",
@@ -3283,7 +3283,7 @@ const simpleSaltaionsQuestions = [
     correctOption:"C",
     answerPicked:""
   },
-    {
+  {
     name: "How is a salt tested for acetate ions?",
     options: [
       "By rubbing it with dilute H2SO4",
@@ -3295,7 +3295,7 @@ const simpleSaltaionsQuestions = [
     correctOption:"B",
     answerPicked:""
   },
-    {
+  {
     name: "In the confirmatory test for acetate involving neutral ferric chloride solution, what color change indicates the presence of acetate ions?",
     options: [
       "Yellow to red",
@@ -3307,7 +3307,7 @@ const simpleSaltaionsQuestions = [
     correctOption:"C",
     answerPicked:""
   },
-    {
+  {
     name: "What is the confirmatory test for acetate involving the reaction with concentrated H2SO4 and ethyl alcohol?",
     options: [
       "Formation of a white precipitate",
@@ -3319,7 +3319,7 @@ const simpleSaltaionsQuestions = [
     correctOption:"D",
     answerPicked:""
   },
-    {
+  {
     name: "Which reagent is used to test for acetate ions in a salt solution?",
     options: [
       "Dilute HCl",
@@ -3331,7 +3331,7 @@ const simpleSaltaionsQuestions = [
     correctOption:"D",
     answerPicked:""
   },
-    {
+  {
     name: "How is a salt tested for chloride ions?",
     options: [
       "By rubbing it with dilute H2SO4",
@@ -3343,7 +3343,7 @@ const simpleSaltaionsQuestions = [
     correctOption: "B",
     answerPicked:""
   },
-    {
+  {
     name: "When a salt is heated with conc. H2SO4 and evolves a colorless odorless gas, what does this indicate?",
     options: [
       "Presence of chloride",
@@ -3355,7 +3355,7 @@ const simpleSaltaionsQuestions = [
     correctOption:"A",
     answerPicked:""
   },
-    {
+  {
     name: "What is the observation when lime water turns milky in the test for chloride?",
     options: [
       "Presence of chloride",
@@ -3367,7 +3367,7 @@ const simpleSaltaionsQuestions = [
     correctOption:"A",
     answerPicked:""
   },
-    {
+  {
     name: "In the confirmatory test for chloride, when a white precipitate is obtained that is soluble in dilute HCl, what does this confirm?",
     options: [
       "Presence of chloride",
@@ -3379,7 +3379,7 @@ const simpleSaltaionsQuestions = [
     correctOption:"A",
     answerPicked: ""
   },
-    {
+  {
     name: "What is the characteristic reaction when a salt is tested for chloride?",
     options: [
       "Smell of vinegar",
@@ -3391,7 +3391,7 @@ const simpleSaltaionsQuestions = [
     correctOption:"B",
     answerPicked:""
   },
-    {
+  {
     name: "What does the evolution of a colorless gas when a salt is heated with conc. H2SO4 indicate?",
     options: [
       "Presence of chloride",
@@ -3403,7 +3403,7 @@ const simpleSaltaionsQuestions = [
     correctOption: "A",
     answerPicked:""
   },
-    {
+  {
     name: "When a colorless gas gives dense white fumes with NH4OH in the mouth of the test tube, what does it indicate?",
     options: [
       "Presence of chloride",
@@ -3416,7 +3416,7 @@ const simpleSaltaionsQuestions = [
     answerPicked:""
 
   },
-    {
+  {
     name: "How is a salt tested for nitrate ions?",
     options: [
       "By rubbing it with dilute H2SO4",
@@ -3428,7 +3428,7 @@ const simpleSaltaionsQuestions = [
     correctOption:"B",
     answerPicked:""
   },
-    {
+  {
     name: "In the confirmatory test for nitrate involving freshly prepared ferrous sulfate solution and conc. H2SO4, what is the observation?",
     options: [
       "Formation of a white precipitate",
@@ -3440,7 +3440,7 @@ const simpleSaltaionsQuestions = [
     correctOption:"B",
     answerPicked:""
   },
-    {
+  {
     name: "When a salt is heated with conc. H2SO4 and paper balls and a brown ring is formed, what does this indicate?",
     options: [
       "Presence of chloride",
@@ -3452,7 +3452,7 @@ const simpleSaltaionsQuestions = [
     correctOption:"B",
     answerPicked:""
   },
-    {
+  {
     name: "What is the confirmatory test for nitrate involving heating the salt solution with zinc dust and NaOH?",
     options: [
       "Formation of a white precipitate",
@@ -3464,7 +3464,7 @@ const simpleSaltaionsQuestions = [
     correctOption:"D",
     answerPicked:""
   },
-    {
+  {
     name: "How is a salt tested for sulfate ions?",
     options: [
       "By rubbing it with dilute H2SO4",
@@ -3476,7 +3476,7 @@ const simpleSaltaionsQuestions = [
     correctOption:"B",
     answerPicked:""
   },
-    {
+  {
     name: "In the confirmatory test for sulfate involving dilute HCl and BaCl2, what is the observation?",
     options: [
       "Formation of a white curdy precipitate",
@@ -3488,7 +3488,7 @@ const simpleSaltaionsQuestions = [
     correctOption:"A",
     answerPicked:""
   },
-    {
+  {
     name: "When a greenish yellow gas with a pungent smell is obtained, what does this confirm in the test for sulfate?",
     options: [
       "Presence of chloride",
@@ -3500,7 +3500,7 @@ const simpleSaltaionsQuestions = [
     correctOption:"D",
     answerPicked:""
   },
-    {
+  {
     name: "What is the observation when a white curdy precipitate is obtained in the confirmatory test for sulfate?",
     options: [
       "Presence of chloride",
@@ -3512,7 +3512,7 @@ const simpleSaltaionsQuestions = [
     correctOption:"D",
     answerPicked:""
   },
-    {
+  {
     name: "In the confirmatory test for sulfate involving acetic acid and lead acetate solution, what does the formation of a white precipitate indicate?",
     options: [
       "Presence of chloride",
@@ -3525,7 +3525,7 @@ const simpleSaltaionsQuestions = [
     answerPicked:"D",
 
   },
-    {
+  {
     name: "When testing for sulfate ions with acetic acid and lead acetate solution, what confirms the presence of sulfate?",
     options: [
       "Formation of a colorless gas",
