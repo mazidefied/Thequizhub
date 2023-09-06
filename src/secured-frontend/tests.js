@@ -3558,7 +3558,6 @@ const bio101names = [
 const bio103names = [
 ...spirogyraname,
 ...agaricusname,
-  goalSettingQuestions
 ]
 
 const gns103names = [
