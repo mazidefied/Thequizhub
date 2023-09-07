@@ -5175,6 +5175,104 @@ const atomictheoryQuestions = [
               correctOption: "A",
               answerPicked: ""
             },
+
+              {
+                name: "In new spectrometers, each ion hits a",
+                options: [
+                  "Detector",
+                  "Ionizer",
+                  "Collector",
+                  "Graph"
+                ],
+                correctAnswer: "Detector",
+                correctOption: "A",
+                answerPicked: ""
+              },
+              {
+                name: "Mass spectrometer used to determine isotopes in solid state is",
+                options: [
+                  "Bohr's",
+                  "Aston's",
+                  "Dempster's",
+                  "Alison's"
+                ],
+                correctAnswer: "Dempster's",
+                correctOption: "C",
+                answerPicked: ""
+              },
+              {
+                name: "In the accelerating chamber of a mass spectrometer, the potential difference is",
+                options: [
+                  "500-2000",
+                  "600-7000",
+                  "300-8000",
+                  "700-9000"
+                ],
+                correctAnswer: "500-2000",
+                correctOption: "A",
+                answerPicked: ""
+              },
+              {
+                name: "The instrument used to collect ions is",
+                options: [
+                  "Electrometer",
+                  "Ionizer",
+                  "Spectrometer",
+                  "None"
+                ],
+                correctAnswer: "Electrometer",
+                correctOption: "A",
+                answerPicked: ""
+              },
+              {
+                name: "Who discovered the electron?",
+                options: [
+                  "Chadwick",
+                  "Thomson",
+                  "Goldstein",
+                  "Bohr"
+                ],
+                correctAnswer: "Thomson",
+                correctOption: "2",
+                answerPicked: ""
+              },
+              {
+                name: "An atom has a mass number of 23 and atomic number 11. The number of protons is",
+                options: [
+                  "11",
+                  "12",
+                  "23",
+                  "44"
+                ],
+                correctAnswer: "11",
+                correctOption: "1",
+                answerPicked: ""
+              },
+              {
+                name: "The mass of the atom is determined by",
+                options: [
+                  "Neutrons",
+                  "Neutron and proton",
+                  "Electron",
+                  "Electron and neutron"
+                ],
+                correctAnswer: "Neutron and proton",
+                correctOption: "2",
+                answerPicked: ""
+              },
+              {
+                name: "If the K, L, and M shells of an atom are full, its atomic number is",
+                options: [
+                  "18",
+                  "20",
+                  "10",
+                  "12"
+                ],
+                correctAnswer: "18",
+                correctOption: "1",
+                answerPicked: ""
+              },
+            
                     
         ];
         
@@ -5237,7 +5335,8 @@ const che101Questions =[
   ...atomictheoryQuestions,
   ...settheory,
   ...relativemolarmass,
-  ...puresubstance
+  ...puresubstance,
+  ...genche101
 ]
 
 const quizzes = [
