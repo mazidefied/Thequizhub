@@ -5311,6 +5311,69 @@ const atomictheoryQuestions = [
                   answerPicked: ""
                 },
               
+
+                  {
+                    name: "The proton is heavier than an electron by",
+                    options: [
+                      "1850 times",
+                      "1840 times",
+                      "1000 times",
+                      "100 times"
+                    ],
+                    correctAnswer: "1840 times",
+                    correctOption: "2",
+                    answerPicked: ""
+                  },
+                  {
+                    name: "Carbon-12 atom has",
+                    options: [
+                      "6 electrons, 6 protons, 6 neutrons",
+                      "6 electrons, 12 protons, 6 neutrons",
+                      "12 electrons, 6 protons, 6 neutrons",
+                      "18 electrons, 6 protons, 6 neutrons"
+                    ],
+                    correctAnswer: "6 electrons, 6 protons, 6 neutrons",
+                    correctOption: "1",
+                    answerPicked: ""
+                  },
+                  {
+                    name: "Chadwick got the Nobel Prize for the discovery of",
+                    options: [
+                      "Protons",
+                      "Neutrons",
+                      "Electrons",
+                      "Mesons"
+                    ],
+                    correctAnswer: "Neutrons",
+                    correctOption: "2",
+                    answerPicked: ""
+                  },
+                  {
+                    name: "Mass number is equal to",
+                    options: [
+                      "Number of protons + number of electrons",
+                      "Number of protons + number of neutrons",
+                      "Number of neutrons + number of electrons",
+                      "Number of electrons"
+                    ],
+                    correctAnswer: "Number of protons + number of neutrons",
+                    correctOption: "2",
+                    answerPicked: ""
+                  },
+                  {
+                    name: "The element X has 2 valence electrons. It is a",
+                    options: [
+                      "Metal",
+                      "Non-metal",
+                      "Metalloid",
+                      "Gas"
+                    ],
+                    correctAnswer: "Metal",
+                    correctOption: "1",
+                    answerPicked: ""
+                  },
+                
+                
                     
         ];
         
