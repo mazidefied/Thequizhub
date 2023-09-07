@@ -5667,7 +5667,20 @@ const atomictheoryQuestions = [
     correctOption: "b",
     answerPicked: ""
   },
-                             
+  {
+    name: "The weight of a millimole of (NH₄)₂HPO₄ is:",
+    options: [
+      "132 g",
+      "114 g",
+      "1.14 x 10⁻³ g",
+      "0.132 g",
+      "6.02 x 10²⁰ g"
+    ],
+    correctAnswer: "132 g",
+    correctOption: "a",
+    answerPicked: ""
+  },
+                      
         ];
         
         
