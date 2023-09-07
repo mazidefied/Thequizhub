@@ -3540,6 +3540,69 @@ const simpleSaltaionsQuestions = [
   // More questions can be added if needed...
 ];
 
+const atomictheoryQuestions = [
+  {
+    name: "Who is credited with the most important chemical theory described in the text?",
+    options: [
+      "John Dalton",
+      "Albert Einstein",
+      "Isaac Newton",
+      "Marie Curie"
+    ],
+    correctAnswer: "John Dalton",
+    correctOption: "A",
+    answerPicked: ""
+  },
+  {
+    name: "What did Dalton call the small particles of matter corresponding to different elements?",
+    options: [
+      "Protons",
+      "Electrons",
+      "Neutrons",
+      "Atoms"
+    ],
+    correctAnswer: "Atoms",
+    correctOption: "D",
+    answerPicked: ""
+  },
+  {
+    name: "According to Dalton, what is the weight assigned to a hydrogen atom?",
+    options: [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    correctAnswer: "1",
+    correctOption: "B",
+    answerPicked: ""
+  },
+  {
+    name: "What is the main idea of Dalton's atomic theory?",
+    options: [
+      "Atoms are divisible into smaller particles",
+      "Elements consist of molecules",
+      "Matter is made up of indivisible atoms",
+      "Atoms of different elements are identical"
+    ],
+    correctAnswer: "Matter is made up of indivisible atoms",
+    correctOption: "C",
+    answerPicked: ""
+  },
+  {
+    name: "Which statement summarizes Dalton's atomic theory?",
+    options: [
+      "Atoms are constantly changing in size",
+      "Elements consist of different kinds of atoms",
+      "Atoms of one element differ in size and shape",
+      "All matter is made up of atoms that cannot be created or destroyed"
+    ],
+    correctAnswer: "All matter is made up of atoms that cannot be created or destroyed",
+    correctOption: "D",
+    answerPicked: ""
+  },
+  // Add more questions here...
+];
 
 
 
@@ -3558,6 +3621,7 @@ const bio101names = [
 const bio103names = [
 ...spirogyraname,
 ...agaricusname,
+  goalSettingQuestions
 ]
 
 const gns103names = [
@@ -3590,7 +3654,27 @@ const che103Questions =[
   ...simpleSaltaionsQuestions
 ]
 
+const che101Questions =[
+  ...atomictheoryQuestions
+]
+
 const quizzes = [
+  {
+    name: "CHE 101",
+    id: 1,
+    timer: {
+        minutes: 15,
+        seconds: 10
+    },
+    imgUrl: "https://www.lastwordonnothing.com/wp-content/uploads/2012/12/ChemistryDraw1.jpg",
+    slug: "che-101",
+    description: "FUTA Past Questions",
+    author: "Admin",
+    questions: [
+      ...che101Questions,
+        
+    ]
+},
   {
       name: "CHE 103",
       id: 1,
