@@ -4422,8 +4422,264 @@ const atomictheoryQuestions = [
       correctAnswer: "Number of protons and electrons",
       correctOption: "A",
       answerPicked: ""
-    }
-];
+    },
+
+      {
+        name: "What is the charge of an electron?",
+        options: [
+          "-1",
+          "+1",
+          "0",
+          "-e"
+        ],
+        correctAnswer: "-1",
+        correctOption: "A",
+        answerPicked: ""
+      },
+      {
+        name: "What is the charge of a proton?",
+        options: [
+          "-1",
+          "+1",
+          "0",
+          "+e"
+        ],
+        correctAnswer: "+1",
+        correctOption: "B",
+        answerPicked: ""
+      },
+      {
+        name: "What is the charge of a neutron?",
+        options: [
+          "-1",
+          "+1",
+          "0",
+          "neutral"
+        ],
+        correctAnswer: "0",
+        correctOption: "C",
+        answerPicked: ""
+      },
+      {
+        name: "Why is the charge on an electron represented as negative?",
+        options: [
+          "Because it lacks electric charge",
+          "Because it has a negative mass",
+          "Because it carries a negative charge",
+          "Because it's opposite of a proton"
+        ],
+        correctAnswer: "Because it carries a negative charge",
+        correctOption: "C",
+        answerPicked: ""
+      },
+      {
+        name: "Which particle is considered neutral in terms of charge?",
+        options: [
+          "Electron",
+          "Proton",
+          "Neutron",
+          "Alpha particle"
+        ],
+        correctAnswer: "Neutron",
+        correctOption: "C",
+        answerPicked: ""
+      },
+      {
+        name: "What unit is used to express the charge of an electron?",
+        options: [
+          "Coulombs",
+          "Electrovolt",
+          "Watt",
+          "Joule"
+        ],
+        correctAnswer: "Coulombs",
+        correctOption: "A",
+        answerPicked: ""
+      },
+      {
+        name: "Which element was initially chosen as the standard for assigning atomic masses?",
+        options: [
+          "Carbon",
+          "Oxygen",
+          "Hydrogen",
+          "Neon"
+        ],
+        correctAnswer: "Hydrogen",
+        correctOption: "C",
+        answerPicked: ""
+      },
+      {
+        name: "Why was carbon-12 chosen as the new standard for atomic masses?",
+        options: [
+          "Because it's the most abundant element",
+          "Because it's the lightest element",
+          "For practical reasons",
+          "Because it has the highest atomic number"
+        ],
+        correctAnswer: "For practical reasons",
+        correctOption: "C",
+        answerPicked: ""
+      },
+      {
+        name: "How are relative atomic masses determined?",
+        options: [
+          "By measuring the mass of individual atoms",
+          "By using mass spectrometers",
+          "By counting the number of protons",
+          "By analyzing the atomic spectra"
+        ],
+        correctAnswer: "By using mass spectrometers",
+        correctOption: "B",
+        answerPicked: ""
+      },
+      {
+        name: "What is the atomic weight of an element?",
+        options: [
+          "The mass of one atom of that element",
+          "The sum of the masses of its electrons",
+          "The weighted mean of the relative masses of its isotopes",
+          "The number of electrons in its outermost shell"
+        ],
+        correctAnswer: "The weighted mean of the relative masses of its isotopes",
+        correctOption: "C",
+        answerPicked: ""
+      },
+      {
+        name: "How is the atomic weight of an element calculated for isotopes?",
+        options: [
+          "By taking the mass of the heaviest isotope",
+          "By averaging the masses of all isotopes",
+          "By summing the masses of all isotopes",
+          "By multiplying the masses of all isotopes"
+        ],
+        correctAnswer: "By averaging the masses of all isotopes",
+        correctOption: "B",
+        answerPicked: ""
+      },
+      {
+        name: "Calculate the atomic weight of chlorine based on its isotopes' relative masses and abundances.",
+        options: [
+          "35",
+          "37",
+          "35.49",
+          "36.5"
+        ],
+        correctAnswer: "35.49",
+        correctOption: "C",
+        answerPicked: ""
+      },
+      {
+        name: "What is the atomic mass unit (amu) equivalent to in grams?",
+        options: [
+          "1.66 x 10^-24 g",
+          "1.66 x 10^-23 g",
+          "1.66 x 10^-25 g",
+          "1.66 x 10^-26 g"
+        ],
+        correctAnswer: "1.66 x 10^-24 g",
+        correctOption: "A",
+        answerPicked: ""
+      },
+      {
+        name: "How is the mass number (A) of an atom defined?",
+        options: [
+          "The total number of electrons",
+          "The sum of protons and neutrons",
+          "The total number of protons",
+          "The sum of electrons and neutrons"
+        ],
+        correctAnswer: "The sum of protons and neutrons",
+        correctOption: "B",
+        answerPicked: ""
+      },
+      {
+        name: "Why are atomic weights typically not expressed in grams or kilograms?",
+        options: [
+          "Because grams and kilograms are not suitable units",
+          "Because atomic weights are too small for grams or kilograms",
+          "Because atomic weights are too large for grams or kilograms",
+          "Because grams and kilograms are not accurate units"
+        ],
+        correctAnswer: "Because atomic weights are too small for grams or kilograms",
+        correctOption: "B",
+        answerPicked: ""
+      },
+    
+        {
+          name: "What is the Avogadro's Constant?",
+          options: [
+            "6.0226 x 10^23",
+            "1.66 x 10^-24",
+            "9.109 x 10^-28",
+            "1.60206 x 10^-19"
+          ],
+          correctAnswer: "6.0226 x 10^23",
+          correctOption: "A",
+          answerPicked: ""
+        },
+        {
+          name: "How many hydrogen atoms are equivalent to 1 gram?",
+          options: [
+            "6 x 10^23",
+            "1.66 x 10^-24",
+            "9.109 x 10^-28",
+            "1.60206 x 10^-19"
+          ],
+          correctAnswer: "6 x 10^23",
+          correctOption: "A",
+          answerPicked: ""
+        },
+        {
+          name: "What is the relationship between 1 gram and atomic mass units (amu) based on Avogadro's Constant?",
+          options: [
+            "1 g = 6 x 10^23 amu",
+            "1 g = 1 amu",
+            "1 g = 9.109 x 10^-28 amu",
+            "1 g = 1.60206 x 10^-19 amu"
+          ],
+          correctAnswer: "1 g = 6 x 10^23 amu",
+          correctOption: "A",
+          answerPicked: ""
+        },
+        {
+          name: "Why is the Avogadro's Constant important in chemistry?",
+          options: [
+            "To measure the charge of electrons",
+            "To convert grams to atomic mass units",
+            "To determine the mass of protons",
+            "To study the behavior of neutrons"
+          ],
+          correctAnswer: "To convert grams to atomic mass units",
+          correctOption: "B",
+          answerPicked: ""
+        },
+        {
+          name: "What is the correct value of Avogadro's Constant?",
+          options: [
+            "6 x 10^23",
+            "1.66 x 10^-24",
+            "9.109 x 10^-28",
+            "1.60206 x 10^-19"
+          ],
+          correctAnswer: "6 x 10^23",
+          correctOption: "A",
+          answerPicked: ""
+        },
+        {
+          name: "Which unit is used to measure the mass of an electron?",
+          options: [
+            "Coulombs",
+            "Electrovolt",
+            "Watt",
+            "Joule"
+          ],
+          correctAnswer: "Joule",
+          correctOption: "D",
+          answerPicked: ""
+        },
+      ];
+      
+      
 
 
 
