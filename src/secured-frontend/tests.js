@@ -3795,6 +3795,211 @@ const atomictheoryQuestions = [
       answerPicked: ""
     },
 
+  {
+    name: "Which of the following is NOT a statement in Dalton's atomic theory?",
+    options: [
+      "Atoms are indivisible",
+      "Atoms of different elements are identical",
+      "Compounds result from the combination of atoms of two or more elements",
+      "Atoms are constantly changing in size"
+    ],
+    correctAnswer: "Atoms are constantly changing in size",
+    correctOption: "D",
+    answerPicked: ""
+  },
+  {
+    name: "What was the initial hypothesis proposed by John Dalton?",
+    options: [
+      "All matter consists of molecules",
+      "All matter consists of atoms",
+      "All matter consists of elements",
+      "All matter consists of compounds"
+    ],
+    correctAnswer: "All matter consists of atoms",
+    correctOption: "B",
+    answerPicked: ""
+  },
+  {
+    name: "In Dalton's atomic theory, what is the role of atoms in compounds?",
+    options: [
+      "Atoms form molecules",
+      "Atoms combine to create elements",
+      "Atoms remain unchanged",
+      "Atoms form ions"
+    ],
+    correctAnswer: "Atoms form molecules",
+    correctOption: "A",
+    answerPicked: ""
+  },
+  {
+    name: "What did Dalton assign a weight of 1 to as a reference in his theory?",
+    options: [
+      "Oxygen",
+      "Carbon",
+      "Hydrogen",
+      "Nitrogen"
+    ],
+    correctAnswer: "Hydrogen",
+    correctOption: "C",
+    answerPicked: ""
+  },
+  {
+    name: "What was the outcome of further experimental work on Dalton's atomic theory?",
+    options: [
+      "It disproved the theory entirely",
+      "It confirmed the theory and turned it into a law",
+      "It led to the discovery of subatomic particles",
+      "It resulted in the development of quantum mechanics"
+    ],
+    correctAnswer: "It confirmed the theory and turned it into a law",
+    correctOption: "B",
+    answerPicked: ""
+  },
+  {
+    name: "What did Dalton use to compare the relative weights of elements and compounds?",
+    options: [
+      "A balance scale",
+      "A calorimeter",
+      "A spectroscope",
+      "A spectrophotometer"
+    ],
+    correctAnswer: "A balance scale",
+    correctOption: "A",
+    answerPicked: ""
+  },
+  {
+    name: "What term did Dalton use to describe the particles that make up all substances?",
+    options: [
+      "Particles",
+      "Molecules",
+      "Atoms",
+      "Compounds"
+    ],
+    correctAnswer: "Atoms",
+    correctOption: "C",
+    answerPicked: ""
+  },
+  {
+    name: "Which statement accurately reflects Dalton's view of atoms?",
+    options: [
+      "Atoms of different elements can be distinguished by their shape",
+      "Atoms of different elements have the same size and mass",
+      "Atoms of different elements have different properties",
+      "Atoms of different elements are not actually different"
+    ],
+    correctAnswer: "Atoms of different elements have the same size and mass",
+    correctOption: "B",
+    answerPicked: ""
+  },
+  {
+    name: "What did Dalton assign a weight of 1 to in his atomic theory?",
+    options: [
+      "Oxygen",
+      "Carbon",
+      "Hydrogen",
+      "Nitrogen"
+    ],
+    correctAnswer: "Hydrogen",
+    correctOption: "C",
+    answerPicked: ""
+  },
+  {
+    name: "What did Dalton's atomic theory ultimately become?",
+    options: [
+      "A hypothesis",
+      "A law of chemistry",
+      "An observation",
+      "A theory of relativity"
+    ],
+    correctAnswer: "A law of chemistry",
+    correctOption: "B",
+    answerPicked: ""
+  },
+  {
+    name: "What did Dalton's table of relative weights primarily focus on?",
+    options: [
+      "Atomic numbers",
+      "Atomic masses",
+      "Atomic charges",
+      "Atomic radii"
+    ],
+    correctAnswer: "Atomic masses",
+    correctOption: "B",
+    answerPicked: ""
+  },
+  {
+    name: "Which of the following statements is NOT a part of Dalton's atomic theory?",
+    options: [
+      "Atoms of different elements can combine to form compounds",
+      "Atoms of different elements have the same properties",
+      "Atoms are indivisible and cannot be created or destroyed",
+      "All matter is composed of tiny particles called atoms"
+    ],
+    correctAnswer: "Atoms of different elements have the same properties",
+    correctOption: "B",
+    answerPicked: ""
+  },
+  {
+    name: "In Dalton's atomic theory, what are compounds composed of?",
+    options: [
+      "Elements",
+      "Atoms",
+      "Ions",
+      "Molecules"
+    ],
+    correctAnswer: "Atoms",
+    correctOption: "B",
+    answerPicked: ""
+  },
+  {
+    name: "What word did Dalton use to describe the smallest particle of an element that retains its properties?",
+    options: [
+      "Molecule",
+      "Atom",
+      "Ion",
+      "Compound"
+    ],
+    correctAnswer: "Atom",
+    correctOption: "B",
+    answerPicked: ""
+  },
+  {
+    name: "What did Dalton propose about the combination of atoms to form compounds?",
+    options: [
+      "It happens randomly",
+      "It occurs in a fixed ratio",
+      "It depends on temperature",
+      "It is impossible"
+    ],
+    correctAnswer: "It occurs in a fixed ratio",
+    correctOption: "B",
+    answerPicked: ""
+  },
+  {
+    name: "What did Dalton assign a weight of 1 to in his atomic theory?",
+    options: [
+      "Oxygen",
+      "Carbon",
+      "Hydrogen",
+      "Nitrogen"
+    ],
+    correctAnswer: "Hydrogen",
+    correctOption: "C",
+    answerPicked: ""
+  },
+  {
+    name: "Which of the following was NOT a part of Dalton's atomic theory?",
+    options: [
+      "All matter consists of atoms",
+      "Atoms are indivisible",
+      "Atoms of different elements are identical",
+      "Atoms can be created and destroyed"
+    ],
+    correctAnswer: "Atoms of different elements are identical",
+    correctOption: "C",
+    answerPicked: ""
+  },
+
 ];
 
 
