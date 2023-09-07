@@ -5445,7 +5445,229 @@ const atomictheoryQuestions = [
     answerPicked: ""
 },
 
-                                      
+
+  {
+    name: "The formula weight of the compound Al₂(SO₄)₃·18H₂O is:",
+    options: [
+      "394.4 g",
+      "666.4 g",
+      "110,900 g",
+      "466.8 g",
+      "561.2 g"
+    ],
+    correctAnswer: "394.4 g",
+    correctOption: "a",
+    answerPicked: ""
+  },
+  {
+    name: "The weight of a millimole of (NH₄)₂HPO₄ is:",
+    options: [
+      "132 g",
+      "114 g",
+      "1.14 x 10⁻³ g",
+      "0.132 g",
+      "6.02 x 10²⁰ g"
+    ],
+    correctAnswer: "132 g",
+    correctOption: "a",
+    answerPicked: ""
+  },
+  {
+    name: "How many moles of alanine, C₃H₇NO₂, are there in 159 g of alanine?",
+    options: [
+      "1.42 x 10⁴",
+      "1.78",
+      "0.992",
+      "0.560",
+      "3.31"
+    ],
+    correctAnswer: "1.78",
+    correctOption: "b",
+    answerPicked: ""
+  },
+  {
+    name: "How many atoms are in one mole of CH₃OH?",
+    options: [
+      "6",
+      "6.0 x 10²³",
+      "12.0 x 10²³",
+      "3.6 x 10²⁴",
+      "3"
+    ],
+    correctAnswer: "6.0 x 10²³",
+    correctOption: "b",
+    answerPicked: ""
+  },
+  {
+    name: "The mass in grams of 2.6 x 10²² chlorine atoms is:",
+    options: [
+      "4.4",
+      "11",
+      "0.76",
+      "1.5",
+      "3.2"
+    ],
+    correctAnswer: "1.5",
+    correctOption: "d",
+    answerPicked: ""
+  },
+  {
+    name: "How many aluminum atoms are there in 3.50 grams of Al₂O₃?",
+    options: [
+      "4.13 x 10²²",
+      "4.90 x 10²²",
+      "2.07 x 10²²",
+      "1.68 x 10²²",
+      "2.45 x 10²²"
+    ],
+    correctAnswer: "4.13 x 10²²",
+    correctOption: "a",
+    answerPicked: ""
+  },
+  {
+    name: "Which one of the samples contains the most atoms?",
+    options: [
+      "1 mol of CO₂(g)",
+      "1 mol of UF₆(g)",
+      "1 mol of CH₃COCH₃(l)",
+      "1 mol of He(g)",
+      "All contain the same number of atoms"
+    ],
+    correctAnswer: "1 mol of He(g)",
+    correctOption: "d",
+    answerPicked: ""
+  },
+  {
+    name: "Which one of the samples contains the most molecules?",
+    options: [
+      "1 mol of CO₂(g)",
+      "1 mol of UF₆(g)",
+      "1 mol of CH₃COCH₃(l)",
+      "1 mol of He(g)",
+      "All contain the same number of molecules"
+    ],
+    correctAnswer: "All contain the same number of molecules",
+    correctOption: "e",
+    answerPicked: ""
+  },
+  {
+    name: "Which one of the samples has the largest mass?",
+    options: [
+      "1 mol of CO₂(g)",
+      "1 mol of UF₆(g)",
+      "1 mol of CH₃COCH₃(l)",
+      "1 mol of He(g)",
+      "All have the same mass"
+    ],
+    correctAnswer: "1 mol of UF₆(g)",
+    correctOption: "b",
+    answerPicked: ""
+  },
+  {
+    name: "Which of the following statements is(are) FALSE?\n1. The percent by mass of each element in a compound depends on the amount of the compound.\n2. The mass of each element in a compound depends on the amount of the compound.\n3. The percent by mass of each element in a compound depends on the amount of element present in the compound.",
+    options: [
+      "2 and 3",
+      "1 only",
+      "1 and 2",
+      "1, 2, and 3",
+      "Another combination"
+    ],
+    correctAnswer: "1 only",
+    correctOption: "b",
+    answerPicked: ""
+  },
+  {
+    name: "Guanidin, HNC(NH₂)₂, is a fertilizer. To three significant figures, what is the percent by mass of nitrogen in the fertilizer?",
+    options: [
+      "45.2%",
+      "49.4%",
+      "54.8%",
+      "65.1%",
+      "71.1%"
+    ],
+    correctAnswer: "71.1%",
+    correctOption: "e",
+    answerPicked: ""
+  },
+  {
+    name: "Calculate the percent, by weight, of carbon in 154 g of C₄H₈O₃?",
+    options: [
+      "46%",
+      "31%",
+      "72%",
+      "27%",
+      "55%"
+    ],
+    correctAnswer: "46%",
+    correctOption: "a",
+    answerPicked: ""
+  },
+  {
+    name: "Analysis of a sample of a covalent compound showed that it contained 14.4% hydrogen and 85.6% carbon by mass. What is the empirical formula for the compound?",
+    options: [
+      "CH",
+      "CH₂",
+      "CH₃",
+      "C₂H₃",
+      "None of these"
+    ],
+    correctAnswer: "CH₂",
+    correctOption: "b",
+    answerPicked: ""
+  },
+  {
+    name: "An oxide of lead contains 90.65% Pb, by weight. The empirical formula is:",
+    options: [
+      "Pb",
+      "PbO",
+      "Pb₃O₄",
+      "Pb₂O₃",
+      "PbO₂"
+    ],
+    correctAnswer: "Pb₃O₄",
+    correctOption: "c",
+    answerPicked: ""
+  },
+  {
+    name: "A 0.500 g sample of a compound containing only antimony and oxygen was found to contain 0.418 g of antimony and 0.082 g of oxygen. What is the simplest formula for the compound?",
+    options: [
+      "SbO",
+      "SbO₂",
+      "Sb₃O₄",
+      "Sb₂O₅",
+      "Sb₂O₃"
+    ],
+    correctAnswer: "Sb₂O₃",
+    correctOption: "e",
+    answerPicked: ""
+  },
+  {
+    name: "A compound contains, by mass, 40.0% carbon, 6.71% hydrogen, and 53.3% oxygen. A 0.320 mole sample of this compound weighs 28.8 g. The molecular formula of this compound is:",
+    options: [
+      "C₂H₄O₂",
+      "C₃H₆O₃",
+      "C₂H₄O",
+      "CH₂O",
+      "C₄H₇O₂"
+    ],
+    correctAnswer: "C₃H₆O₃",
+    correctOption: "b",
+    answerPicked: ""
+  },
+  {
+    name: "What mass of cerussite, PbCO₃, would contain 35.0 grams of lead?",
+    options: [
+      "27.1 g",
+      "45.1 g",
+      "42.4 g",
+      "35.6 g",
+      "51.7 g"
+    ],
+    correctAnswer: "45.1 g",
+    correctOption: "b",
+    answerPicked: ""
+  },
+                             
         ];
         
         
@@ -5511,6 +5733,10 @@ const che101Questions =[
   ...genche101
 ]
 
+
+const csc101Questions = [
+  ...genuinepq,
+]
 const quizzes = [
   {
     name: "CHE 101",
