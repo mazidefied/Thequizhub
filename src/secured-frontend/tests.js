@@ -3601,7 +3601,200 @@ const atomictheoryQuestions = [
     correctOption: "D",
     answerPicked: ""
   },
-  // Add more questions here...
+    {
+      name: "Who is credited with the most important chemical theory described in the text?",
+      options: [
+        "John Dalton",
+        "Albert Einstein",
+        "Isaac Newton",
+        "Marie Curie"
+      ],
+      correctAnswer: "John Dalton",
+      correctOption: "A",
+      answerPicked: ""
+    },
+    {
+      name: "What did Dalton call the small particles of matter corresponding to different elements?",
+      options: [
+        "Protons",
+        "Electrons",
+        "Neutrons",
+        "Atoms"
+      ],
+      correctAnswer: "Atoms",
+      correctOption: "D",
+      answerPicked: ""
+    },
+    {
+      name: "According to Dalton, what is the weight assigned to a hydrogen atom?",
+      options: [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      correctAnswer: "1",
+      correctOption: "B",
+      answerPicked: ""
+    },
+    {
+      name: "What is the main idea of Dalton's atomic theory?",
+      options: [
+        "Atoms are divisible into smaller particles",
+        "Elements consist of molecules",
+        "Matter is made up of indivisible atoms",
+        "Atoms of different elements are identical"
+      ],
+      correctAnswer: "Matter is made up of indivisible atoms",
+      correctOption: "C",
+      answerPicked: ""
+    },
+    {
+      name: "Which statement summarizes Dalton's atomic theory?",
+      options: [
+        "Atoms are constantly changing in size",
+        "Elements consist of different kinds of atoms",
+        "Atoms of one element differ in size and shape",
+        "All matter is made up of atoms that cannot be created or destroyed"
+      ],
+      correctAnswer: "All matter is made up of atoms that cannot be created or destroyed",
+      correctOption: "D",
+      answerPicked: ""
+    },
+    {
+      name: "What does the word 'atomos' mean in Greek?",
+      options: [
+        "Divisible",
+        "Invisible",
+        "Indivisible",
+        "Composite"
+      ],
+      correctAnswer: "Indivisible",
+      correctOption: "C",
+      answerPicked: ""
+    },
+    {
+      name: "According to Dalton, what are compounds formed from?",
+      options: [
+        "Compounds are not discussed in the theory",
+        "Compounds are indivisible",
+        "Atoms of one element",
+        "Atoms of two or more elements in a definite number"
+      ],
+      correctAnswer: "Atoms of two or more elements in a definite number",
+      correctOption: "D",
+      answerPicked: ""
+    },
+    {
+      name: "In Dalton's atomic theory, what is the defining property of atoms of the same element?",
+      options: [
+        "They have different sizes",
+        "They have different shapes",
+        "They have different masses",
+        "They are identical in size, shape, and all other properties"
+      ],
+      correctAnswer: "They are identical in size, shape, and all other properties",
+      correctOption: "D",
+      answerPicked: ""
+    },
+    {
+      name: "What is the significance of assigning a weight of 1 to a hydrogen atom in Dalton's theory?",
+      options: [
+        "Hydrogen atoms are the heaviest",
+        "Hydrogen atoms are the lightest",
+        "Hydrogen atoms are the most reactive",
+        "Hydrogen atoms are the most stable"
+      ],
+      correctAnswer: "Hydrogen atoms are the lightest",
+      correctOption: "B",
+      answerPicked: ""
+    },
+    {
+      name: "Which statement is true according to Dalton's atomic theory?",
+      options: [
+        "Atoms can be created or destroyed by chemical means",
+        "Atoms of different elements are identical",
+        "Atoms can be divided into smaller particles",
+        "All matter is composed of indivisible atoms"
+      ],
+      correctAnswer: "All matter is composed of indivisible atoms",
+      correctOption: "D",
+      answerPicked: ""
+    },
+    // Additional questions start here
+    {
+      name: "What is the term 'atomos' derived from?",
+      options: [
+        "Latin",
+        "French",
+        "Greek",
+        "German"
+      ],
+      correctAnswer: "Greek",
+      correctOption: "C",
+      answerPicked: ""
+    },
+    {
+      name: "What is the range of years during which John Dalton lived?",
+      options: [
+        "1666-1744",
+        "1766-1844",
+        "1844-1926",
+        "1897-1987"
+      ],
+      correctAnswer: "1766-1844",
+      correctOption: "B",
+      answerPicked: ""
+    },
+    {
+      name: "According to Dalton, what is the fundamental particle of matter?",
+      options: [
+        "Molecule",
+        "Atom",
+        "Ion",
+        "Compound"
+      ],
+      correctAnswer: "Atom",
+      correctOption: "B",
+      answerPicked: ""
+    },
+    {
+      name: "What is the meaning of the term 'indivisible' in the context of Dalton's atomic theory?",
+      options: [
+        "Unable to be cut",
+        "Extremely small",
+        "Easily broken",
+        "Chemically unstable"
+      ],
+      correctAnswer: "Unable to be cut",
+      correctOption: "A",
+      answerPicked: ""
+    },
+    {
+      name: "Which element did Dalton assign a weight of 1 to?",
+      options: [
+        "Oxygen",
+        "Carbon",
+        "Hydrogen",
+        "Nitrogen"
+      ],
+      correctAnswer: "Hydrogen",
+      correctOption: "C",
+      answerPicked: ""
+    },
+    {
+      name: "What did Dalton build a table of in his theory?",
+      options: [
+        "Chemical reactions",
+        "Atomic masses",
+        "Molecular structures",
+        "Kinetic energy"
+      ],
+      correctAnswer: "Atomic masses",
+      correctOption: "B",
+      answerPicked: ""
+    },
+
 ];
 
 
