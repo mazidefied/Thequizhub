@@ -4476,7 +4476,7 @@ const che103Questions =[
 ]
 
 const che101Questions =[
-  ...atomictheoryQuestions
+  ...atomictheoryQuestions,
   ...settheory
 ]
 
