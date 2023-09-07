@@ -4710,7 +4710,7 @@ const atomictheoryQuestions = [
               "28 g/mol",
               "32 g/mol",
               "36 g/mol",
-              "40 g/mol"
+              "44 g/mol"
             ],
             correctAnswer: "44 g/mol",
             correctOption: "D",
