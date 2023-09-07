@@ -5680,6 +5680,20 @@ const atomictheoryQuestions = [
     correctOption: "a",
     answerPicked: ""
   },
+          {
+    name: "How many moles of alanine, C₃H₇NO₂, are there in 159 g of alanine?",
+    options: [
+      "1.42 x 10⁴",
+      "1.78",
+      "0.992",
+      "0.560",
+      "3.31"
+    ],
+    correctAnswer: "1.78",
+    correctOption: "b",
+    answerPicked: ""
+  },
+
                       
         ];
         
