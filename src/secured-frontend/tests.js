@@ -5434,6 +5434,17 @@ const atomictheoryQuestions = [
                       correctOption: "2",
                       answerPicked: ""
                     },
+          {
+    name: "The fixed circular paths around the nucleus are called",
+    options: [
+      "Orbits",
+      "Orbitals"
+    ],
+    correctAnswer: "Orbits",
+    correctOption: "1",
+    answerPicked: ""
+},
+
                                       
         ];
         
