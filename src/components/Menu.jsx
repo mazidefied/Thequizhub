@@ -41,7 +41,7 @@ const Menu = () => {
             
         </div>
         <div className="footer">
-            <a href="https://wa.me/+2347035658853" target='_blank' rel='noreferrer'><div className="code"><FaBolt /></div> Ignition Labz.ng</a>
+            <a href="https://wa.me/+2349032698998" target='_blank' rel='noreferrer'><div className="code"><FaBolt /></div> Ignition Labz.ng</a>
         </div>
         <div className="close" onClick={()=>{
                     appState.functions.toggleMenu(false)
