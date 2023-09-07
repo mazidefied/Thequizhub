@@ -3993,13 +3993,436 @@ const atomictheoryQuestions = [
       "All matter consists of atoms",
       "Atoms are indivisible",
       "Atoms of different elements are identical",
-      "Atoms can be created and destroyed"
+      "Atoms cannot be created and destroyed"
     ],
     correctAnswer: "Atoms of different elements are identical",
     correctOption: "C",
     answerPicked: ""
   },
+];
 
+  const settheory = [
+    {
+      name: "Who is credited with the discovery that an atom has a tiny central nucleus?",
+      options: [
+        "John Dalton",
+        "Marie Curie",
+        "Ernest Rutherford",
+        "Albert Einstein"
+      ],
+      correctAnswer: "C. Ernest Rutherford",
+      correctOption: "C",
+      answerPicked: ""
+    },
+    {
+      name: "What did Ernest Rutherford discover about the atom's structure?",
+      options: [
+        "Atoms consist of electrons only",
+        "Atoms are indivisible",
+        "Atoms have a central nucleus surrounded by electrons",
+        "Atoms have a central nucleus made of electrons"
+      ],
+      correctAnswer: "Atoms have a central nucleus surrounded by electrons",
+      correctOption: "C",
+      answerPicked: ""
+    },
+    {
+      name: "What type of particles did Rutherford use in his experiments to study atoms?",
+      options: [
+        "Electrons",
+        "Protons",
+        "Alpha particles",
+        "Neutrons"
+      ],
+      correctAnswer: "Alpha particles",
+      correctOption: "C",
+      answerPicked: ""
+    },
+    {
+      name: "What is the atomic number (Z) of an atom?",
+      options: [
+        "The number of electrons",
+        "The number of neutrons",
+        "The number of protons",
+        "The number of shells"
+      ],
+      correctAnswer: "The number of protons",
+      correctOption: "C",
+      answerPicked: ""
+    },
+    {
+      name: "How is the atomic number related to the number of electrons in a neutral atom?",
+      options: [
+        "They are equal",
+        "The number of electrons is double the atomic number",
+        "There is no relationship",
+        "The number of electrons is half the atomic number"
+      ],
+      correctAnswer: "They are equal",
+      correctOption: "A",
+      answerPicked: ""
+    },
+    {
+      name: "What is the term used for the positively charged particles in an atom's nucleus?",
+      options: [
+        "Electrons",
+        "Protons",
+        "Neutrons",
+        "Alpha particles"
+      ],
+      correctAnswer: "Protons",
+      correctOption: "B",
+      answerPicked: ""
+    },
+    {
+      name: "What is the arrangement of electrons around the nucleus referred to as?",
+      options: [
+        "Orbits",
+        "Clouds",
+        "Shells",
+        "Cores"
+      ],
+      correctAnswer: "Shells",
+      correctOption: "C",
+      answerPicked: ""
+    },
+    {
+      name: "What is the innermost shell of electrons called?",
+      options: [
+        "K shell",
+        "L shell",
+        "M shell",
+        "N shell"
+      ],
+      correctAnswer: "K shell",
+      correctOption: "A",
+      answerPicked: ""
+    },
+    {
+      name: "Which electron shell has the lowest energy?",
+      options: [
+        "K shell",
+        "L shell",
+        "M shell",
+        "N shell"
+      ],
+      correctAnswer: "K shell",
+      correctOption: "A",
+      answerPicked: ""
+    },
+    {
+      name: "In what order are electrons successively added to electron shells?",
+      options: [
+        "L, K, M, N",
+        "K, L, M, N",
+        "N, M, L, K",
+        "M, K, N, L"
+      ],
+      correctAnswer: "K, L, M, N",
+      correctOption: "B",
+      answerPicked: ""
+    },
+    {
+      name: "Which shell is higher in energy than the K shell?",
+      options: [
+        "L shell",
+        "M shell",
+        "N shell",
+        "O shell"
+      ],
+      correctAnswer: "L shell",
+      correctOption: "A",
+      answerPicked: ""
+    },
+    {
+      name: "What did Ernest Rutherford use to study the deflection patterns of particles by thin metal foils?",
+      options: [
+        "Electrons",
+        "Protons",
+        "Alpha particles",
+        "Neutrons"
+      ],
+      correctAnswer: "Alpha particles",
+      correctOption: "C",
+      answerPicked: ""
+    },
+    {
+      name: "What did Rutherford conclude about the mass distribution in an atom?",
+      options: [
+        "Electrons carry all the mass",
+        "Electrons are located in the nucleus",
+        "The nucleus carries practically all the mass",
+        "Neutrons carry all the mass"
+      ],
+      correctAnswer: "The nucleus carries practically all the mass",
+      correctOption: "C",
+      answerPicked: ""
+    },
+    {
+      name: "What is the term used to describe the number of positive charges on the nucleus?",
+      options: [
+        "Atomic mass",
+        "Atomic weight",
+        "Atomic number (Z)",
+        "Atomic radius"
+      ],
+      correctAnswer: "Atomic number (Z)",
+      correctOption: "C",
+      answerPicked: ""
+    },
+    {
+      name: "What must be equal in a neutral atom to satisfy its electrical neutrality?",
+      options: [
+        "Number of protons and electrons",
+        "Number of neutrons and electrons",
+        "Number of protons and neutrons",
+        "Number of electrons and shells"
+      ],
+      correctAnswer: "Number of protons and electrons",
+      correctOption: "A",
+      answerPicked: ""
+    },
+    {
+      name: "What did Rutherford use to study the deflection patterns of alpha particles?",
+      options: [
+        "Electron beams",
+        "X-rays",
+        "Gamma rays",
+        "Alpha particle beams"
+      ],
+      correctAnswer: "Alpha particle beams",
+      correctOption: "D",
+      answerPicked: ""
+    },
+    {
+      name: "What is the term for the positively charged particles in an atom's nucleus?",
+      options: [
+        "Electrons",
+        "Protons",
+        "Neutrons",
+        "Alpha particles"
+      ],
+      correctAnswer: "Protons",
+      correctOption: "B",
+      answerPicked: ""
+    },
+
+    {
+      name: "How are electrons arranged around the nucleus in an atom?",
+      options: [
+        "In random patterns",
+        "In fixed concentric circles",
+        "In a linear chain",
+        "In irregular orbits"
+      ],
+      correctAnswer: "In fixed concentric circles",
+      correctOption: "B",
+      answerPicked: ""
+    },
+    {
+      name: "What is the term used to describe the innermost electron shell?",
+      options: [
+        "Core shell",
+        "Central shell",
+        "K shell",
+        "Alpha shell"
+      ],
+      correctAnswer: "K shell",
+      correctOption: "C",
+      answerPicked: ""
+    },
+    {
+      name: "Which electron shell has the highest energy?",
+      options: [
+        "K shell",
+        "L shell",
+        "M shell",
+        "N shell"
+      ],
+      correctAnswer: "N shell",
+      correctOption: "D",
+      answerPicked: ""
+    },
+    {
+      name: "What did Rutherford use in his experiments to study the atom's structure?",
+      options: [
+        "Electrons",
+        "Protons",
+        "Alpha particles",
+        "Neutrons"
+      ],
+      correctAnswer: "Alpha particles",
+      correctOption: "C",
+      answerPicked: ""
+    },
+    {
+      name: "What is the term used for the number of positive charges on the nucleus?",
+      options: [
+        "Atomic mass",
+        "Atomic weight",
+        "Atomic number (Z)",
+        "Atomic radius"
+      ],
+      correctAnswer: "Atomic number (Z)",
+      correctOption: "C",
+      answerPicked: ""
+    },
+    {
+      name: "What is the arrangement of electrons around the nucleus referred to as?",
+      options: [
+        "Orbits",
+        "Clouds",
+        "Shells",
+        "Cores"
+      ],
+      correctAnswer: "Shells",
+      correctOption: "C",
+      answerPicked: ""
+    },
+    {
+      name: "What did Rutherford conclude about the mass distribution in an atom?",
+      options: [
+        "Electrons carry all the mass",
+        "Electrons are located in the nucleus",
+        "The nucleus carries practically all the mass",
+        "Neutrons carry all the mass"
+      ],
+      correctAnswer: "The nucleus carries practically all the mass",
+      correctOption: "C",
+      answerPicked: ""
+    },
+    {
+      name: "What must be equal in a neutral atom to satisfy its electrical neutrality?",
+      options: [
+        "Number of protons and electrons",
+        "Number of neutrons and electrons",
+        "Number of protons and neutrons",
+        "Number of electrons and shells"
+      ],
+      correctAnswer: "Number of protons and electrons",
+      correctOption: "A",
+      answerPicked: ""
+    },
+    {
+      name: "What did Rutherford use to study the deflection patterns of alpha particles?",
+      options: [
+        "Electron beams",
+        "X-rays",
+        "Gamma rays",
+        "Alpha particle beams"
+      ],
+      correctAnswer: "Alpha particle beams",
+      correctOption: "D",
+      answerPicked: ""
+    },
+    {
+      name: "What is the term for the positively charged particles in an atom's nucleus?",
+      options: [
+        "Electrons",
+        "Protons",
+        "Neutrons",
+        "Alpha particles"
+      ],
+      correctAnswer: "Protons",
+      correctOption: "B",
+      answerPicked: ""
+    },
+    {
+      name: "How are electrons arranged around the nucleus in an atom?",
+      options: [
+        "In random patterns",
+        "In fixed concentric circles",
+        "In a linear chain",
+        "In irregular orbits"
+      ],
+      correctAnswer: "In fixed concentric circles",
+      correctOption: "B",
+      answerPicked: ""
+    },
+    {
+      name: "What is the term used to describe the innermost electron shell?",
+      options: [
+        "Core shell",
+        "Central shell",
+        "K shell",
+        "Alpha shell"
+      ],
+      correctAnswer: "K shell",
+      correctOption: "C",
+      answerPicked: ""
+    },
+    {
+      name: "Which electron shell has the highest energy?",
+      options: [
+        "K shell",
+        "L shell",
+        "M shell",
+        "N shell"
+      ],
+      correctAnswer: "N shell",
+      correctOption: "D",
+      answerPicked: ""
+    },
+    {
+      name: "What did Rutherford use in his experiments to study the atom's structure?",
+      options: [
+        "Electrons",
+        "Protons",
+        "Alpha particles",
+        "Neutrons"
+      ],
+      correctAnswer: "Alpha particles",
+      correctOption: "C",
+      answerPicked: ""
+    },
+    {
+      name: "What is the term used for the number of positive charges on the nucleus?",
+      options: [
+        "Atomic mass",
+        "Atomic weight",
+        "Atomic number (Z)",
+        "Atomic radius"
+      ],
+      correctAnswer: "Atomic number (Z)",
+      correctOption: "C",
+      answerPicked: ""
+    },
+    {
+      name: "What is the arrangement of electrons around the nucleus referred to as?",
+      options: [
+        "Orbits",
+        "Clouds",
+        "Shells",
+        "Cores"
+      ],
+      correctAnswer: "Shells",
+      correctOption: "C",
+      answerPicked: ""
+    },
+    {
+      name: "What did Rutherford conclude about the mass distribution in an atom?",
+      options: [
+        "Electrons carry all the mass",
+        "Electrons are located in the nucleus",
+        "The nucleus carries practically all the mass",
+        "Neutrons carry all the mass"
+      ],
+      correctAnswer: "The nucleus carries practically all the mass",
+      correctOption: "C",
+      answerPicked: ""
+    },
+    {
+      name: "What must be equal in a neutral atom to satisfy its electrical neutrality?",
+      options: [
+        "Number of protons and electrons",
+        "Number of neutrons and electrons",
+        "Number of protons and neutrons",
+        "Number of electrons and shells"
+      ],
+      correctAnswer: "Number of protons and electrons",
+      correctOption: "A",
+      answerPicked: ""
+    }
 ];
 
 
@@ -4054,6 +4477,7 @@ const che103Questions =[
 
 const che101Questions =[
   ...atomictheoryQuestions
+  ...settheory
 ]
 
 const quizzes = [
