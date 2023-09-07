@@ -5273,6 +5273,44 @@ const atomictheoryQuestions = [
                 answerPicked: ""
               },
             
+
+                {
+                  name: "Which air pressure is appropriate for the production of cathode rays in the discharge tube?",
+                  options: [
+                    "1 cm Hg",
+                    "1 mm Hg",
+                    "0.001 cm Hg",
+                    "0.001 mm Hg"
+                  ],
+                  correctAnswer: "0.001 mm Hg",
+                  correctOption: "4",
+                  answerPicked: ""
+                },
+                {
+                  name: "Cathode rays are deflected towards",
+                  options: [
+                    "Positive electrode",
+                    "Negative electrode",
+                    "Both electrodes",
+                    "None of the electrodes"
+                  ],
+                  correctAnswer: "Positive electrode",
+                  correctOption: "1",
+                  answerPicked: ""
+                },
+                {
+                  name: "The absolute charge of an electron is",
+                  options: [
+                    "-1.6 x 10^-19 C",
+                    "+1.6 x 10^-19 C",
+                    "1.6 x 10^-19 C",
+                    "16 x 10^-19 C"
+                  ],
+                  correctAnswer: "-1.6 x 10^-19 C",
+                  correctOption: "1",
+                  answerPicked: ""
+                },
+              
                     
         ];
         
