@@ -4678,6 +4678,256 @@ const atomictheoryQuestions = [
           answerPicked: ""
         },
       ];
+
+      const relativemolarmass = [
+          {
+            name: "What is the Relative Molecular Mass (Molar Mass) of a water molecule (H2O)?",
+            options: [
+              "16 g/mol",
+              "18 g/mol",
+              "20 g/mol",
+              "22 g/mol"
+            ],
+            correctAnswer: "18 g/mol",
+            correctOption: "B",
+            answerPicked: ""
+          },
+          {
+            name: "Calculate the Relative Molecular Mass of methane (CH4).",
+            options: [
+              "14 g/mol",
+              "16 g/mol",
+              "18 g/mol",
+              "20 g/mol"
+            ],
+            correctAnswer: "16 g/mol",
+            correctOption: "B",
+            answerPicked: ""
+          },
+          {
+            name: "What is the Relative Molecular Mass of carbon dioxide (CO2)?",
+            options: [
+              "28 g/mol",
+              "32 g/mol",
+              "36 g/mol",
+              "40 g/mol"
+            ],
+            correctAnswer: "44 g/mol",
+            correctOption: "D",
+            answerPicked: ""
+          },
+          {
+            name: "Calculate the Relative Molecular Mass of sulfuric acid (H2SO4).",
+            options: [
+              "50 g/mol",
+              "72 g/mol",
+              "98 g/mol",
+              "98.1 g/mol"
+            ],
+            correctAnswer: "98 g/mol",
+            correctOption: "C",
+            answerPicked: ""
+          },
+          {
+            name: "What is the formula mass of potassium nitrate (KNO3)?",
+            options: [
+              "62 g/mol",
+              "101 g/mol",
+              "125 g/mol",
+              "139 g/mol"
+            ],
+            correctAnswer: "101 g/mol",
+            correctOption: "B",
+            answerPicked: ""
+          },
+          {
+            name: "Calculate the Relative Formula Mass of magnesium sulfate (MgSO4).",
+            options: [
+              "95 g/mol",
+              "120 g/mol",
+              "138 g/mol",
+              "142 g/mol"
+            ],
+            correctAnswer: "120 g/mol",
+            correctOption: "B",
+            answerPicked: ""
+          },
+          {
+            name: "What is the Relative Molecular Mass of glucose (C6H12O6)?",
+            options: [
+              "120 g/mol",
+              "132 g/mol",
+              "144 g/mol",
+              "180 g/mol"
+            ],
+            correctAnswer: "180 g/mol",
+            correctOption: "D",
+            answerPicked: ""
+          },
+          {
+            name: "Calculate the Relative Formula Mass of calcium phosphate (Ca3(PO4)2).",
+            options: [
+              "298 g/mol",
+              "310 g/mol",
+              "330 g/mol",
+              "350 g/mol"
+            ],
+            correctAnswer: "310 g/mol",
+            correctOption: "B",
+            answerPicked: ""
+          },
+          {
+            name: "What is the Relative Molecular Mass of acetic acid (CH3COOH)?",
+            options: [
+              "60 g/mol",
+              "76 g/mol",
+              "88 g/mol",
+              "98 g/mol"
+            ],
+            correctAnswer: "60 g/mol",
+            correctOption: "A",
+            answerPicked: ""
+          },
+          {
+            name: "Calculate the Relative Formula Mass of ammonium sulfate ((NH4)2SO4).",
+            options: [
+              "112 g/mol",
+              "132 g/mol",
+              "142 g/mol",
+              "156 g/mol"
+            ],
+            correctAnswer: "132 g/mol",
+            correctOption: "B",
+            answerPicked: ""
+          },
+
+            {
+              name: "What is the formula to calculate the Relative Molecular Mass (Molar Mass) of a compound?",
+              options: [
+                "Sum of the masses of all isotopes",
+                "Sum of the masses of all atoms in a molecule",
+                "Sum of the masses of all electrons in a molecule",
+                "Sum of the masses of all protons in a molecule"
+              ],
+              correctAnswer: "Sum of the masses of all atoms in a molecule",
+              correctOption: "B",
+              answerPicked: ""
+            },
+            {
+              name: "Calculate the Relative Molecular Mass of a methane molecule (CH4) in atomic mass units (amu).",
+              options: [
+                "12 amu",
+                "14 amu",
+                "16 amu",
+                "18 amu"
+              ],
+              correctAnswer: "16 amu",
+              correctOption: "C",
+              answerPicked: ""
+            },
+            {
+              name: "Which unit is commonly used to express Relative Molecular Mass?",
+              options: [
+                "Atomic mass unit (amu)",
+                "Mole (mol)",
+                "Kilogram (kg)",
+                "Coulomb (C)"
+              ],
+              correctAnswer: "Atomic mass unit (amu)",
+              correctOption: "A",
+              answerPicked: ""
+            },
+            {
+              name: "What is the formula mass of sulfuric acid (H2SO4)?",
+              options: [
+                "96.06 g/mol",
+                "98.07 g/mol",
+                "100.09 g/mol",
+                "102.10 g/mol"
+              ],
+              correctAnswer: "98.07 g/mol",
+              correctOption: "B",
+              answerPicked: ""
+            },
+            {
+              name: "Calculate the Relative Molecular Mass of glucose (C6H12O6) in atomic mass units (amu).",
+              options: [
+                "174 amu",
+                "180 amu",
+                "186 amu",
+                "192 amu"
+              ],
+              correctAnswer: "180 amu",
+              correctOption: "B",
+              answerPicked: ""
+            },
+            {
+              name: "In the formula mass of a compound, what is the significance of multiplying each element's mass by its subscript?",
+              options: [
+                "It represents the number of moles of each element",
+                "It accounts for the number of atoms of each element in the compound",
+                "It adjusts the mass to match the empirical formula",
+                "It scales the mass to match Avogadro's Constant"
+              ],
+              correctAnswer: "It accounts for the number of atoms of each element in the compound",
+              correctOption: "B",
+              answerPicked: ""
+            },
+            {
+              name: "What is the Relative Molecular Mass of a molecule with one nitrogen atom (N) and three hydrogen atoms (H)?",
+              options: [
+                "1.008 amu",
+                "2.016 amu",
+                "3.016 amu",
+                "4.032 amu"
+              ],
+              correctAnswer: "3.016 amu",
+              correctOption: "C",
+              answerPicked: ""
+            },
+            {
+              name: "Which compound has the highest Relative Molecular Mass?",
+              options: [
+                "Ammonium sulfate ((NH4)2SO4)",
+                "Methane (CH4)",
+                "Water (H2O)",
+                "Carbon dioxide (CO2)"
+              ],
+              correctAnswer: "Ammonium sulfate ((NH4)2SO4)",
+              correctOption: "A",
+              answerPicked: ""
+            },
+            {
+              name: "What is the Relative Formula Mass of calcium carbonate (CaCO3)?",
+              options: [
+                "99.19 g/mol",
+                "100.09 g/mol",
+                "101.09 g/mol",
+                "102.09 g/mol"
+              ],
+              correctAnswer: "100.09 g/mol",
+              correctOption: "B",
+              answerPicked: ""
+            },
+            {
+              name: "Calculate the Relative Molecular Mass of sulfur hexafluoride (SF6) in atomic mass units (amu).",
+              options: [
+                "120.06 amu",
+                "144.06 amu",
+                "146.06 amu",
+                "168.06 amu"
+              ],
+              correctAnswer: "146.06 amu",
+              correctOption: "C",
+              answerPicked: ""
+            },
+        
+          
+          
+        ];
+        
+        
+      
       
       
 
@@ -4733,7 +4983,8 @@ const che103Questions =[
 
 const che101Questions =[
   ...atomictheoryQuestions,
-  ...settheory
+  ...settheory,
+  ...relativemolarmass
 ]
 
 const quizzes = [
