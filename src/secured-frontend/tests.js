@@ -5373,8 +5373,68 @@ const atomictheoryQuestions = [
                     answerPicked: ""
                   },
                 
-                
-                    
+                  
+                    {
+                      name: "The volume of the nucleus of an atom when compared to the extra nuclear part is",
+                      options: [
+                        "Bigger",
+                        "Smaller",
+                        "Same size",
+                        "Unpredictable"
+                      ],
+                      correctAnswer: "Smaller",
+                      correctOption: "2",
+                      answerPicked: ""
+                    },
+                    {
+                      name: "In Rutherford's alpha-scattering experiment, a foil of element that was used was",
+                      options: [
+                        "Gold",
+                        "Silver",
+                        "Aluminum",
+                        "Magnesium"
+                      ],
+                      correctAnswer: "Gold",
+                      correctOption: "1",
+                      answerPicked: ""
+                    },
+                    {
+                      name: "An element has an electronic configuration of 2, 8, 7. Its valency is",
+                      options: [
+                        "1",
+                        "7",
+                        "17",
+                        "8"
+                      ],
+                      correctAnswer: "1",
+                      correctOption: "1",
+                      answerPicked: ""
+                    },
+                    {
+                      name: "The other name of protium is",
+                      options: [
+                        "Protium",
+                        "Tritium",
+                        "Deuterium",
+                        "Proton"
+                      ],
+                      correctAnswer: "Protium",
+                      correctOption: "1",
+                      answerPicked: ""
+                    },
+                    {
+                      name: "During a chemical reaction, atomic number",
+                      options: [
+                        "Changes",
+                        "Remains same",
+                        "Changes and then is restored",
+                        "Changes alternately"
+                      ],
+                      correctAnswer: "Remains same",
+                      correctOption: "2",
+                      answerPicked: ""
+                    },
+                                      
         ];
         
         
