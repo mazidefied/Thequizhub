@@ -5037,6 +5037,136 @@ const atomictheoryQuestions = [
           },
         ];
         
+        const genche101 = [
+          {
+            name: "Reactions in which reactants react to form products and simultaneously products reverse back in to reactants are called",
+            options: [
+              "Reversible reactions",
+              "Irreversible reaction",
+              "Spontaneous reactions",
+              "non spontaneous reactions"
+            ],
+            correctAnswer: "Reversible reactions",
+            correctOption: "A",
+            answerPicked:"",
+          },
+
+          {
+            name: "Conditions for equilibrium of concentration of reactant and product will be same if",
+            options: [
+              "temperature is constant",
+              "pressure or volume is constant",
+              "concentration of proucts and reactants are same",
+              "all of the above"
+            ],
+            correctAnswer: "all of the above",
+            correctOption: "D",
+            answerPicked:"",
+          },
+
+          {
+            name: "Equilibrium constant can be used to",
+            options: [
+              "predict direction of chemical reaction",
+              "predict extent of chemical reaction",
+              "determine the equilibrium concentration of mixture",
+              "all of the above"
+            ],
+            correctAnswer: "all of the above",
+            correctOption: "D",
+            answerPicked:"",
+          },
+          {
+            name: "Rate at which reaction proceeds is directly related to",
+            options: [
+              "active masses of reactants",
+              "ionizer",
+              "collector",
+              "graph"
+            ],
+            correctAnswer: "active masses of reactants",
+            correctOption: "A",
+            answerPicked:"",
+          },
+          
+          {
+            name: "Mass spectrometer use to determine isotopes in solid state is  ",
+            options: [
+              "Bohr's",
+              "Aston's",
+              "Dempester's",
+              "Alison's"
+            ],
+            correctAnswer: "Dempester's",
+            correctOption: "C",
+            answerPicked:"",
+          },
+
+        
+            {
+              name: "Smallest particle of an element which can take part in any chemical change.",
+              options: [
+                "nucleus",
+                "atom",
+                "proton",
+                "neutron"
+              ],
+              correctAnswer: "atom",
+              correctOption: "B",
+              answerPicked: ""
+            },
+            {
+              name: "Number of times a proton is heavier than an electron is",
+              options: [
+                "18 times",
+                "184 times",
+                "200 times",
+                "1840 times"
+              ],
+              correctAnswer: "1840",
+              correctOption: "D",
+              answerPicked: ""
+            },
+            {
+              name: "Chemical elements are represented by",
+              options: [
+                "alphabets",
+                "symbols",
+                "gods",
+                "illusions"
+              ],
+              correctAnswer: "symbols",
+              correctOption: "B",
+              answerPicked: ""
+            },
+
+            {
+              name: "Atomic number is the number of",
+              options: [
+                "protons (p<sup>+</sup> )",
+                "electrons (e<sup>-</sup>)",
+                "neutrons (n<sup>0</sup>) ",
+                "nucleons ( p<sup>+</sup> and n<sup>0</sup> )"
+              ],
+              correctAnswer: "protons (p<sup>+</sup> )",
+              correctOption:"A",
+              answerPicked:""
+          
+              },
+          {
+            name: "",
+            options: [
+              "",
+              "",
+              "",
+              ""
+            ],
+            correctAnswer: "",
+            correctOption: "",
+            answerPicked:"",
+          },
+          
+        ];
         
         
       
