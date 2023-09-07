@@ -4925,6 +4925,118 @@ const atomictheoryQuestions = [
           
           
         ];
+
+        const puresubstance = [
+          {
+            name: "What defines a pure substance?",
+            options: [
+              "It contains only one kind of element",
+              "It contains only one kind of compound",
+              "It is a mixture of different compounds",
+              "It has a variable composition"
+            ],
+            correctAnswer: "It contains only one kind of compound",
+            correctOption: "B",
+            answerPicked: ""
+          },
+          {
+            name: "Why is sugar considered a pure substance?",
+            options: [
+              "Because it contains only sugar molecules",
+              "Because it contains various compounds",
+              "Because it is a mixture of elements",
+              "Because it has a variable composition"
+            ],
+            correctAnswer: "Because it contains only sugar molecules",
+            correctOption: "A",
+            answerPicked: ""
+          },
+          {
+            name: "What characteristic defines pure substances?",
+            options: [
+              "Variable composition",
+              "Definite composition",
+              "Multiple phases",
+              "Heterogeneous nature"
+            ],
+            correctAnswer: "Definite composition",
+            correctOption: "B",
+            answerPicked: ""
+          },
+          {
+            name: "What is the composition of substances in a pure compound like sugar?",
+            options: [
+              "Variable",
+              "Constant",
+              "Heterogeneous",
+              "Homogeneous"
+            ],
+            correctAnswer: "Constant",
+            correctOption: "B",
+            answerPicked: ""
+          },
+          {
+            name: "What defines a mixture?",
+            options: [
+              "It contains only one kind of compound",
+              "It contains only one kind of element",
+              "It is a combination of different compounds or elements",
+              "It is a pure substance"
+            ],
+            correctAnswer: "It is a combination of different compounds or elements",
+            correctOption: "C",
+            answerPicked: ""
+          },
+          {
+            name: "Why is air considered a mixture?",
+            options: [
+              "Because it contains only oxygen and nitrogen",
+              "Because it contains only elements",
+              "Because it is a pure substance",
+              "Because it contains different compounds and elements"
+            ],
+            correctAnswer: "Because it contains different compounds and elements",
+            correctOption: "D",
+            answerPicked: ""
+          },
+          {
+            name: "What type of mixture is a mixture of salt and black pepper?",
+            options: [
+              "Homogeneous mixture",
+              "Heterogeneous mixture",
+              "Pure substance",
+              "Elemental mixture"
+            ],
+            correctAnswer: "Heterogeneous mixture",
+            correctOption: "B",
+            answerPicked: ""
+          },
+          {
+            name: "Which term is synonymous with a homogeneous mixture?",
+            options: [
+              "Pure substance",
+              "Element",
+              "Solution",
+              "Compound"
+            ],
+            correctAnswer: "Solution",
+            correctOption: "C",
+            answerPicked: ""
+          },
+          {
+            name: "What is an example of a homogeneous mixture?",
+            options: [
+              "Salt and black pepper",
+              "Air",
+              "Sugar dissolved in water",
+              "Methanol mixed with water"
+            ],
+            correctAnswer: "Sugar dissolved in water",
+            correctOption: "C",
+            answerPicked: ""
+          },
+        ];
+        
         
         
       
@@ -4984,7 +5096,8 @@ const che103Questions =[
 const che101Questions =[
   ...atomictheoryQuestions,
   ...settheory,
-  ...relativemolarmass
+  ...relativemolarmass,
+  ...puresubstance
 ]
 
 const quizzes = [
