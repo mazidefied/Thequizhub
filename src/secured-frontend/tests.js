@@ -5096,7 +5096,7 @@ const che103Questions =[
 const che101Questions =[
   ...atomictheoryQuestions,
   ...settheory,
-  ...relativemolarmass
+  ...relativemolarmass,
   ...puresubstance
 ]
 
