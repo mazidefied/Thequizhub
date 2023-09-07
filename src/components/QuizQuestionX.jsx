@@ -1,15 +1,10 @@
-import React, { useState } from 'react'
-import Options from './Options';
+import React from 'react'
+import OptionsX from './OptionsX';
 
-const QuizQuestion = ({question, id, answerQuestion}) => {
-    const [selectedOption, setSelectedOption] = useState(null)
-    function handleAnswer(option){
-        setSelectedOption(option)
-        answerQuestion(id, option)
-    }
-    const options = question.options?question.options:[]
+const QuizQuestionX = ({question, id,}) => {
+    const options = question.options
     const optionsEl = options.map((option)=>{
-        return(<Options selectedOption={selectedOption} handleAnswer={handleAnswer} key={option} option={option} />)
+        return(<OptionsX selectedAnswer={question.answerPicked} key={option} correctAnswer={question.correctAnswer} option={option} />)
     })
   return (
     <>
@@ -25,4 +20,4 @@ const QuizQuestion = ({question, id, answerQuestion}) => {
   )
 }
 
-export default QuizQuestion
+export default QuizQuestionX
