@@ -4010,7 +4010,7 @@ const atomictheoryQuestions = [
         "Ernest Rutherford",
         "Albert Einstein"
       ],
-      correctAnswer: "C. Ernest Rutherford",
+      correctAnswer: "Ernest Rutherford",
       correctOption: "C",
       answerPicked: ""
     },
@@ -5116,19 +5116,19 @@ const atomictheoryQuestions = [
               answerPicked: ""
             },
             {
-              name: "Number of times a proton is heavier than an electron is",
+              name: "Number of times a proton (p<sup>+</sup>) is heavier than an electron (e<sup>-</sup>) is",
               options: [
                 "18 times",
                 "184 times",
                 "200 times",
                 "1840 times"
               ],
-              correctAnswer: "1840",
+              correctAnswer: "1840 times",
               correctOption: "D",
               answerPicked: ""
             },
             {
-              name: "Chemical elements are represented by",
+              name: "Chemical elements are represented by Greek or Latin",
               options: [
                 "alphabets",
                 "symbols",
@@ -5139,33 +5139,43 @@ const atomictheoryQuestions = [
               correctOption: "B",
               answerPicked: ""
             },
-
             {
               name: "Atomic number is the number of",
               options: [
                 "protons (p<sup>+</sup> )",
                 "electrons (e<sup>-</sup>)",
-                "neutrons (n<sup>0</sup>) ",
+                "neutrons (n<sup>0</sup>)",
                 "nucleons ( p<sup>+</sup> and n<sup>0</sup> )"
               ],
               correctAnswer: "protons (p<sup>+</sup> )",
-              correctOption:"A",
-              answerPicked:""
-          
-              },
-          {
-            name: "",
-            options: [
-              "",
-              "",
-              "",
-              ""
-            ],
-            correctAnswer: "",
-            correctOption: "",
-            answerPicked:"",
-          },
-          
+              correctOption: "A",
+              answerPicked: ""
+            },
+            {
+              name: "An Electric field deflects beams of",
+              options: [
+                "protons",
+                "electrons",
+                "neutrons",
+                "both A and B"
+              ],
+              correctAnswer: "both A and B",
+              correctOption: "D",
+              answerPicked: ""
+            },
+            {
+              name: "Modern method for separation of isotopes is",
+              options: [
+                "laser separation",
+                "chromatography",
+                "ionization",
+                "X-ray"
+              ],
+              correctAnswer: "laser separation",
+              correctOption: "A",
+              answerPicked: ""
+            },
+                    
         ];
         
         
