@@ -7472,7 +7472,7 @@ const che101Questions =[
   ...genche101
 ]
 
-const phy101Questions =[
+/*const phy101Questions =[
 ...physicsFundamentalQuantitiesQuestions,
 ...physicsDimensionsQuestions,
 ...scalarAndVectorQuestions,
@@ -7482,7 +7482,7 @@ const phy101Questions =[
 ...universalGravitationQuestions,
 ...momentumQuestions,
 ...simplePendulumQuestions
-]
+*/
 const phy103Questions = [
   ...propertiesOfMatterQuestions,
   ...elasticityQuestions,
