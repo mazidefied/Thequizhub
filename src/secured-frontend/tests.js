@@ -5694,7 +5694,58 @@ const atomictheoryQuestions = [
     answerPicked: ""
   },
 
-                      
+  
+    {
+      name: "Which of the following has a positive charge?",
+      options: [
+        "Proton",
+        "Neutron",
+        "Anion",
+        "Electron",
+        "Atom"
+      ],
+      correctAnswer: "Proton",
+      correctOption: "a",
+      answerPicked: ""
+    },
+    {
+      name: "Rutherford carried out experiments in which a beam of alpha particles was directed at a thin piece of metal foil. From these experiments he concluded that:",
+      options: [
+        "Electrons are massive particles.",
+        "The positively charged parts of atoms are moving about with a velocity approaching the speed of light.",
+        "The positively charged parts of atoms are extremely small and extremely heavy particles.",
+        "The diameter of an electron is approximately equal to that of the nucleus.",
+        "Electrons travel in circular orbits around the nucleus."
+      ],
+      correctAnswer: "The positively charged parts of atoms are extremely small and extremely heavy particles.",
+      correctOption: "c",
+      answerPicked: ""
+    },
+    {
+      name: "Consider the species 72Zn, 75As and 74Ge. These species have:",
+      options: [
+        "The same number of electrons.",
+        "The same number of protons.",
+        "The same number of neutrons.",
+        "The same number of protons and neutrons.",
+        "The same mass number."
+      ],
+      correctAnswer: "The same mass number.",
+      correctOption: "e",
+      answerPicked: ""
+    },
+    {
+      name: "The neutral atoms of all of the isotopes of the same element have",
+      options: [
+        "Different numbers of protons.",
+        "Equal numbers of neutrons.",
+        "The same number of electrons."
+      ],
+      correctAnswer: "The same number of electrons.",
+      correctOption: "c",
+      answerPicked: ""
+    }
+                          
         ];
         
         
