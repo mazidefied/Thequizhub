@@ -7565,12 +7565,12 @@ const phy103Questions = [
 const quizzes = [
   {
     name: "PHY 103",
-    id: 1,
+    id: 7,
     timer: {
         minutes: 15,
         seconds: 10
     },
-    imgUrl: "https://www.lastwordonnothing.com/wp-content/uploads/2012/12/ChemistryDraw1.jpg",
+    imgUrl: "https://assets.ltkcontent.com/images/26593/physics_27c5571306.webp",
     slug: "phy-103",
     description: "FUTA Past Questions",
     author: "Admin",
