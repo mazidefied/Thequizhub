@@ -6867,9 +6867,8 @@ const phy101Questions =[
 ...momentumQuestions,
 ...simplePendulumQuestions
 ]
-const csc101Questions = [
-  ...genuinepq,
-]
+
+
 const quizzes = [
   {
     name: "CHE 101",
