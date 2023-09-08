@@ -6108,9 +6108,695 @@ const atomictheoryQuestions = [
         ];
         
         
+        const physicsFundamentalQuantitiesQuestions = [
+          {
+            name: "Which fundamental quantity in physics represents the amount of matter in an object?",
+            options: [
+              "Time",
+              "Length",
+              "Mass",
+              "Force",
+            ],
+            correctAnswer: "Mass",
+            correctOption: "C",
+            answerPicked: "",
+          },
+          {
+            name: "What fundamental quantity in physics is measured in seconds (s)?",
+            options: [
+              "Mass",
+              "Time",
+              "Temperature",
+              "Velocity",
+            ],
+            correctAnswer: "Time",
+            correctOption: "B",
+            answerPicked: "",
+          },
+          {
+            name: "The fundamental quantity 'length' is typically measured in which unit?",
+            options: [
+              "Kilograms",
+              "Meters",
+              "Seconds",
+              "Kelvin",
+            ],
+            correctAnswer: "Meters",
+            correctOption: "B",
+            answerPicked: "",
+          },
+          {
+            name: "Which fundamental quantity represents the rate of change of position and is measured in meters per second (m/s)?",
+            options: [
+              "Mass",
+              "Velocity",
+              "Force",
+              "Time",
+            ],
+            correctAnswer: "Velocity",
+            correctOption: "B",
+            answerPicked: "",
+          },
+          {
+            name: "What fundamental quantity in physics is measured in Newtons (N)?",
+            options: [
+              "Temperature",
+              "Force",
+              "Electric Charge",
+              "Length",
+            ],
+            correctAnswer: "Force",
+            correctOption: "B",
+            answerPicked: "",
+          },
+          // ... Add more questions about fundamental quantities in physics ...
+        ];
+        
+        const physicsDimensionsQuestions = [
+          {
+            name: "What is the dimension of length in the International System of Units (SI)?",
+            options: [
+              "[M]",
+              "[L]",
+              "[T]",
+              "[M][L]",
+            ],
+            correctAnswer: "[L]",
+            correctOption: "B",
+            answerPicked: "",
+          },
+          {
+            name: "What is the dimension of time in the International System of Units (SI)?",
+            options: [
+              "[L]",
+              "[M]",
+              "[T]",
+              "[M][L]",
+            ],
+            correctAnswer: "[T]",
+            correctOption: "C",
+            answerPicked: "",
+          },
+          {
+            name: "In SI units, what are the dimensions of force?",
+            options: [
+              "[L][T][M]",
+              "[T][M][L]",
+              "[M][L][T]",
+              "[L][M][T]",
+            ],
+            correctAnswer: "[M][L][T]",
+            correctOption: "C",
+            answerPicked: "",
+          },
+          {
+            name: "What are the dimensions of velocity in SI units?",
+            options: [
+              "[M][L][T]",
+              "[T][L][M]",
+              "[L][T][M]",
+              "[T][M][L]",
+            ],
+            correctAnswer: "[L][T][M]",
+            correctOption: "A",
+            answerPicked: "",
+          },
+          {
+            name: "What are the dimensions of energy in SI units?",
+            options: [
+              "[L][T][M]",
+              "[M][L][T]",
+              "[L][M][T]",
+              "[M][T][L]",
+            ],
+            correctAnswer: "[L][T][M]",
+            correctOption: "A",
+            answerPicked: "",
+          },
+          // ... Add more questions about dimensions in physics ...
+        ];
+        
       
-      
-      
+        const scalarAndVectorQuestions = [
+          {
+            name: "What is the main difference between scalar and vector quantities in physics?",
+            options: [
+              "Scalars have magnitude and direction, while vectors have only magnitude.",
+              "Scalars have only magnitude, while vectors have both magnitude and direction.",
+              "Scalars have no physical significance, while vectors represent physical quantities.",
+              "Scalars are used in one-dimensional motion, while vectors are used in two-dimensional motion."
+            ],
+            correctAnswer: "Scalars have only magnitude, while vectors have both magnitude and direction.",
+            correctOption: "B",
+            answerPicked: "",
+          },
+          {
+            name: "Which of the following is an example of a scalar quantity?",
+            options: [
+              "Displacement",
+              "Velocity",
+              "Mass",
+              "Force"
+            ],
+            correctAnswer: "Mass",
+            correctOption: "C",
+            answerPicked: "",
+          },
+          {
+            name: "What is the SI unit for measuring scalar quantities like mass?",
+            options: [
+              "Newton (N)",
+              "Meter per second (m/s)",
+              "Kilogram (kg)",
+              "Joule (J)"
+            ],
+            correctAnswer: "Kilogram (kg)",
+            correctOption: "C",
+            answerPicked: "",
+          },
+          {
+            name: "A car is initially at rest and then accelerates to a speed of 30 m/s in 5 seconds. What type of quantity is the final speed of the car (30 m/s)?",
+            options: [
+              "Scalar",
+              "Vector"
+            ],
+            correctAnswer: "Scalar",
+            correctOption: "A",
+            answerPicked: "",
+          },
+          {
+            name: "Which of the following is an example of a vector quantity?",
+            options: [
+              "Temperature",
+              "Time",
+              "Displacement",
+              "Energy"
+            ],
+            correctAnswer: "Displacement",
+            correctOption: "C",
+            answerPicked: "",
+          },
+          {
+            name: "If you walk 5 meters east and then 5 meters west, what is the total displacement?",
+            options: [
+              "10 meters east",
+              "5 meters east",
+              "0 meters",
+              "5 meters west"
+            ],
+            correctAnswer: "0 meters",
+            correctOption: "C",
+            answerPicked: "",
+          },
+          {
+            name: "Which of the following quantities has both magnitude and direction?",
+            options: [
+              "Speed",
+              "Distance",
+              "Acceleration",
+              "Velocity"
+            ],
+            correctAnswer: "Velocity",
+            correctOption: "D",
+            answerPicked: "",
+          },
+          {
+            name: "What is the SI unit for measuring vector quantities like velocity?",
+            options: [
+              "Kilogram (kg)",
+              "Meter per second squared (m/s^2)",
+              "Meter per second (m/s)",
+              "Joule (J)"
+            ],
+            correctAnswer: "Meter per second (m/s)",
+            correctOption: "C",
+            answerPicked: "",
+          },
+        ];
+
+        
+        const kinematicsCalculationQuestions = [
+          {
+            name: "A car accelerates from rest at 3 m/s² for 8 seconds. What is its final velocity?",
+            correctAnswer: "24 m/s",
+            answerPicked: "",
+          },
+          {
+            name: "An object falls freely from a height of 80 meters. How long does it take to reach the ground?",
+            correctAnswer: "4 seconds",
+            answerPicked: "",
+          },
+          {
+            name: "A train travels at a constant speed of 90 km/h for 2.5 hours. How far does it travel?",
+            correctAnswer: "225 kilometers",
+            answerPicked: "",
+          },
+          {
+            name: "A stone is thrown vertically upward with an initial velocity of 30 m/s. How high will it go before coming to a stop?",
+            correctAnswer: "45 meters",
+            answerPicked: "",
+          },
+          {
+            name: "An athlete runs a 100-meter sprint in 10 seconds. What is the average speed of the athlete?",
+            correctAnswer: "10 m/s",
+            answerPicked: "",
+          },
+          // ... Add more kinematics calculation questions ...
+        ];
+        
+        const motionUnderGravityQuestions = [
+          {
+            name: "What is the acceleration due to gravity near the surface of the Earth?",
+            options: [
+              "10 m/s²",
+              "9.8 m/s²",
+              "11 m/s²",
+              "9 m/s²"
+            ],
+            correctAnswer: "9.8 m/s²",
+            correctOption: "B",
+            answerPicked: "",
+          },
+          {
+            name: "If an object is dropped from a height of 100 meters, how long will it take to reach the ground?",
+            options: [
+              "2.5 seconds",
+              "4.52 seconds",
+              "5.62 seconds",
+              "8.7 seconds"
+            ],
+            correctAnswer: "4.52 seconds",
+            correctOption: "B",
+            answerPicked: "",
+          },
+          {
+            name: "What is the final velocity of an object dropped from rest from a height of 50 meters?",
+            options: [
+              "4.9 m/s",
+              "9.8 m/s",
+              "19.6 m/s",
+              "39.2 m/s"
+            ],
+            correctAnswer: "9.9 m/s",
+            correctOption: "C",
+            answerPicked: "",
+          },
+          {
+            name: "A ball is thrown vertically upward with an initial velocity of 20 m/s. How high will it go before coming to a stop?",
+            options: [
+              "20 meters",
+              "20.4 meters",
+              "40 meters",
+              "40.8 meters"
+            ],
+            correctAnswer: "20.4 meters",
+            correctOption: "B",
+            answerPicked: "",
+          },
+          {
+            name: "If an object is thrown downward with an initial velocity of 15 m/s, how long will it take to hit the ground from a height of 45 meters?",
+            options: [
+              "2 seconds",
+              "3 seconds",
+              "4 seconds",
+              "5 seconds"
+            ],
+            correctAnswer: "3 seconds",
+            correctOption: "B",
+            answerPicked: "",
+          },
+          {
+            name: "What is the displacement of an object dropped from rest after 2 seconds?",
+            options: [
+              "19.6 meters",
+              "19.8 meters",
+              "20 meters",
+              "20.2 meters"
+            ],
+            correctAnswer: "19.6 meters",
+            correctOption: "A",
+            answerPicked: "",
+          },
+          {
+            name: "If an object is thrown upward with an initial velocity of 30 m/s, how long will it take to return to its initial height?",
+            options: [
+              "4 seconds",
+              "5 seconds",
+              "6 seconds",
+              "7 seconds"
+            ],
+            correctAnswer: "6 seconds",
+            correctOption: "C",
+            answerPicked: "",
+          },
+          {
+            name: "What is the velocity of an object in free fall after 5 seconds?",
+            options: [
+              "24.5 m/s",
+              "39.2 m/s",
+              "49 m/s",
+              "58.8 m/s"
+            ],
+            correctAnswer: "49 m/s",
+            correctOption: "C",
+            answerPicked: "",
+          },
+          //
+        ]
+  
+        const theoreticalMotionQuestions = [
+          {
+            name: "What is the fundamental difference between speed and velocity?",
+            options: [
+              "Speed is a scalar quantity, while velocity is a vector quantity.",
+              "Speed is always positive, while velocity can be negative.",
+              "Speed is measured in meters per second, while velocity is measured in kilometers per hour.",
+              "Speed is a vector quantity, while velocity is a scalar quantity."
+            ],
+            correctAnswer: "Speed is a scalar quantity, while velocity is a vector quantity.",
+            correctOption: "A",
+            answerPicked: "",
+          },
+          {
+            name: "What does the slope of a distance-time graph represent?",
+            options: [
+              "Time",
+              "Velocity",
+              "Acceleration",
+              "Distance"
+            ],
+            correctAnswer: "Velocity",
+            correctOption: "B",
+            answerPicked: "",
+          },
+          {
+            name: "If an object moves with a constant speed, what can you say about its acceleration?",
+            options: [
+              "It has zero acceleration.",
+              "It has positive acceleration.",
+              "It has negative acceleration.",
+              "Acceleration is not related to speed."
+            ],
+            correctAnswer: "It has zero acceleration.",
+            correctOption: "A",
+            answerPicked: "",
+          },
+          {
+            name: "What is the equation to calculate speed?",
+            options: [
+              "Speed = Distance / Time",
+              "Velocity = Distance / Time",
+              "Acceleration = Distance / Time",
+              "Force = Mass x Acceleration"
+            ],
+            correctAnswer: "Speed = Distance / Time",
+            correctOption: "A",
+            answerPicked: "",
+          },
+          {
+            name: "What is the SI unit of acceleration?",
+            options: [
+              "Meters",
+              "Seconds",
+              "Meters per second (m/s)",
+              "Meter per second squared (m/s²)"
+            ],
+            correctAnswer: "Meter per second squared (m/s²)",
+            correctOption: "D",
+            answerPicked: "",
+          },
+          {
+            name: "What is the acceleration of an object in free fall near the surface of the Earth?",
+            options: [
+              "0 m/s²",
+              "9.8 m/s²",
+              "19.6 m/s²",
+              "5 m/s²"
+            ],
+            correctAnswer: "9.8 m/s²",
+            correctOption: "B",
+            answerPicked: "",
+          },
+          {
+            name: "What happens to the velocity of an object in uniform circular motion?",
+            options: [
+              "The velocity remains constant in magnitude but changes direction continuously.",
+              "The velocity decreases continuously.",
+              "The velocity increases continuously.",
+              "The velocity becomes zero."
+            ],
+            correctAnswer: "The velocity remains constant in magnitude but changes direction continuously.",
+            correctOption: "A",
+            answerPicked: "",
+          },
+          {
+            name: "What is the relationship between the net force acting on an object and its acceleration?",
+            options: [
+              "Force and acceleration are unrelated.",
+              "Force is directly proportional to acceleration.",
+              "Force is inversely proportional to acceleration.",
+              "Force and acceleration are the same."
+            ],
+            correctAnswer: "Force is directly proportional to acceleration.",
+            correctOption: "B",
+            answerPicked: "",
+          },
+          // Add more theoretical motion questions...
+        ];
+        
+                
+        const universalGravitationQuestions = [
+          {
+            name: "Who is credited with formulating the law of universal gravitation?",
+            options: [
+              "Isaac Newton",
+              "Albert Einstein",
+              "Galileo Galilei",
+              "Johannes Kepler"
+            ],
+            correctAnswer: "Isaac Newton",
+            correctOption: "A",
+            answerPicked: "",
+          },
+          {
+            name: "What does Newton's law of universal gravitation state?",
+            options: [
+              "All objects fall to the ground with equal acceleration.",
+              "The force of gravity depends on the volume of an object.",
+              "The force of gravity between two objects is directly proportional to the product of their masses and inversely proportional to the square of the distance between them.",
+              "Gravity is stronger on the Moon than on Earth."
+            ],
+            correctAnswer: "The force of gravity between two objects is directly proportional to the product of their masses and inversely proportional to the square of the distance between them.",
+            correctOption: "C",
+            answerPicked: "",
+          },
+          {
+            name: "What is the universal gravitational constant denoted by?",
+            options: [
+              "G",
+              "U",
+              "N",
+              "C"
+            ],
+            correctAnswer: "G",
+            correctOption: "A",
+            answerPicked: "",
+          },
+          {
+            name: "If the distance between two masses is doubled, how does the gravitational force between them change?",
+            options: [
+              "It remains the same.",
+              "It becomes half.",
+              "It becomes four times stronger.",
+              "It becomes one-fourth as strong."
+            ],
+            correctAnswer: "It becomes one-fourth as strong.",
+            correctOption: "D",
+            answerPicked: "",
+          },
+          {
+            name: "What is the unit of gravitational force in the International System of Units (SI)?",
+            options: [
+              "Meters per second squared (m/s²)",
+              "Kilograms (kg)",
+              "Newton (N)",
+              "Joule (J)"
+            ],
+            correctAnswer: "Newton (N)",
+            correctOption: "C",
+            answerPicked: "",
+          },
+          {
+            name: "What is the approximate value of the gravitational acceleration on the surface of the Earth?",
+            options: [
+              "1 m/s²",
+              "9.8 m/s²",
+              "15 m/s²",
+              "25 m/s²"
+            ],
+            correctAnswer: "9.8 m/s²",
+            correctOption: "B",
+            answerPicked: "",
+          },
+          // Add more universal gravitation questions...
+        ];
+        
+        const momentumQuestions = [
+          {
+            name: "What is the formula for calculating momentum?",
+            options: [
+              "Momentum = Mass x Velocity",
+              "Momentum = Force x Time",
+              "Momentum = Energy / Speed",
+              "Momentum = Distance / Time"
+            ],
+            correctAnswer: "Momentum = Mass x Velocity",
+            correctOption: "A",
+            answerPicked: "",
+          },
+          {
+            name: "What is the SI unit of momentum?",
+            options: [
+              "Kilogram-meter per second (kg·m/s)",
+              "Newton (N)",
+              "Joule (J)",
+              "Meter per second squared (m/s²)"
+            ],
+            correctAnswer: "Kilogram-meter per second (kg·m/s)",
+            correctOption: "A",
+            answerPicked: "",
+          },
+          {
+            name: "If the mass of an object is doubled while its velocity remains the same, how does its momentum change?",
+            options: [
+              "It becomes four times greater.",
+              "It becomes half.",
+              "It remains the same.",
+              "It becomes two times greater."
+            ],
+            correctAnswer: "It becomes two times greater.",
+            correctOption: "D",
+            answerPicked: "",
+          },
+          {
+            name: "Which of the following scenarios describes a change in momentum?",
+            options: [
+              "A car moving at a constant speed on a straight road.",
+              "A car accelerating on a curve.",
+              "A car parked on the side of the road.",
+              "A car going in reverse."
+            ],
+            correctAnswer: "A car accelerating on a curve.",
+            correctOption: "B",
+            answerPicked: "",
+          },
+          {
+            name: "What is the law of conservation of momentum?",
+            options: [
+              "The total momentum of a closed system remains constant if no external forces act on it.",
+              "The momentum of an object is directly proportional to its velocity.",
+              "Momentum is always conserved regardless of external forces.",
+              "The momentum of an object is inversely proportional to its mass."
+            ],
+            correctAnswer: "The total momentum of a closed system remains constant if no external forces act on it.",
+            correctOption: "A",
+            answerPicked: "",
+          },
+          {
+            name: "In a collision between two objects, what happens to the total momentum of the system if no external forces are involved?",
+            options: [
+              "It increases.",
+              "It decreases.",
+              "It remains the same.",
+              "It depends on the objects' masses."
+            ],
+            correctAnswer: "It remains the same.",
+            correctOption: "C",
+            answerPicked: "",
+          },
+          // Add more momentum-related questions...
+        ];
+        
+        const simplePendulumQuestions = [
+          {
+            name: "What is the formula for the period (T) of a simple pendulum?",
+            options: [
+              "T = (2π × length) / g",
+              "T = (2π × g) / length",
+              "T = (π × length) / g",
+              "T = (π × g) / length"
+            ],
+            correctAnswer: "T = (2π × length) / g",
+            correctOption: "A",
+            answerPicked: "",
+          },
+          {
+            name: "In the formula for the period of a simple pendulum, what does 'length' represent?",
+            options: [
+              "The mass of the pendulum bob",
+              "The radius of the pendulum's circular motion",
+              "The distance from the pivot point to the pendulum bob",
+              "The time it takes for one complete oscillation"
+            ],
+            correctAnswer: "The distance from the pivot point to the pendulum bob",
+            correctOption: "C",
+            answerPicked: "",
+          },
+          {
+            name: "What factor affects the period of a simple pendulum?",
+            options: [
+              "The mass of the pendulum bob",
+              "The amplitude of the pendulum's swing",
+              "The acceleration due to gravity (g)",
+              "The length of the pendulum"
+            ],
+            correctAnswer: "The length of the pendulum",
+            correctOption: "D",
+            answerPicked: "",
+          },
+          {
+            name: "If the length of a simple pendulum is increased, what happens to its period?",
+            options: [
+              "The period decreases",
+              "The period increases",
+              "The period remains the same",
+              "The period becomes unpredictable"
+            ],
+            correctAnswer: "The period increases",
+            correctOption: "B",
+            answerPicked: "",
+          },
+          {
+            name: "What is the formula for the frequency (f) of a simple pendulum?",
+            options: [
+              "f = 1 / T",
+              "f = T / 2π",
+              "f = g / (2π × length)",
+              "f = 2π × length / g"
+            ],
+            correctAnswer: "f = 1 / T",
+            correctOption: "A",
+            answerPicked: "",
+          },
+          {
+            name: "What is the relationship between the length of a simple pendulum and its period?",
+            options: [
+              "Directly proportional",
+              "Inversely proportional",
+              "No relationship",
+              "Exponentially proportional"
+            ],
+            correctAnswer: "Directly proportional",
+            correctOption: "A",
+            answerPicked: "",
+          },
+          // Add more simple pendulum questions...
+        ];
+        
+    
+        
+        
+        
 
 
 
@@ -6170,7 +6856,17 @@ const che101Questions =[
   ...genche101
 ]
 
-
+const phy101Questions =[
+...physicsFundamentalQuantitiesQuestions,
+...physicsDimensionsQuestions,
+...scalarAndVectorQuestions,
+...kinematicsCalculationQuestions,
+...motionUnderGravityQuestions,
+...theoreticalMotionQuestions,
+...universalGravitationQuestions,
+...momentumQuestions,
+...simplePendulumQuestions
+]
 const csc101Questions = [
   ...genuinepq,
 ]
@@ -6284,6 +6980,21 @@ const quizzes = [
           ...gns101Questions
       ]
   },
+  {
+    name: "PHY 101",
+    id: 8,
+    timer: {
+        minutes:15,
+        seconds: 10
+    },
+    imgUrl: "https://assets.ltkcontent.com/images/26593/physics_27c5571306.webp",
+    slug: "phy-101",
+    description: "FUTA Past Questions",
+    author: "Admin",
+    questions: [
+        ...phy101Questions
+    ]
+},
 ]
 
 const tests = [...quizzes];
