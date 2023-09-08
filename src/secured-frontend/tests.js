@@ -6794,9 +6794,692 @@ const atomictheoryQuestions = [
         ];
         
     
+        const propertiesOfMatterQuestions = [
+  {
+    name: "What is the primary difference between a solid, liquid, and gas at the molecular level?",
+    options: [
+      "The number of molecules",
+      "The arrangement and movement of molecules",
+      "The size of molecules",
+      "The color of molecules"
+    ],
+    correctAnswer: "The arrangement and movement of molecules",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "In a solid, how do molecules typically arrange themselves?",
+    options: [
+      "Randomly and spaced apart",
+      "Loosely packed and constantly moving",
+      "Closely packed in a regular pattern",
+      "In a chaotic and unpredictable manner"
+    ],
+    correctAnswer: "Closely packed in a regular pattern",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "What happens to the arrangement of molecules when a substance changes from a solid to a liquid?",
+    options: [
+      "Molecules become more tightly packed",
+      "Molecules become less organized and spread out",
+      "Molecules remain in the same arrangement",
+      "Molecules disappear"
+    ],
+    correctAnswer: "Molecules become less organized and spread out",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "What is the term for the energy required to change a substance from a solid to a liquid at its melting point?",
+    correctAnswer: "Heat of fusion",
+    answerPicked: "",
+  },
+  {
+    name: "What is the term for the process in which a gas changes directly into a solid without becoming a liquid first?",
+    options: [
+      "Sublimation",
+      "Condensation",
+      "Evaporation",
+      "Freezing"
+    ],
+    correctAnswer: "Sublimation",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "Which state of matter has the most kinetic energy in its molecules?",
+    options: [
+      "Solid",
+      "Liquid",
+      "Gas",
+      "Plasma"
+    ],
+    correctAnswer: "Gas",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  // Add more questions on properties of matter and molecular treatment...
+];
+
+const elasticityQuestions = [
+  {
+    name: "What is elasticity in physics?",
+    options: [
+      "The ability of a material to stretch indefinitely",
+      "The ability of a material to return to its original shape after deformation",
+      "The resistance of a material to any change in shape",
+      "The ability of a material to conduct electricity"
+    ],
+    correctAnswer: "The ability of a material to return to its original shape after deformation",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "What is the equation for Hooke's Law, which describes the relationship between stress and strain in an elastic material?",
+    options: [
+      "F = ma",
+      "E = mc²",
+      "E = hv",
+      "F = kx"
+    ],
+    correctAnswer: "F = kx",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  {
+    name: "What happens to the strain in a material if the applied stress is doubled while obeying Hooke's Law?",
+    options: [
+      "The strain is halved",
+      "The strain is quadrupled",
+      "The strain remains the same",
+      "The strain is doubled"
+    ],
+    correctAnswer: "The strain is doubled",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  {
+    name: "What is the modulus of elasticity that measures a material's resistance to axial deformation along its length?",
+    options: [
+      "Young's Modulus (Y)",
+      "Shear Modulus (G)",
+      "Bulk Modulus (K)",
+      "Poisson's Ratio (σ)"
+    ],
+    correctAnswer: "Young's Modulus (Y)",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "What is the term for the point at which a material stops obeying Hooke's Law and undergoes permanent deformation?",
+    options: [
+      "Tensile point",
+      "Breaking point",
+      "Yield point",
+      "Elastic point"
+    ],
+    correctAnswer: "Yield point",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "What happens to a material's modulus of elasticity when it becomes stiffer?",
+    options: [
+      "It increases",
+      "It decreases",
+      "It remains the same",
+      "It becomes zero"
+    ],
+    correctAnswer: "It increases",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  // Add more questions on elasticity and Hooke's Law...
+];
+
+
+
+const hydrostaticsQuestions = [
+  {
+    name: "What is hydrostatics?",
+    options: [
+      "The study of moving fluids",
+      "The study of fluids at rest",
+      "The study of fluid dynamics",
+      "The study of fluid pressure"
+    ],
+    correctAnswer: "The study of fluids at rest",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "What is Pascal's principle?",
+    options: [
+      "Pressure applied to a fluid is transmitted undiminished throughout the fluid",
+      "The volume of a fluid is inversely proportional to its pressure",
+      "The density of a fluid increases with depth",
+      "Fluids always flow from high pressure to low pressure"
+    ],
+    correctAnswer: "Pressure applied to a fluid is transmitted undiminished throughout the fluid",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "What is the SI unit of pressure?",
+    options: [
+      "Newton (N)",
+      "Joule (J)",
+      "Pascal (Pa)",
+      "Watt (W)"
+    ],
+    correctAnswer: "Pascal (Pa)",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "What happens to the pressure in a fluid as you go deeper underwater?",
+    options: [
+      "It decreases",
+      "It increases",
+      "It remains the same",
+      "It becomes zero"
+    ],
+    correctAnswer: "It increases",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "What principle explains why a hydraulic press can lift heavy objects?",
+    options: [
+      "Archimedes' principle",
+      "Bernoulli's principle",
+      "Pascal's principle",
+      "Newton's third law"
+    ],
+    correctAnswer: "Pascal's principle",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "If you increase the area over which a force is applied to a fluid, what happens to the pressure?",
+    options: [
+      "Pressure decreases",
+      "Pressure increases",
+      "Pressure remains the same",
+      "Pressure becomes zero"
+    ],
+    correctAnswer: "Pressure decreases",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  // Add more questions on hydrostatics...
+];
+
+
+const hydrodynamicsQuestions = [
+  {
+    name: "What does hydrodynamics study?",
+    options: [
+      "The behavior of fluids at rest",
+      "The behavior of moving fluids",
+      "The behavior of gases in motion",
+      "The behavior of solids under high pressure"
+    ],
+    correctAnswer: "The behavior of moving fluids",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "Which scientist is known for his pioneering work in hydrodynamics, particularly in the study of fluid flow?",
+    options: [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Leonardo da Vinci",
+      "Daniel Bernoulli"
+    ],
+    correctAnswer: "Daniel Bernoulli",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  {
+    name: "What is the principle known as Bernoulli's Principle?",
+    options: [
+      "The pressure of a fluid decreases as its velocity increases",
+      "The pressure of a fluid increases as its velocity increases",
+      "The pressure of a fluid remains constant regardless of velocity",
+      "The pressure of a fluid is inversely proportional to its density"
+    ],
+    correctAnswer: "The pressure of a fluid decreases as its velocity increases",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "What is the study of the motion of fluids and the forces acting on solid objects immersed in fluids called?",
+    options: [
+      "Thermodynamics",
+      "Fluid dynamics",
+      "Aerodynamics",
+      "Statics"
+    ],
+    correctAnswer: "Fluid dynamics",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "Which parameter defines the resistance of a fluid to flow in hydrodynamics?",
+    options: [
+      "Viscosity",
+      "Pressure",
+      "Velocity",
+      "Density"
+    ],
+    correctAnswer: "Viscosity",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "What does the Reynolds number represent in hydrodynamics?",
+    options: [
+      "The flow rate of a fluid",
+      "The pressure of a fluid",
+      "The viscosity of a fluid",
+      "The flow regime of a fluid"
+    ],
+    correctAnswer: "The flow regime of a fluid",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  // Add more questions about hydrodynamics...
+];
+
+
+  const hydrodynamicsQuestions = [
+  {
+    name: "What does hydrodynamics study?",
+    options: [
+      "The behavior of fluids at rest",
+      "The behavior of moving fluids",
+      "The behavior of gases in motion",
+      "The behavior of solids under high pressure"
+    ],
+    correctAnswer: "The behavior of moving fluids",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "Which scientist is known for his pioneering work in hydrodynamics, particularly in the study of fluid flow?",
+    options: [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Leonardo da Vinci",
+      "Daniel Bernoulli"
+    ],
+    correctAnswer: "Daniel Bernoulli",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  {
+    name: "What is the principle known as Bernoulli's Principle?",
+    options: [
+      "The pressure of a fluid decreases as its velocity increases",
+      "The pressure of a fluid increases as its velocity increases",
+      "The pressure of a fluid remains constant regardless of velocity",
+      "The pressure of a fluid is inversely proportional to its density"
+    ],
+    correctAnswer: "The pressure of a fluid decreases as its velocity increases",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "What is the study of the motion of fluids and the forces acting on solid objects immersed in fluids called?",
+    options: [
+      "Thermodynamics",
+      "Fluid dynamics",
+      "Aerodynamics",
+      "Statics"
+    ],
+    correctAnswer: "Fluid dynamics",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "Which parameter defines the resistance of a fluid to flow in hydrodynamics?",
+    options: [
+      "Viscosity",
+      "Pressure",
+      "Velocity",
+      "Density"
+    ],
+    correctAnswer: "Viscosity",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "What does the Reynolds number represent in hydrodynamics?",
+    options: [
+      "The flow rate of a fluid",
+      "The pressure of a fluid",
+      "The viscosity of a fluid",
+      "The flow regime of a fluid"
+    ],
+    correctAnswer: "The flow regime of a fluid",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  // Add more questions about hydrodynamics...
+];
+
+      const surfaceTensionQuestions = [
+  {
+    name: "What is surface tension?",
+    options: [
+      "The force that pulls objects toward the center of the Earth",
+      "The tension on the surface of a liquid caused by gravity",
+      "The tendency of liquids to rise in narrow tubes",
+      "The force that causes the surface of a liquid to behave like a stretched elastic membrane"
+    ],
+    correctAnswer: "The force that causes the surface of a liquid to behave like a stretched elastic membrane",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  {
+    name: "What is the SI unit of surface tension?",
+    options: [
+      "Newton per meter squared (N/m²)",
+      "Pascal (Pa)",
+      "Newton-meter (N·m)",
+      "Kilogram per cubic meter (kg/m³)"
+    ],
+    correctAnswer: "Newton per meter squared (N/m²)",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "Which property of liquids does surface tension depend on?",
+    options: [
+      "Temperature",
+      "Pressure",
+      "Viscosity",
+      "Density"
+    ],
+    correctAnswer: "Temperature",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "What happens to surface tension as the temperature of a liquid increases?",
+    options: [
+      "It decreases",
+      "It increases",
+      "It remains constant",
+      "It depends on the liquid"
+    ],
+    correctAnswer: "It decreases",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "Which force is responsible for surface tension?",
+    options: [
+      "Gravitational force",
+      "Electromagnetic force",
+      "Nuclear force",
+      "Capillary force"
+    ],
+    correctAnswer: "Electromagnetic force",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "What causes a liquid to form spherical droplets due to surface tension?",
+    options: [
+      "Adhesion",
+      "Cohesion",
+      "Gravity",
+      "Temperature"
+    ],
+    correctAnswer: "Cohesion",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  // Add more questions about surface tension...
+];
+
+
         
-        
-        
+const heatQuestions = [
+  {
+    name: "What is heat?",
+    options: [
+      "The measure of the average kinetic energy of particles in a substance",
+      "The measure of temperature",
+      "The measure of thermal conductivity",
+      "The measure of specific heat capacity"
+    ],
+    correctAnswer: "The measure of the average kinetic energy of particles in a substance",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "What is temperature?",
+    options: [
+      "The measure of the average kinetic energy of particles in a substance",
+      "The measure of heat transfer",
+      "The measure of specific heat capacity",
+      "The measure of thermal conductivity"
+    ],
+    correctAnswer: "The measure of the average kinetic energy of particles in a substance",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "What is specific heat capacity?",
+    options: [
+      "The amount of heat required to raise the temperature of a substance by 1 degree Celsius",
+      "The temperature at which a substance freezes",
+      "The temperature at which a substance boils",
+      "The measure of thermal conductivity"
+    ],
+    correctAnswer: "The amount of heat required to raise the temperature of a substance by 1 degree Celsius",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "What is the SI unit of heat?",
+    options: [
+      "Joule (J)",
+      "Kelvin (K)",
+      "Watt (W)",
+      "Calorie (cal)"
+    ],
+    correctAnswer: "Joule (J)",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "Which material typically has a high specific heat capacity?",
+    options: [
+      "Metals",
+      "Wood",
+      "Water",
+      "Air"
+    ],
+    correctAnswer: "Water",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "What happens to the kinetic energy of particles when a substance is heated?",
+    options: [
+      "It decreases",
+      "It remains constant",
+      "It increases",
+      "It depends on the substance"
+    ],
+    correctAnswer: "It increases",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  // Add more questions about heat, temperature, and heat capacity...
+];
+
+
+const thermodynamicsQuestions = [
+  {
+    name: "What is the first law of thermodynamics?",
+    options: [
+      "Energy cannot be created or destroyed; it can only change forms.",
+      "Heat flows from a hotter object to a colder object.",
+      "Entropy always increases in a closed system.",
+      "Work done by a system is equal to the heat added to the system."
+    ],
+    correctAnswer: "Energy cannot be created or destroyed; it can only change forms.",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "What is entropy in thermodynamics?",
+    options: [
+      "A measure of disorder or randomness in a system.",
+      "The total energy of a system.",
+      "The ability of a system to do work.",
+      "The heat content of a system."
+    ],
+    correctAnswer: "A measure of disorder or randomness in a system.",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "What is the second law of thermodynamics?",
+    options: [
+      "Energy is conserved in all processes.",
+      "Entropy in a closed system never decreases.",
+      "Heat always flows from a colder object to a hotter object.",
+      "Work done on a system is equal to the heat added to the system."
+    ],
+    correctAnswer: "Entropy in a closed system never decreases.",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "What is a heat engine?",
+    options: [
+      "A device that converts heat into mechanical work.",
+      "A device that converts mechanical work into heat.",
+      "A device that maintains a constant temperature.",
+      "A device that measures temperature."
+    ],
+    correctAnswer: "A device that converts heat into mechanical work.",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "What is absolute zero in the Kelvin scale?",
+    options: [
+      "0 K",
+      "100 K",
+      "-273.15 K",
+      "273.15 K"
+    ],
+    correctAnswer: "0 K",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "What is the Carnot engine known for in thermodynamics?",
+    options: [
+      "Efficiency cannot be 100% in any heat engine.",
+      "It always operates in reverse.",
+      "It is a perpetual motion machine.",
+      "It was the first heat engine ever invented."
+    ],
+    correctAnswer: "Efficiency cannot be 100% in any heat engine.",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  // Add more questions about thermodynamics...
+];
+
+const kineticTheoryOfGasesQuestions = [
+  {
+    name: "According to the kinetic theory of gases, what are gases composed of?",
+    options: [
+      "Tiny, randomly moving particles",
+      "Fixed, stationary particles",
+      "Solid particles arranged in a regular pattern",
+      "Liquid particles with strong attractions"
+    ],
+    correctAnswer: "Tiny, randomly moving particles",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "What is the primary factor that determines the pressure of a gas in a container?",
+    options: [
+      "The speed of gas particles",
+      "The size of gas particles",
+      "The number of gas particles",
+      "The color of gas particles"
+    ],
+    correctAnswer: "The number of gas particles",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "According to the kinetic theory, what happens to the kinetic energy of gas particles as the temperature increases?",
+    options: [
+      "It decreases",
+      "It remains constant",
+      "It increases",
+      "It becomes negative"
+    ],
+    correctAnswer: "It increases",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "What is absolute zero in the Celsius scale?",
+    options: [
+      "-100°C",
+      "-273.15°C",
+      "0°C",
+      "100°C"
+    ],
+    correctAnswer: "-273.15°C",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "What happens to the pressure of a gas in a closed container if the volume of the container is reduced while keeping the temperature constant?",
+    options: [
+      "The pressure increases",
+      "The pressure decreases",
+      "The pressure remains the same",
+      "The pressure becomes negative"
+    ],
+    correctAnswer: "The pressure increases",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "What is the root mean square speed of gas particles directly proportional to?",
+    options: [
+      "Temperature",
+      "Pressure",
+      "Volume",
+      "Number of particles"
+    ],
+    correctAnswer: "Temperature",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  // Add more questions about the Kinetic Theory of Gases...
+];
+
+
+
 
 
 
@@ -6867,9 +7550,35 @@ const phy101Questions =[
 ...momentumQuestions,
 ...simplePendulumQuestions
 ]
-
+const phy103Questions = [
+  ...propertiesOfMatterQuestions,
+  ...elasticityQuestions,
+  ...hydrostaticsQuestions,
+  ...hydrodynamicsQuestions,
+  ...hydrodynamicsQuestions,
+  ...surfaceTensionQuestions,
+  ...heatQuestions,
+  ...thermodynamicsQuestions,
+  ...kineticTheoryOfGasesQuestions
+]
 
 const quizzes = [
+  {
+    name: "PHY 103",
+    id: 1,
+    timer: {
+        minutes: 15,
+        seconds: 10
+    },
+    imgUrl: "https://www.lastwordonnothing.com/wp-content/uploads/2012/12/ChemistryDraw1.jpg",
+    slug: "phy-103",
+    description: "FUTA Past Questions",
+    author: "Admin",
+    questions: [
+      ...phy103Questions,
+        
+    ]
+},
   {
     name: "CHE 101",
     id: 1,
