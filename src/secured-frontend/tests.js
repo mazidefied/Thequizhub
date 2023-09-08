@@ -5744,7 +5744,300 @@ const atomictheoryQuestions = [
       correctAnswer: "The same number of electrons.",
       correctOption: "c",
       answerPicked: ""
+    },
+
+    {
+      name: "What is the atomic weight of a hypothetical element consisting of two isotopes, one with mass = 64.23 amu (26.0%), and one with mass = 65.32 amu?",
+      options: [
+        "65.3 amu",
+        "64.4 amu",
+        "64.9 amu",
+        "65.0 amu",
+        "64.8 amu"
+      ],
+      correctAnswer: "64.8 amu",
+      correctOption: "e",
+      answerPicked: ""
+    },
+    {
+      name: "Naturally occurring rubidium consists of just two isotopes. One of the isotopes consists of atoms having a mass of 84.912 amu; the other of 86.901 amu. What is the percent natural abundance of the heavier isotope?",
+      options: [
+        "15%",
+        "28%",
+        "37%",
+        "72%",
+        "85%"
+      ],
+      correctAnswer: "28%",
+      correctOption: "b",
+      answerPicked: ""
+    },
+    {
+      name: "What is the frequency of light having a wavelength of 4.50 x 10⁻⁶ cm?",
+      options: [
+        "2.84 x 10¹² s⁻¹",
+        "2.10 x 10⁴ s⁻¹",
+        "4.29 x 10¹⁴ s⁻¹",
+        "1.06 x 10²² s⁻¹",
+        "6.67 x 10¹⁵ s⁻¹"
+      ],
+      correctAnswer: "6.67 x 10¹⁵ s⁻¹",
+      correctOption: "e",
+      answerPicked: ""
+    },
+    {
+      name: "The emission spectrum of gold shows a line of wavelength 2.676 x 10⁻⁷ m. How much energy is emitted as the excited electron falls to the lower energy level?",
+      options: [
+        "7.43 x 10⁻¹⁹ J",
+        "5.30 x 10⁻²⁰ J",
+        "6.05 x 10⁻¹⁹ J",
+        "3.60 x 10⁻²⁰ J",
+        "5.16 x 10⁻²⁰ J"
+      ],
+      correctAnswer: "7.43 x 10⁻¹⁹ J",
+      correctOption: "a",
+      answerPicked: ""
+    },
+    {
+      name: "Which of the responses contains all the statements that are consistent with the Bohr theory of the atom (and no others)?\n(1) An electron can remain in a particular orbit as long as it continually absorbs radiation of a definite frequency.\n(2) The lowest energy orbits are those closest to the nucleus.\n(3) An electron can jump from the K shell (n = 1 major energy level) to the M shell (n = 3 major energy level) by emitting radiation of a definite frequency.",
+      options: [
+        "1, 2, 3",
+        "2 only",
+        "3 only",
+        "1, 2",
+        "2, 3"
+      ],
+      correctAnswer: "1, 2, 3",
+      correctOption: "a",
+      answerPicked: ""
+    },
+    {
+      name: "The Heisenberg Principle states that _____________.",
+      options: [
+        "No two electrons in the same atom can have the same set of four quantum numbers.",
+        "Two atoms of the same element must have the same number of protons.",
+        "It is impossible to determine accurately both the position and momentum of an electron simultaneously.",
+        "Electrons of atoms in their ground states enter energetically equivalent sets of orbitals singly before they pair up in any orbital of the set.",
+        "Charged atoms (ions) must generate a magnetic field when they are in motion."
+      ],
+      correctAnswer: "It is impossible to determine accurately both the position and momentum of an electron simultaneously.",
+      correctOption: "c",
+      answerPicked: ""
+    },
+    {
+      name: "Which statement about the four quantum numbers which describe electrons in atoms is incorrect?",
+      options: [
+        "n = principal quantum number, n = 1, 2, 3, ......",
+        "l = subsidiary (or azimuthal) quantum number, l = 1, 2, 3, ... , (n+1)",
+        "ml = magnetic quantum number, ml = (-l), .... , 0, .... , (+l)",
+        "ms = spin quantum number, ms = +1/2 or -1/2.",
+        "The magnetic quantum number is related to the orientation of atomic orbitals in space."
+      ],
+      correctAnswer: "l = subsidiary (or azimuthal) quantum number, l = 1, 2, 3, ... , (n+1)",
+      correctOption: "b",
+      answerPicked: ""
+    },
+    
+    {
+      name: "Which atomic orbital is spherical in shape? (Note: you should know and be able to recognize the shapes of the s orbital, px, py, and pz orbitals, and dxy, dyz, dxz, dx²-y² and dz² orbitals.)",
+      options: [
+        "2s",
+        "3p",
+        "3d",
+        "4f",
+        "They are all spherical"
+      ],
+      correctAnswer: "2s",
+      correctOption: "a",
+      answerPicked: ""
+    },
+    {
+      name: "The maximum number of electrons that can be accommodated in a sublevel for which l = 3 is:",
+      options: [
+        "2",
+        "10",
+        "6",
+        "14",
+        "8"
+      ],
+      correctAnswer: "10",
+      correctOption: "b",
+      answerPicked: ""
+    },
+    {
+      name: "The ground state electron configuration for arsenic is:",
+      options: [
+        "[Ar] 4s² 4p¹³",
+        "[Kr] 4s² 4p¹",
+        "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹² 4s² 4p¹",
+        "1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁸ 4p⁵",
+        "1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p³"
+      ],
+      correctAnswer: "1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹² 4s² 4p¹",
+      correctOption: "c",
+      answerPicked: ""
+    },
+    {
+      name: "Which of the following electron configurations is correct for nickel?",
+      options: [
+        "[Ar] 4s¹ 3d⁸",
+        "[Kr] 4s¹ 4d⁸",
+        "[Kr] 4s¹ 3d⁸",
+        "[Kr] 4s² 3d⁸",
+        "[Ar] 4s² 3d⁸"
+      ],
+      correctAnswer: "[Ar] 4s² 3d⁸",
+      correctOption: "e",
+      answerPicked: ""
+    },
+    {
+      name: "The outer electronic configuration ns² np⁴ corresponds to which one of the following elements in its ground state?",
+      options: [
+        "As",
+        "Ca",
+        "Cr",
+        "Br",
+        "S"
+      ],
+      correctAnswer: "Br",
+      correctOption: "d",
+      answerPicked: ""
+    },
+    {
+      name: "In the ground state of a cobalt atom there are _____ unpaired electrons and the atom is _____",
+      options: [
+        "3, paramagnetic",
+        "5, paramagnetic",
+        "2, diamagnetic",
+        "0, diamagnetic",
+        "2, paramagnetic"
+      ],
+      correctAnswer: "3, paramagnetic",
+      correctOption: "a",
+      answerPicked: ""
+    },
+    
+    {
+      name: "Which one of the following sets of quantum numbers could be those of the distinguishing (last) electron of Mo?",
+      options: [
+        "n = 4, l = 0, ml = 0, ms = +1/2",
+        "n = 5, l = 1, ml = 9, ms = -1/2",
+        "n = 4, l = 2, ml = -1, ms = +1/2",
+        "n = 5, l = 2, ml = +2, ms = -1/2",
+        "n = 3, l = 2, ml = 0, ms = +1/2"
+      ],
+      correctAnswer: "n = 5, l = 2, ml = +2, ms = -1/2",
+      correctOption: "d",
+      answerPicked: ""
+    },
+    {
+      name: "How many p electrons are there in an atom of rubidium?",
+      options: [
+        "12",
+        "18",
+        "24",
+        "9",
+        "6"
+      ],
+      correctAnswer: "6",
+      correctOption: "e",
+      answerPicked: ""
+    },
+    {
+      name: "A neutral atom of an element has 2 electrons in the first energy level, 8 in the second energy level and 8 in the third energy level. This information does not necessarily tell us:",
+      options: [
+        "The atomic number of the element.",
+        "Anything about the element's chemical properties.",
+        "The total number of electrons in s orbitals.",
+        "The total number of electrons in p orbitals.",
+        "The number of neutrons in the nucleus of an atom of the element."
+      ],
+      correctAnswer: "The total number of electrons in s orbitals.",
+      correctOption: "c",
+      answerPicked: ""
+    },
+
+    {
+      name: "The mass (in grams) of FeSO4 7H2O required for preparation of 125 mL of 0.90 M solution is:",
+      options: [
+        "16 g",
+        "25 g",
+        "13 g",
+        "31 g",
+        "43 g"
+      ],
+      correctAnswer: "25 g",
+      correctOption: "b",
+      answerPicked: ""
+    },
+    {
+      name: "What is the molarity of phosphoric acid in a solution labeled 20.0% phosphoric acid (H3PO4) by weight with a density = 1.12 g/mL?",
+      options: [
+        "0.98 M",
+        "2.3 M",
+        "2.7 M",
+        "3.0 M",
+        "3.6 M"
+      ],
+      correctAnswer: "3.0 M",
+      correctOption: "d",
+      answerPicked: ""
+    },
+    {
+      name: "How many mL of 17 M NH3 must be diluted to 500.0 mL to make a 0.75 M solution?",
+      options: [
+        "13 mL",
+        "22 mL",
+        "39 mL",
+        "73 mL",
+        "None of these"
+      ],
+      correctAnswer: "39 mL",
+      correctOption: "c",
+      answerPicked: ""
+    },
+    {
+      name: "How many grams of Ag2CO3 are required to react with 28.5 mL of 1.00 M NaOH solution? Ag2CO3 + 2NaOH → Ag2O + Na2CO3 + H2O",
+      options: [
+        "7.87 g",
+        "3.93 g",
+        "15.7 g",
+        "10.8 g",
+        "8.16 g"
+      ],
+      correctAnswer: "7.87 g",
+      correctOption: "a",
+      answerPicked: ""
+    },
+    {
+      name: "How many milliliters of 0.200 M NH4OH are needed to react with 12.0 mL of 0.550 M FeCl3? FeCl3 + 3NH4OH → Fe(OH)3 + 3NH4Cl",
+      options: [
+        "99.0 mL",
+        "33.0 mL",
+        "8.25 mL",
+        "68.8 mL",
+        "132 mL"
+      ],
+      correctAnswer: "33.0 mL",
+      correctOption: "b",
+      answerPicked: ""
+    },
+    {
+      name: "When 250. mL of a 0.15 M solution of ammonium sulfide (NH4)2S is poured into 120. mL of a 0.053 M solution of cadmium sulfate CdSO4, how many grams of a yellow precipitate of cadmium sulfide CdS are formed? The other product is (NH4)2SO4. (Hint: Write out and balance the equation. Is this a limiting reagent problem?)",
+      options: [
+        "5.4 g",
+        "0.92 g",
+        "2.6 g",
+        "1.9 g",
+        "530 g"
+      ],
+      correctAnswer: "5.4 g",
+      correctOption: "a",
+      answerPicked: ""
     }
+    
+    
+    
                           
         ];
         
