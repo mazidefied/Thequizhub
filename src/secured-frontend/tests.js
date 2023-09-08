@@ -6833,7 +6833,14 @@ const atomictheoryQuestions = [
   },
   {
     name: "What is the term for the energy required to change a substance from a solid to a liquid at its melting point?",
+    options: [
+      "heat capacity",
+      "Specific heat capacity",
+      "Heat of fusion",
+      "enthalpy change"
+    ],
     correctAnswer: "Heat of fusion",
+    correctOption: "C",
     answerPicked: "",
   },
   {
