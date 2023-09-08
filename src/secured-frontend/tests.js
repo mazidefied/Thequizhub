@@ -6034,7 +6034,73 @@ const atomictheoryQuestions = [
       correctAnswer: "5.4 g",
       correctOption: "a",
       answerPicked: ""
-    }
+    },
+    {
+      name: "When 250. mL of a 0.15 M solution of ammonium sulfide (NH4)2S is poured into 120. mL of a 0.053 M solution of cadmium sulfate CdSO4, how many grams of a yellow precipitate of cadmium sulfide CdS are formed? The other product is (NH4)2SO4. (Hint: Write out and balance the equation. Is this a limiting reagent problem?)",
+      options: [
+        "5.4 g",
+        "0.92 g",
+        "2.6 g",
+        "1.9 g",
+        "530 g"
+      ],
+      correctAnswer: "5.4 g",
+      correctOption: "a",
+      answerPicked: ""
+    },
+    {
+      name: "Which of the following statements is correct for an electron that has the quantum numbers n = 4 and ml = -2?",
+      options: [
+        "The electron may be in a p orbital",
+        "The electron may be in a d orbital",
+        "The electron is in the second principal shell",
+        "The electron must have a spin quantum number ms = + ½"
+      ],
+      correctAnswer: "The electron may be in a d orbital",
+      correctOption: "B",
+      answerPicked: ""
+    },
+    {
+      name: "The set of quantum numbers, n = 4, l = 3, ml = 2",
+      options: [
+        "Describes an electron in a 3p orbital",
+        "Is not allowed",
+        "Describes an electron in a 4d orbital",
+        "Describes one of seven orbitals of a similar type"
+      ],
+      correctAnswer: "Describes one of seven orbitals of a similar type",
+      correctOption: "D",
+      answerPicked: ""
+    },
+    {
+      name: "Which of the following statements is correct for an electron that has the quantum numbers n = 5 and ml = -4?",
+      options: [
+        "The electron may be in a f orbital",
+        "The electron must have a spin quantum number ms = -1/2",
+        "The electron may be in a p orbital",
+        "None of the above"
+      ],
+      correctAnswer: "The electron may be in a f orbital",
+      correctOption: "A",
+      answerPicked: ""
+    },
+    {
+      name: "Identify the subshell in which electrons with the quantum numbers n = 3, l = 2 may be found.",
+      options: [
+        "3d",
+        "4f",
+        "4d",
+        "3p"
+      ],
+      correctAnswer: "3d",
+      correctOption: "A",
+      answerPicked: ""
+    },
+    
+    
+    
+    
+    
     
     
     
