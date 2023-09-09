@@ -1,23 +1,26 @@
-import React from 'react'
-import OptionsX from './OptionsX';
+import React from "react";
+import OptionsX from "./OptionsX";
 
-const QuizQuestionX = ({question, id,}) => {
-    const options = question.options
-    const optionsEl = options.map((option)=>{
-        return(<OptionsX selectedAnswer={question.answerPicked} key={option} correctAnswer={question.correctAnswer} option={option} />)
-    })
+const QuizQuestionX = ({ question, id }) => {
+  const options = question.options;
+  const optionsEl = options.map((option) => {
+    return (
+      <OptionsX
+        selectedAnswer={question.answerPicked}
+        key={option}
+        correctAnswer={question.correctAnswer}
+        option={option}
+      />
+    );
+  });
   return (
     <>
-        <div className="question">
-            <p>
-                {question.name}
-            </p>
-        </div>
-        <div className="options-holder">
-            {optionsEl}
-        </div>
+      <div className="question">
+        <p className="qname">{question.name}</p>
+      </div>
+      <div className="options-holder">{optionsEl}</div>
     </>
-  )
-}
+  );
+};
 
-export default QuizQuestionX
+export default QuizQuestionX;
