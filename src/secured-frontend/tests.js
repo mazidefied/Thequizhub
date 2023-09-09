@@ -6334,35 +6334,71 @@ const atomictheoryQuestions = [
           },
         ];
 
-        
-        const kinematicsCalculationQuestions = [
-          {
-            name: "A car accelerates from rest at 3 m/s² for 8 seconds. What is its final velocity?",
-            correctAnswer: "24 m/s",
-            answerPicked: "",
-          },
-          {
-            name: "An object falls freely from a height of 80 meters. How long does it take to reach the ground?",
-            correctAnswer: "4 seconds",
-            answerPicked: "",
-          },
-          {
-            name: "A train travels at a constant speed of 90 km/h for 2.5 hours. How far does it travel?",
-            correctAnswer: "225 kilometers",
-            answerPicked: "",
-          },
-          {
-            name: "A stone is thrown vertically upward with an initial velocity of 30 m/s. How high will it go before coming to a stop?",
-            correctAnswer: "45 meters",
-            answerPicked: "",
-          },
-          {
-            name: "An athlete runs a 100-meter sprint in 10 seconds. What is the average speed of the athlete?",
-            correctAnswer: "10 m/s",
-            answerPicked: "",
-          },
-          // ... Add more kinematics calculation questions ...
-        ];
+const kinematicsCalculationQuestions = [
+  {
+    name: "A car accelerates from rest at 3 m/s² for 8 seconds. What is its final velocity?",
+    options: [
+      "12 m/s",
+      "24 m/s",
+      "32 m/s",
+      "64 m/s"
+    ],
+    correctAnswer: "24 m/s",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "An object falls freely from a height of 80 meters. How long does it take to reach the ground?",
+    options: [
+      "2 seconds",
+      "4 seconds",
+      "6 seconds",
+      "8 seconds"
+    ],
+    correctAnswer: "4 seconds",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "A train travels at a constant speed of 90 km/h for 2.5 hours. How far does it travel?",
+    options: [
+      "112.5 kilometers",
+      "180 kilometers",
+      "225 kilometers",
+      "250 kilometers"
+    ],
+    correctAnswer: "225 kilometers",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "A stone is thrown vertically upward with an initial velocity of 30 m/s. How high will it go before coming to a stop?",
+    options: [
+      "15 meters",
+      "30 meters",
+      "45 meters",
+      "60 meters"
+    ],
+    correctAnswer: "45 meters",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "An athlete runs a 100-meter sprint in 10 seconds. What is the average speed of the athlete?",
+    options: [
+      "5 m/s",
+      "8 m/s",
+      "10 m/s",
+      "12 m/s"
+    ],
+    correctAnswer: "10 m/s",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  // ... Add more kinematics calculation questions ...
+];
+
+
         
         const motionUnderGravityQuestions = [
           {
@@ -7120,12 +7156,12 @@ const hydrodynamicsQuestions = [
   {
     name: "What is the SI unit of surface tension?",
     options: [
-      "Newton per meter squared (N/m²)",
+      "Newton per meter (N/m)",
       "Pascal (Pa)",
       "Newton-meter (N·m)",
       "Kilogram per cubic meter (kg/m³)"
     ],
-    correctAnswer: "Newton per meter squared (N/m²)",
+    correctAnswer: "Newton per meter (N/m)",
     correctOption: "A",
     answerPicked: "",
   },
