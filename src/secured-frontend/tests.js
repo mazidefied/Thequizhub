@@ -7472,7 +7472,7 @@ const che101Questions =[
   ...genche101
 ]
 
-/*const phy101Questions =[
+const phy101Questions =[
 ...physicsFundamentalQuantitiesQuestions,
 ...physicsDimensionsQuestions,
 ...scalarAndVectorQuestions,
@@ -7482,7 +7482,7 @@ const che101Questions =[
 ...universalGravitationQuestions,
 ...momentumQuestions,
 ...simplePendulumQuestions
-*/
+]
 const phy103Questions = [
   ...propertiesOfMatterQuestions,
   ...elasticityQuestions,
@@ -7621,7 +7621,7 @@ const quizzes = [
           ...gns101Questions
       ]
   },
-  /*{
+  {
     name: "PHY 101",
     id: 8,
     timer: {
@@ -7635,7 +7635,7 @@ const quizzes = [
     questions: [
         ...phy101Questions
     ]
-},*/
+},
 ]
 
 const tests = [...quizzes];
