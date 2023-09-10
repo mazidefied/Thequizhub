@@ -8387,7 +8387,7 @@ const quizzes = [
           ...gns101Questions
       ]
   },
- /* {
+  {
     name: "PHY 101",
     id: 8,
     timer: {
@@ -8401,8 +8401,8 @@ const quizzes = [
     questions: [
         ...phy101Questions
     ]
-}, */
-];
+},
+]
 
 const tests = [...quizzes];
 
