@@ -7632,8 +7632,8 @@ const genphy101Questions = [
         "they accelerate at 2 m/s².",
         "they do not accelerate at all.",
       ],
-      correctAnswer: "B. they accelerate at 6 m/s².",
-      correctOption: "B",
+      correctAnswer: "they accelerate at 2 m/s².",
+      correctOption: "D",
       answerPicked: "",
     },
     {
