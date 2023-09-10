@@ -76,7 +76,7 @@ const phy101 = [
     answerPicked: "",
   },
   {
-    name: "The speedometer in your car tells you the of your car.",
+    name: "The speedometer in your car tells you the________________ of your car.",
     options: [
       "acceleration",
       "average speed",
@@ -90,7 +90,11 @@ const phy101 = [
   },
   {
     name: "To report the of an object, we must specify both its speed and its direction .",
-    options: ["acceleration", "mass", "velocity", "length", "position"],
+    options: ["acceleration",
+              "mass", 
+              "velocity", 
+              "length", 
+              "position"],
     correctAnswer: "velocity",
     correctOption: "C",
     answerPicked: "",
