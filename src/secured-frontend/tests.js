@@ -1049,11 +1049,165 @@ const bioplusplus = [
         correctOption: "B",
         answerPicked: "",
       },
-  
+
     
-    
-    // Feel free to use these questions in your JavaScript program.
-    
+        {
+          name: "What kingdom is always multicellular, heterotrophic, and has NO cell wall?",
+          options: [
+            "Protista",
+            "Fungi",
+            "Plantae",
+            "Animalia",
+          ],
+          correctAnswer: "Animalia",
+          correctOption: "D",
+          answerPicked: "",
+        },
+        {
+          name: "All of the following have a nucleus except...",
+          options: [
+            "Bacteria",
+            "Animalia",
+            "Plantae",
+            "Protista",
+          ],
+          correctAnswer: "Bacteria",
+          correctOption: "A",
+          answerPicked: "",
+        },
+        {
+          name: "You would find mushrooms in which group?",
+          options: [
+            "Plants",
+            "Protists",
+            "Fungi",
+            "Animals",
+          ],
+          correctAnswer: "Fungi",
+          correctOption: "C",
+          answerPicked: "",
+        },
+        {
+          name: "This kingdom contains heterotrophic organisms that can be unicellular or multicellular. Organisms from this kingdom can be used to make bread or sometimes cause athlete's foot or ringworm.",
+          options: [
+            "Fungi",
+            "Animals",
+            "Protists",
+            "Archaebacteria",
+          ],
+          correctAnswer: "Fungi",
+          correctOption: "A",
+          answerPicked: "",
+        },
+        {
+          name: "Which kingdom would this organism belong to?",
+          options: [
+            "Plants",
+            "Archaebacteria",
+            "Protists",
+            "Animals",
+          ],
+          correctAnswer: "Plants",
+          correctOption: "A",
+          answerPicked: "",
+        },
+        {
+          name: "Which kingdom do humans belong to?",
+          options: [
+            "Plants",
+            "Fungi",
+            "Animals",
+            "Protists",
+          ],
+          correctAnswer: "Animals",
+          correctOption: "C",
+          answerPicked: "",
+        },
+        {
+          name: "This group contains all organisms that have a true nucleus in each of their cells.",
+          options: [
+            "Animals",
+            "Plants",
+            "Bacteria",
+            "Eukarya",
+          ],
+          correctAnswer: "Eukarya",
+          correctOption: "D",
+          answerPicked: "",
+        },
+        {
+          name: "Organisms that are classified as unicellular are...",
+          options: [
+            "seen with the naked eye",
+            "many-celled organisms",
+            "single-celled organisms",
+            "able to make their own food",
+          ],
+          correctAnswer: "single-celled organisms",
+          correctOption: "C",
+          answerPicked: "",
+        },
+        {
+          name: "Which of the following structures can be found in a plant cell but NOT an animal cell?",
+          options: [
+            "vacuole",
+            "nucleus",
+            "chloroplast",
+            "mitochondria",
+          ],
+          correctAnswer: "chloroplast",
+          correctOption: "C",
+          answerPicked: "",
+        },
+        {
+          name: "Is this made of plant cells or animal cells?",
+          options: [
+            "Plant",
+            "Animal",
+            "Neither",
+          ],
+          correctAnswer: "Animal",
+          correctOption: "B",
+          answerPicked: "",
+        },
+        {
+          name: "Is this made of plant cells or animal cells?",
+          options: [
+            "Plant",
+            "Animal",
+            "Neither",
+          ],
+          correctAnswer: "Animal",
+          correctOption: "B",
+          answerPicked: "",
+        },
+        {
+          name: "What cell part is NOT found in all cells?",
+          options: [
+            "Cell Wall",
+            "Cell Membrane",
+            "Cytoplasm",
+            "Genetic Material",
+          ],
+          correctAnswer: "Cell Wall",
+          correctOption: "A",
+          answerPicked: "",
+        },
+        {
+          name: "In what organelle does the food-making process in plants take place?",
+          options: [
+            "Endoplasmic Reticulum",
+            "Vacuole",
+            "Chloroplasts",
+            "Mitochondria",
+          ],
+          correctAnswer: "Chloroplasts",
+          correctOption: "C",
+          answerPicked: "",
+        },
+      
+      
+     
   
   
   // Feel free to use these questions in your JavaScript program.
