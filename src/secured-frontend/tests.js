@@ -683,6 +683,383 @@ const bryophytename = [
   // You can continue adding more questions here...
 ];
 
+const bioplusplus = [
+  {
+    name: "Animals must eat other organisms for food, so they are classified as--",
+    options: [
+      "Heterotrophs",
+      "Autotrophs",
+      "Eukaryotic",
+      "Prokaryotic",
+    ],
+    correctAnswer: "Heterotrophs",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "Tigers, Jellyfish, Gorillas, and Sponges are all _______.",
+    options: [
+      "Animals",
+      "Plants",
+      "Fungi",
+      "Bacteria",
+    ],
+    correctAnswer: "Animals",
+    correctOption: "A",
+    answerPicked: "",
+  },
+
+    {
+      name: "What kingdom is always multicellular, heterotrophic, and has NO cell wall?",
+      options: [
+        "Protista",
+        "Fungi",
+        "Plantae",
+        "Animalia",
+      ],
+      correctAnswer: "Animalia",
+      correctOption: "D",
+      answerPicked: "",
+    },
+    {
+      name: "All of the following have a nucleus except...",
+      options: [
+        "Bacteria",
+        "Animalia",
+        "Plantae",
+        "Protista",
+      ],
+      correctAnswer: "Bacteria",
+      correctOption: "A",
+      answerPicked: "",
+    },
+    {
+      name: "You would find mushrooms in which group?",
+      options: [
+        "Plants",
+        "Protists",
+        "Fungi",
+        "Animals",
+      ],
+      correctAnswer: "Fungi",
+      correctOption: "C",
+      answerPicked: "",
+    },
+    {
+      name: "This kingdom contains heterotrophic organisms that can be unicellular or multicellular. Organisms from this kingdom can be used to make bread or sometimes cause athlete's foot or ringworm.",
+      options: [
+        "Fungi",
+        "Animals",
+        "Protists",
+        "Archaebacteria",
+      ],
+      correctAnswer: "Fungi",
+      correctOption: "A",
+      answerPicked: "",
+    },
+  
+  // Feel free to use these questions in your JavaScript program.
+  
+    {
+      name: "What kingdom is always multicellular, heterotrophic, and has NO cell wall?",
+      options: [
+        "Protista",
+        "Fungi",
+        "Plantae",
+        "Animalia",
+      ],
+      correctAnswer: "Animalia",
+      correctOption: "D",
+      answerPicked: "",
+    },
+    {
+      name: "All of the following have a nucleus except...",
+      options: [
+        "Bacteria",
+        "Animalia",
+        "Plantae",
+        "Protista",
+      ],
+      correctAnswer: "Bacteria",
+      correctOption: "A",
+      answerPicked: "",
+    },
+    {
+      name: "You would find mushrooms in which group?",
+      options: [
+        "Plants",
+        "Protists",
+        "Fungi",
+        "Animals",
+      ],
+      correctAnswer: "Fungi",
+      correctOption: "C",
+      answerPicked: "",
+    },
+    {
+      name: "This kingdom contains heterotrophic organisms that can be unicellular or multicellular. Organisms from this kingdom can be used to make bread or sometimes cause athlete's foot or ringworm.",
+      options: [
+        "Fungi",
+        "Animals",
+        "Protists",
+        "Archaebacteria",
+      ],
+      correctAnswer: "Fungi",
+      correctOption: "A",
+      answerPicked: "",
+    },
+    {
+      name: "Which kingdom would this organism belong to?",
+      options: [
+        "Plants",
+        "Archaebacteria",
+        "Protists",
+        "Animals",
+      ],
+      correctAnswer: "Plants",
+      correctOption: "A",
+      answerPicked: "",
+    },
+    {
+      name: "Which kingdom do humans belong to?",
+      options: [
+        "Plants",
+        "Fungi",
+        "Animals",
+        "Protists",
+      ],
+      correctAnswer: "Animals",
+      correctOption: "C",
+      answerPicked: "",
+    },
+    {
+      name: "This group contains all organisms that have a true nucleus in each of their cells.",
+      options: [
+        "Animals",
+        "Plants",
+        "Bacteria",
+        "Eukarya",
+      ],
+      correctAnswer: "Eukarya",
+      correctOption: "D",
+      answerPicked: "",
+    },
+    {
+      name: "Organisms that are classified as unicellular are...",
+      options: [
+        "seen with the naked eye",
+        "many-celled organisms",
+        "single-celled organisms",
+        "able to make their own food",
+      ],
+      correctAnswer: "single-celled organisms",
+      correctOption: "C",
+      answerPicked: "",
+    },
+
+      {
+        name: "What kingdom is always multicellular, heterotrophic, and has NO cell wall?",
+        options: [
+          "Protista",
+          "Fungi",
+          "Plantae",
+          "Animalia",
+        ],
+        correctAnswer: "Animalia",
+        correctOption: "D",
+        answerPicked: "",
+      },
+      {
+        name: "All of the following have a nucleus except...",
+        options: [
+          "Bacteria",
+          "Animalia",
+          "Plantae",
+          "Protista",
+        ],
+        correctAnswer: "Bacteria",
+        correctOption: "A",
+        answerPicked: "",
+      },
+      {
+        name: "You would find mushrooms in which group?",
+        options: [
+          "Plants",
+          "Protists",
+          "Fungi",
+          "Animals",
+        ],
+        correctAnswer: "Fungi",
+        correctOption: "C",
+        answerPicked: "",
+      },
+      {
+        name: "This kingdom contains heterotrophic organisms that can be unicellular or multicellular. Organisms from this kingdom can be used to make bread or sometimes cause athlete's foot or ringworm.",
+        options: [
+          "Fungi",
+          "Animals",
+          "Protists",
+          "Archaebacteria",
+        ],
+        correctAnswer: "Fungi",
+        correctOption: "A",
+        answerPicked: "",
+      },
+      {
+        name: "Which kingdom would this organism belong to?",
+        options: [
+          "Plants",
+          "Archaebacteria",
+          "Protists",
+          "Animals",
+        ],
+        correctAnswer: "Plants",
+        correctOption: "A",
+        answerPicked: "",
+      },
+      {
+        name: "Which kingdom do humans belong to?",
+        options: [
+          "Plants",
+          "Fungi",
+          "Animals",
+          "Protists",
+        ],
+        correctAnswer: "Animals",
+        correctOption: "C",
+        answerPicked: "",
+      },
+      {
+        name: "This group contains all organisms that have a true nucleus in each of their cells.",
+        options: [
+          "Animals",
+          "Plants",
+          "Bacteria",
+          "Eukarya",
+        ],
+        correctAnswer: "Eukarya",
+        correctOption: "D",
+        answerPicked: "",
+      },
+      {
+        name: "Organisms that are classified as unicellular are...",
+        options: [
+          "seen with the naked eye",
+          "many-celled organisms",
+          "single-celled organisms",
+          "able to make their own food",
+        ],
+        correctAnswer: "single-celled organisms",
+        correctOption: "C",
+        answerPicked: "",
+      },
+      {
+        name: "Which group contains organisms that are unicellular, prokaryotic, and can cause strep throat or E. coli infections?",
+        options: [
+          "Eukarya",
+          "Plants",
+          "Fungi",
+          "Bacteria",
+        ],
+        correctAnswer: "Bacteria",
+        correctOption: "D",
+        answerPicked: "",
+      },
+      {
+        name: "Sexual Reproduction requires ______ parents.",
+        options: [
+          "0",
+          "1",
+          "2",
+          "3",
+        ],
+        correctAnswer: "2",
+        correctOption: "C",
+        answerPicked: "",
+      },
+      {
+        name: "What type of organism makes its own food internally?",
+        options: [
+          "heterotroph",
+          "autotroph",
+          "carnivore",
+          "omnivore",
+        ],
+        correctAnswer: "autotroph",
+        correctOption: "B",
+        answerPicked: "",
+      },
+      {
+        name: "Cells that do not have a true nucleus are called...",
+        options: [
+          "eukaryote",
+          "prokaryote",
+          "unicellular",
+          "multicellular",
+        ],
+        correctAnswer: "prokaryote",
+        correctOption: "B",
+        answerPicked: "",
+      },
+      {
+        name: "Cells that have a true nucleus are called...",
+        options: [
+          "eukaryotes",
+          "prokaryotes",
+          "unicellular",
+          "multicellular",
+        ],
+        correctAnswer: "eukaryotes",
+        correctOption: "A",
+        answerPicked: "",
+      },
+      {
+        name: "What trait separates sharks from ray-finned fish?",
+        options: [
+          "Vertebrae",
+          "Bony skeleton",
+          "Four limbs",
+          "None",
+        ],
+        correctAnswer: "Bony skeleton",
+        correctOption: "B",
+        answerPicked: "",
+      },
+      {
+        name: "On the cladogram, which organism is the closest relative of the human?",
+        options: [
+          "Frog",
+          "Hare",
+          "Caiman",
+          "Parrot",
+        ],
+        correctAnswer: "Hare",
+        correctOption: "B",
+        answerPicked: "",
+      },
+      {
+        name: "According to this cladogram, sharks are MOST closely related to which organism?",
+        options: [
+          "Amphibians",
+          "Ray-finned fish",
+          "Crocodiles",
+          "Birds",
+        ],
+        correctAnswer: "Ray-finned fish",
+        correctOption: "B",
+        answerPicked: "",
+      },
+  
+    
+    
+    // Feel free to use these questions in your JavaScript program.
+    
+  
+  
+  // Feel free to use these questions in your JavaScript program.
+  
+  
+];
 
 const libraryname = [
   // ... Other library science questions ...
@@ -8192,6 +8569,7 @@ const bio101names = [
   ...biorandname,
   ...cellname,
   ...bryophytename,
+  ...bioplusplus
 ]
 const bio103names = [
 ...spirogyraname,
