@@ -8941,22 +8941,6 @@ const quizzes = [
     ]
 },
 
-{
-    name: "CSC 102",
-    id: 7,
-    timer: {
-        minutes: 15,
-        seconds: 10
-    },
-    imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCLTMHz-3bCTLznaVB-CBZikiwrk0EBrrJpw&usqp=CAU",
-    slug: "phy-103",
-    description: "FUTA Past Questions",
-    author: "Admin",
-    questions: [
-      ...csc102,
-        
-    ]
-},
   {
     name: "CHE 101",
     id: 1,
@@ -9079,6 +9063,23 @@ const quizzes = [
     author: "Admin",
     questions: [
         ...phy101Questions
+    ]
+},
+
+{
+    name:"CSC 102",
+    id: 7,
+    timer: {
+        minutes: 15,
+        seconds: 10
+    },
+    imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCLTMHz-3bCTLznaVB-CBZikiwrk0EBrrJpw&usqp=CAU",
+    slug: "phy-103",
+    description: "FUTA Past Questions",
+    author: "Admin",
+    questions: [
+      ...csc102,
+        
     ]
 },
 ]
