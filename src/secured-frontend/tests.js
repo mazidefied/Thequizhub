@@ -8708,8 +8708,138 @@ const genphy101Questions = [
     },
   ];
   
-
-
+  const csc102 = [
+    {
+        name: "The basic or major operation performed by a computer is",
+        options: [
+          "Arithmetic operation",
+          "Logical operation",
+          "Storage and retrieval",
+          "All of the above",
+        ],
+        correctAnswer: "All of the above",
+        correctOption: "D",
+        answerPicked: "",
+      },
+      
+      {
+        name: "The two major types of computer chips are",
+        options: [
+          "Internal and external memory chips",
+          "Primary memory and microprocessor chips",
+          "Primary and Secondary memory chips",
+          "Silicon and integrated circuits",
+        ],
+        correctAnswer: "Primary memory and microprocessor chips",
+        correctOption: "B",
+        answerPicked: "",
+      },
+      
+      {
+        name: "What is the main difference between a mainframe and a supercomputer?",
+        options: [
+          "Supercomputer is much larger than mainframe computers",
+          "Supercomputers are much smaller than mainframe computers",
+          "Supercomputers are focused to execute few programs as fast as possible while mainframe uses its power to execute as many programs concurrently",
+          "Supercomputers are focused to execute as many programs as possible while mainframe uses its power to execute few programs as fast as possible.",
+        ],
+        correctAnswer: "Supercomputers are focused to execute few programs as fast as possible while mainframe uses its power to execute as many programs concurrently",
+        correctOption: "C",
+        answerPicked: "",
+      },
+      
+      {
+        name: "What are the stages in the compilation process?",
+        options: [
+          "Feasibility study, system design and testing",
+          "Implementation and documentation",
+          "Lexical Analysis, syntax analysis, and code generation",
+          "None of the above",
+        ],
+        correctAnswer: "Lexical Analysis, syntax analysis, and code generation",
+        correctOption: "C",
+        answerPicked: "",
+      },
+      
+      {
+        name: "One millisecond is",
+        options: [
+          "1 second",
+          "10th of a second",
+          "1000th of a second",
+          "10000th of a second",
+        ],
+        correctAnswer: "1000th of a second",
+        correctOption: "C",
+        answerPicked: "",
+      },
+      
+      {
+        name: "Abacus was the first",
+        options: [
+          "electronic computer",
+          "mechanical computer",
+          "electronic calculator",
+          "mechanical calculator",
+        ],
+        correctAnswer: "mechanical calculator",
+        correctOption: "D",
+        answerPicked: "",
+      },
+      
+      {
+        name: "Which of the following can be regarded as a problem-oriented language?",
+        options: [
+          "High-level language",
+          "Machine language",
+          "Assembly language",
+          "Low-level language",
+        ],
+        correctAnswer: "High-level language",
+        correctOption: "A",
+        answerPicked: "",
+      },
+      
+      {
+        name: "A nibble equals what?",
+        options: [
+          "1 bit",
+          "2 bits",
+          "4 bits",
+          "8 bits",
+        ],
+        correctAnswer: "4 bits",
+        correctOption: "C",
+        answerPicked: "",
+      },
+      
+      {
+        name: "The computer size was very large in",
+        options: [
+          "First Generation",
+          "Second Generation",
+          "Third Generation",
+          "Fourth Generation",
+        ],
+        correctAnswer: "First Generation",
+        correctOption: "A",
+        answerPicked: "",
+      },
+      
+      {
+        name: "The term GIGO is related to which characteristics of computers?",
+        options: [
+          "Speed",
+          "Automatic",
+          "Accuracy",
+          "Reliability",
+        ],
+        correctAnswer: "Accuracy",
+        correctOption: "C",
+        answerPicked: "",
+      },
+      
+  ];
 
 
 
@@ -8807,6 +8937,23 @@ const quizzes = [
     author: "Admin",
     questions: [
       ...phy103Questions,
+        
+    ]
+},
+
+{
+    name: "CSC 102",
+    id: 7,
+    timer: {
+        minutes: 15,
+        seconds: 10
+    },
+    imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCLTMHz-3bCTLznaVB-CBZikiwrk0EBrrJpw&usqp=CAU",
+    slug: "phy-103",
+    description: "FUTA Past Questions",
+    author: "Admin",
+    questions: [
+      ...csc102,
         
     ]
 },
