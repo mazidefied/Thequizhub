@@ -9068,7 +9068,7 @@ const quizzes = [
 
 {
     name:"CSC 102",
-    id: 7,
+    id: 9,
     timer: {
         minutes: 15,
         seconds: 10
