@@ -54,7 +54,7 @@ npm install
 npm run dev
 ```
 
-2. Open your preferred web browser and go to `http://localhost:5173` to access the platform.
+2. Open your preferred web browser and go to `http://localhost:3000` to access the platform.
 
 ## 4. Usage <a name="usage"></a>
 
